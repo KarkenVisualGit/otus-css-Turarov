@@ -1,1 +1,8 @@
-Режим вывода команд на экран (ECHO) включен.
+.line {
+position: absolute;
+width: 34px;
+height: 0px;
+left: 703px;
+
+border: 1px solid #000000;
+}
