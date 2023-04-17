@@ -84,3 +84,86 @@ flex-grow: 0;
   order: 1;
   flex-grow: 0;
 }
+.biography{
+position: absolute;
+width: 1175px;
+height: 840px;
+left: 134px;
+
+}
+.image_biography{
+position: absolute;
+width: 553px;
+height: 840px;
+top: 900px;
+}
+.biographytext{
+position: absolute;
+width: 92px;
+height: 23px;
+left: 720px;
+top: 900px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+transform: rotate(-90deg);
+}
+h2{
+position: absolute;
+width: 475px;
+height: 230px;
+left: 834px;
+top: 1063px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 86px;
+line-height: 115px;
+
+color: #000000;
+}
+.about{
+  position: absolute;
+  width: 475px;
+  height: 42px;
+  left: 834px;
+  top: 1318px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #0D0D0D;
+}
+.articlebio {
+  position: absolute;
+  width: 449px;
+  height: 124px;
+  left: 832px;
+  top: 1446px;
+  
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  
+  color: #0D0D0D;  
+}
+.rectangle{
+  position: absolute;
+  width: 14px;
+  height: 4px;
+  left: 834px;
+  top: 1425px;
+  
+  background: #0D0D0D;
+}
