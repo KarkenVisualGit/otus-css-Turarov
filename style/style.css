@@ -1,5 +1,7 @@
 header {
+  display: block;
   justify-content: center;
+  align-content: center;
   align-items: center;
   padding: 0px;
   gap: 10px;
@@ -11,8 +13,10 @@ header {
   top: 0px;
 }
 menu {
-justify-content: center;
-align-items: center;
+align-self: auto;
+justify-content:center;
+align-content: center;
+align-items:normal;
 position: absolute;
 width: 34px;
 height: 0px;
@@ -24,20 +28,22 @@ body{
     background-color:#E5E5E5;
 }
 img{
-  /* align-content: center;*/
+  justify-content:center;
+   /* align-content: center;*/
 }
 .div_hero{
-display: flex;
 position: absolute;
+justify-content:center;
+align-content: center;
 width: 1065px;
 height: 630px;
-left: calc(50% - 1065px/2 - 0.5px);
+left: 187px;
 top:135px;
 }
 .frame{
-  display: flex;
+  display:flex;
+  justify-content:center;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-left: 110px;
   padding-top: 20px;
@@ -46,7 +52,7 @@ top:135px;
   position: absolute;
   width: 600px;
   height: 360px;
-  left: calc(50% - 600px/2 - 0.5px);
+  left: 419.5px;
   top:271px;
   
   background: #FFFFFF;  
@@ -54,7 +60,6 @@ top:135px;
 h1{
 width: 560px;
 height: 103px;
-
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 500;
@@ -62,6 +67,7 @@ font-size: 86px;
 line-height: 120%;
 /* or 103px */
 display: flex;
+justify-content:center;
 align-items: center;
 text-align: center;
 color: #000000;
@@ -71,13 +77,17 @@ order: 0;
 flex-grow: 0;
 }
 .hero-text{
+  width: 557px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  align-items: center;
-  text-align: center;
   color: #000000;
   /* Inside auto layout */
   flex: none;
@@ -85,16 +95,19 @@ flex-grow: 0;
   flex-grow: 0;
 }
 .biography{
+align-content: center;
+display: flex;  
 position: absolute;
 width: 1175px;
 height: 840px;
-left: 134px;
 
 }
 .image_biography{
+display: flex;
 position: absolute;
 width: 553px;
 height: 840px;
+left: 134px;
 top: 900px;
 }
 .biographytext{
@@ -102,7 +115,7 @@ position: absolute;
 width: 92px;
 height: 23px;
 left: 720px;
-top: 900px;
+top: 994px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -114,6 +127,8 @@ color: #000000;
 transform: rotate(-90deg);
 }
 h2{
+display: flex;
+align-content: center;
 position: absolute;
 width: 475px;
 height: 230px;
@@ -129,6 +144,8 @@ line-height: 115px;
 color: #000000;
 }
 .about{
+  display: flex;
+  align-content: center;
   position: absolute;
   width: 475px;
   height: 42px;
@@ -144,6 +161,8 @@ color: #000000;
   color: #0D0D0D;
 }
 .articlebio {
+  display: flex;
+  align-content: center;
   position: absolute;
   width: 449px;
   height: 124px;
@@ -159,6 +178,8 @@ color: #000000;
   color: #0D0D0D;  
 }
 .rectangle{
+  display: flex;
+  align-content: center;
   position: absolute;
   width: 14px;
   height: 4px;
@@ -166,4 +187,164 @@ color: #000000;
   top: 1425px;
   
   background: #0D0D0D;
+}
+.designers{
+position: absolute;
+width: 1337px;
+height: 619px;
+}
+.designerstext{
+  display: flex;
+  align-content: center;
+  position: absolute;
+  width: 91px;
+  height: 24px;
+  left: 1049.74px;
+  top: 1909px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+  transform: rotate(-90deg);
+}
+.imgJess{
+  align-content: center;
+  position: absolute;
+  width: 635.48px;
+  height: 538px;
+  left: 73px;
+  top: 1909px;
+}
+.textJess{
+  align-content: center;
+  position: absolute;
+  width: 320px;
+  height: 57px;
+  left: 387px;
+  top: 2471px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+}
+.imgKameron{
+  display: flex;
+  align-content: center;
+  position: absolute;
+  width: 319.02px;
+  height: 439.46px;
+  left: 739.98px;
+  top: 2005px;
+}
+.txtKameron{
+  align-content: center;
+  position: absolute;
+  width: 320px;
+  height: 57px;
+  left: 739px;
+  top: 2468px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+}
+
+.imgLouisse{
+  display: flex;
+  align-content: center;
+  position: absolute;
+  width: 320px;
+  height: 439.46px;
+  left: 1089.78px;
+  top: 2005px;  
+}
+.txtLouisse{
+position: absolute;
+width: 320px;
+height: 57px;
+left: 1090px;
+top: 2468px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.Testimonials{
+  position: absolute;
+  width: 1440px;
+  height: 813px;
+  left: 0px;
+  top: 2786px  
+}
+.Testimonialstxt{
+  position: absolute;
+  width: 117px;
+  height: 23px;
+  left: 132px;
+  top: 0px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #000000;
+}
+.TxtCreativity {
+  position: absolute;
+  width: 186px;
+  height: 49px;
+  left: 0px;
+  top:705px;  
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  
+  
+  color: #000000;
+  
+  transform: rotate(-90deg); 
+
+}
+.TxtCreativity1 {
+  position: absolute;
+  width: 186px;
+  height: 49px;
+  left: 0px;
+  top:474px;  
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  
+  
+  color: #000000;
+  
+  transform: rotate(-90deg); 
+
 }
