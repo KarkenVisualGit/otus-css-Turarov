@@ -25,6 +25,7 @@ left: 703px;
 border: 1px solid #000000;
 }
 body{
+  /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
   font-size: 16px;
   line-height: 19px;
