@@ -333,16 +333,12 @@ color: #000000;
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  
-  
   color: #000000;
-  
   transform: rotate(-90deg); 
-
 }
+
 .TxtCreativity1 {
   position: absolute;
   width: 186px;
@@ -352,15 +348,10 @@ color: #000000;
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  
-  
   color: #000000;
-  
-  transform: rotate(-90deg); 
-
+  transform: rotate(-90deg);s
 }
 .websitetxt{
   position: absolute;
@@ -371,7 +362,6 @@ color: #000000;
   /* website block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   
