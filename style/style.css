@@ -155,6 +155,7 @@ line-height: 115px;
 
 color: #000000;
 }
+
 .about{
   display: flex;
   align-content: center;
@@ -172,6 +173,7 @@ color: #000000;
   
   color: #0D0D0D;
 }
+
 .articlebio {
   display: flex;
   align-content: center;
@@ -189,6 +191,7 @@ color: #000000;
   
   color: #0D0D0D;  
 }
+
 .rectangle{
   display: flex;
   align-content: center;
@@ -200,11 +203,13 @@ color: #000000;
   
   background: #0D0D0D;
 }
+
 .designers{
 position: absolute;
 width: 1337px;
 height: 619px;
 }
+
 .designerstext{
   display: flex;
   align-content: center;
@@ -226,7 +231,7 @@ height: 619px;
   
   transform: rotate(-90deg);
 }
-.imgJess{
+.imgJess {
   align-content: center;
   position: absolute;
   width: 635.48px;
@@ -234,7 +239,8 @@ height: 619px;
   left: 73px;
   top: 1909px;
 }
-.textJess{
+
+.textJess {
   align-content: center;
   position: absolute;
   width: 320px;
@@ -244,12 +250,12 @@ height: 619px;
   /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   
   color: #000000;
 }
+
 .imgKameron{
   display: flex;
   align-content: center;
@@ -259,6 +265,7 @@ height: 619px;
   left: 739.98px;
   top: 2005px;
 }
+
 .txtKameron{
   align-content: center;
   position: absolute;
@@ -269,7 +276,6 @@ height: 619px;
   /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   
@@ -285,6 +291,7 @@ height: 619px;
   left: 1089.78px;
   top: 2005px;  
 }
+
 .txtLouisse{
 position: absolute;
 width: 320px;
@@ -294,13 +301,13 @@ top: 2468px;
 /* textLouisse block font*/
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 700;
 font-size: 16px;
 line-height: 19px;
 
 color: #000000;
 }
-.Testimonials{
+
+.Testimonials {
   display: flex;
   align-content: center;
   position: absolute;
@@ -309,7 +316,8 @@ color: #000000;
   left: 0px;
   top: 2786px;  
 }
-.Testimonialstxt{
+
+.Testimonialstxt {
   position: absolute;
   width: 117px;
   height: 23px;
@@ -324,6 +332,7 @@ color: #000000;
   
   color: #000000;
 }
+
 .TxtCreativity {
   position: absolute;
   width: 186px;
@@ -353,23 +362,23 @@ color: #000000;
   color: #000000;
   transform: rotate(-90deg);s
 }
+
 .websitetxt{
-  position: absolute;
-  width: 186px;
-  height: 49px;
-  left: 0px;
-  top: 195px;
+  position:absolute;
+  width:186px;
+  height:49px;
+  left:0px;
+  top:195px;
   /* website block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-size: 16px;
-  line-height: 19px;
-  
-  
+  line-height: 19px; 
   color: #000000;
   
   transform: rotate(-90deg);
 }
+
 .frame30Testimonials{
   position: absolute;
   width: 1179px;
