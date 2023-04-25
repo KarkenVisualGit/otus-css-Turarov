@@ -25,10 +25,11 @@ left: 703px;
 border: 1px solid #000000;
 }
 body{
+  /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
   font-size: 16px;
   line-height: 19px;
-  background-color:#E5E5E5;
+  background-color:#FFFFFF;
 }
 img{
   justify-content:center;
@@ -61,6 +62,7 @@ top:135px;
   background: #FFFFFF;  
 }
 h1{
+  /* h1 font*/
 width: 560px;
 height: 103px;
 font-family: 'Playfair Display';
@@ -125,6 +127,7 @@ width: 92px;
 height: 23px;
 left: 720px;
 top: 994px;
+/* biography block font*/
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -143,7 +146,7 @@ width: 475px;
 height: 230px;
 left: 834px;
 top: 1063px;
-
+/* h2 block font*/
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 500;
@@ -152,6 +155,7 @@ line-height: 115px;
 
 color: #000000;
 }
+
 .about{
   display: flex;
   align-content: center;
@@ -160,7 +164,7 @@ color: #000000;
   height: 42px;
   left: 834px;
   top: 1318px;
-  
+  /* about block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -169,6 +173,7 @@ color: #000000;
   
   color: #0D0D0D;
 }
+
 .articlebio {
   display: flex;
   align-content: center;
@@ -177,7 +182,7 @@ color: #000000;
   height: 124px;
   left: 832px;
   top: 1446px;
-  
+  /* article bio block font*/
   font-family: 'Bitter';
   font-style: normal;
   font-weight: 400;
@@ -186,6 +191,7 @@ color: #000000;
   
   color: #0D0D0D;  
 }
+
 .rectangle{
   display: flex;
   align-content: center;
@@ -197,11 +203,13 @@ color: #000000;
   
   background: #0D0D0D;
 }
+
 .designers{
 position: absolute;
 width: 1337px;
 height: 619px;
 }
+
 .designerstext{
   display: flex;
   align-content: center;
@@ -210,7 +218,7 @@ height: 619px;
   height: 24px;
   left: 1049.74px;
   top: 1909px;
-  
+  /* designers block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -223,7 +231,7 @@ height: 619px;
   
   transform: rotate(-90deg);
 }
-.imgJess{
+.imgJess {
   align-content: center;
   position: absolute;
   width: 635.48px;
@@ -231,22 +239,23 @@ height: 619px;
   left: 73px;
   top: 1909px;
 }
-.textJess{
+
+.textJess {
   align-content: center;
   position: absolute;
   width: 320px;
   height: 57px;
   left: 387px;
   top: 2471px;
-  
+  /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   
   color: #000000;
 }
+
 .imgKameron{
   display: flex;
   align-content: center;
@@ -256,6 +265,7 @@ height: 619px;
   left: 739.98px;
   top: 2005px;
 }
+
 .txtKameron{
   align-content: center;
   position: absolute;
@@ -263,10 +273,9 @@ height: 619px;
   height: 57px;
   left: 739px;
   top: 2468px;
-  
+  /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   
@@ -282,22 +291,23 @@ height: 619px;
   left: 1089.78px;
   top: 2005px;  
 }
+
 .txtLouisse{
 position: absolute;
 width: 320px;
 height: 57px;
 left: 1090px;
 top: 2468px;
-
+/* textLouisse block font*/
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 700;
 font-size: 16px;
 line-height: 19px;
 
 color: #000000;
 }
-.Testimonials{
+
+.Testimonials {
   display: flex;
   align-content: center;
   position: absolute;
@@ -306,13 +316,14 @@ color: #000000;
   left: 0px;
   top: 2786px;  
 }
-.Testimonialstxt{
+
+.Testimonialstxt {
   position: absolute;
   width: 117px;
   height: 23px;
   left: 132px;
   top: 0px;
-  
+  /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -321,62 +332,53 @@ color: #000000;
   
   color: #000000;
 }
+
 .TxtCreativity {
   position: absolute;
   width: 186px;
   height: 49px;
   left: 0px;
   top:649px;  
-  
+  /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  
-  
   color: #000000;
-  
   transform: rotate(-90deg); 
-
 }
+
 .TxtCreativity1 {
   position: absolute;
   width: 186px;
   height: 49px;
   left: 0px;
   top:418px;  
-  
+  /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  
-  
   color: #000000;
-  
-  transform: rotate(-90deg); 
-
+  transform: rotate(-90deg);s
 }
+
 .websitetxt{
-  position: absolute;
-  width: 186px;
-  height: 49px;
-  left: 0px;
-  top: 195px;
-  
+  position:absolute;
+  width:186px;
+  height:49px;
+  left:0px;
+  top:195px;
+  /* website block font*/
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
-  
-  
+  line-height: 19px; 
   color: #000000;
   
   transform: rotate(-90deg);
 }
+
 .frame30Testimonials{
   position: absolute;
   width: 1179px;
@@ -416,7 +418,7 @@ color: #000000;
 .articletestimonials{
   width: 221px;
   height: 304px;
-  
+  /* articletestimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
   font-weight: 400;
@@ -446,7 +448,7 @@ color: #000000;
   height: 23px;
   left: 378px;
   top: 0px;
-  
+  /* strongtxt block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -494,6 +496,7 @@ color: #000000;
 h3{
   width: 377px;
   height: 115px;
+  /* h3 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 500;
@@ -519,6 +522,7 @@ h3{
 }
 .txtframe14{
   position: absolute;
+  /* txtframe14 block font*/
   font-family: 'Bitter';
   font-style: normal;
   font-weight: 400;
