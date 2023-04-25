@@ -1,11 +1,11 @@
+.wrapper {
+  max-width:800 px;
+  outline:1px solid red;
+  margin:0 auto;
+}
 header {
   display: block;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   padding: 0px;
-  gap: 10px;
-  
   position: absolute;
   width: 1440px;
   height: 135px;
