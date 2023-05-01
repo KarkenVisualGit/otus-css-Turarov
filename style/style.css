@@ -1,6 +1,5 @@
 .wrapper{
   max-width: 1065px;
-  outline: 1px solid red;
   margin:0 auto;
 }
 
@@ -11,15 +10,17 @@ header {
   left: 0px;
   top: 0px;
 }
+
 menu {
 position: absolute;
 top:50%;
 left:50%;
-transform: translate(-50%,-50%):
+transform: translate(-50%,-50%);
 width: 34px;
 height: 0px;
 border: 1px solid #000000;
 }
+
 body{
   /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
@@ -27,75 +28,62 @@ body{
   line-height: 19px;
   background-color:#FFFFFF;
 }
+
 img{
   justify-content:center;
    /* align-content: center;*/
 }
+
 .div_hero{
 position: relative;
 height: 630px;
 background: url(/images/inside-weather-Uxqlfigh6oE-unsplash.jpg);
 }
+
 .frame{
   position: absolute;
   width: 56%;
   top:50%;
   left:50%;
-  transform: translate(-50%,-50%):
+  height: 360px;
+  transform: translate(-50%,-50%);
+  justify-content: center;
   text-align:center;
-  background-color: #FFFFFF;   
+  background-color: #FFFFFF;
 }
-h1{
-  /* h1 font*/
-width: 560px;
+
+h1{ 
 height: 103px;
+  /* h1 font*/
+margin-top:18%;
+margin-bottom:0;
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 500;
 font-size: 86px;
 line-height: 120%;
-/* or 103px */
-position: absolute;
-justify-content:center;
-align-items: center;
 text-align: center;
-left: 75px;
-top:55px;
 color: #000000;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
 }
+
 .hero-text{
-  width: 557px;
-  height: 23px;
-  display: flex;
-  position: absolute;
-  align-items: center;
   text-align: center;
-  justify-content:center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  left: 75px;
-  top:213px;
   color: #000000;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
+
 .biography{
-align-content: center;
-display: flex;  
+align-content: center; 
 position: absolute;
 width: 1175px;
 height: 840px;
 
 }
+
 .image_biography{
 display: flex;
 position: absolute;
@@ -104,6 +92,7 @@ height: 840px;
 left: 134px;
 top: 900px;
 }
+
 .biographytext{
 position: absolute;
 width: 92px;
@@ -121,6 +110,7 @@ color: #000000;
 
 transform: rotate(-90deg);
 }
+
 h2{
 display: flex;
 align-content: center;
@@ -214,6 +204,7 @@ height: 619px;
   
   transform: rotate(-90deg);
 }
+
 .imgJess {
   align-content: center;
   position: absolute;
@@ -369,6 +360,7 @@ color: #000000;
   left: 130px;
   top: 56px;
 }
+
 .imgTestimonials{
   position: absolute;
   width: 515px;
@@ -376,6 +368,7 @@ color: #000000;
   left: 72px;
   top: 0px;  
 }
+
 .frame27Testimonials{
   display: flex;
   flex-direction: column;
@@ -390,14 +383,15 @@ color: #000000;
   left: 589px;
   top: 40.5px;
 }
+
 .imgsiinitta{
   width: 221px;
   height: 333px;
- 
   flex: none;
   order: 1;
   flex-grow: 0;
 }
+
 .articletestimonials{
   width: 221px;
   height: 304px;
@@ -418,6 +412,7 @@ color: #000000;
   order: 0;
   flex-grow: 0;
 }
+
 .strongpoints{
   position: absolute;
   width: 1686px;
@@ -425,6 +420,7 @@ color: #000000;
   left: 0px;
   top: 3733px;
 }
+
 .strongtxt{
   position: absolute;
   width: 122px;
@@ -437,11 +433,10 @@ color: #000000;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  
   color: #000000;
-  
   transform: rotate(-90deg);
 }
+
 .imgstrong{
   position: absolute;
   width: 350px;
@@ -449,22 +444,24 @@ color: #000000;
   left: 0px;
   top: 139px; 
 }
-.imgstrong1{
+
+.imgstrong1 {
   position: absolute;
   width: 351px;
   height: 525px;
   top: 139px;
   left: 380px;
-  
 }
-.imgstrong2{
+
+.imgstrong2 {
   position: absolute;
   width: 351px;
   height: 525px;
   top: 139px;
   left: 1186px;
 }
-.framestrong{
+
+.framestrong {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -476,7 +473,8 @@ color: #000000;
   left: 761px;
   top: -100px;
 }
-h3{
+
+h3 {
   width: 377px;
   height: 115px;
   /* h3 block font*/
@@ -492,7 +490,8 @@ h3{
   order: 0;
   flex-grow: 0;  
 }
-.frame14{
+
+.frame14 {
   position: absolute;
   padding: 0px; 
   width: 229px;
@@ -503,7 +502,8 @@ h3{
   order: 1;
   flex-grow: 0;
 }
-.txtframe14{
+
+.txtframe14 {
   position: absolute;
   /* txtframe14 block font*/
   font-family: 'Bitter';
