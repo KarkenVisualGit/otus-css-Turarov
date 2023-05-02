@@ -70,6 +70,7 @@ color: #000000;
   text-align: center;
   font-family: 'Roboto';
   font-style: normal;
+  margin:0 auto;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
@@ -77,28 +78,29 @@ color: #000000;
 }
 
 .biography{
-align-content: center; 
-position: absolute;
-width: 1175px;
+position: relative;
 height: 840px;
-
+top:135px;
+left:-33px;
 }
 
 .image_biography{
-display: flex;
 position: absolute;
+left: 0px;
+top: 0px;
 width: 553px;
 height: 840px;
-left: 134px;
-top: 900px;
+background: url(/images/jared-weiss-P3cB0ynqYBw-unsplash.jpg);
 }
 
 .biographytext{
 position: absolute;
 width: 92px;
 height: 23px;
-left: 720px;
-top: 994px;
+
+top:12px;
+left:50%;
+transform: translate(-50%,-50%);
 /* biography block font*/
 font-family: 'Roboto';
 font-style: normal;
