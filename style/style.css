@@ -1,5 +1,5 @@
 .wrapper{
-  max-width: 1065px;
+  max-width: 1440px;
   margin:0 auto;
 }
 
@@ -10,6 +10,7 @@ header {
   padding: 0px;
   position: relative;
   height: 135px;
+  width:100%;
   left: 0px;
   top: 0px;
 }
@@ -34,6 +35,10 @@ body{
 
 img{
    /* align-content: center;*/
+}
+.wrapper1 {
+  max-width: 1065px;
+  margin:0 auto;
 }
 
 .div_hero{
@@ -80,11 +85,15 @@ color: #000000;
   color: #000000;
 }
 
-.biography{
+.wrapper2 {
+  max-width: 1175px;
+  margin:0 auto;
+}
+
+.biography {
 position: relative;
 height: 840px;
 top:135px;
-left:-3%;
 }
 
 .image_biography{
@@ -117,9 +126,9 @@ transform: rotate(-90deg);
 
 h2{
 position: absolute;
-width: 44%;
+width: 20%;
 height: 230px;
-left: 59%;
+left: 60%;
 top: 91px;
 /* h2 block font*/
 font-family: 'Playfair Display';
@@ -135,7 +144,7 @@ color: #000000;
   position: absolute;
   width: 44%;
   height: 42px;
-  left: 59%;  
+  left: 60%;  
   top: 418px;
   /* about block font*/
   font-family: 'Roboto';
@@ -151,7 +160,7 @@ color: #000000;
   position: absolute;
   width: 38%;
   height: 124px;
-  left: 54.5%;
+  left: 56%;
   top: 500px;
   /* article bio block font*/
   font-family: 'Bitter';
@@ -167,26 +176,29 @@ color: #000000;
   position: absolute;
   width: 1%;
   height: 4px;
-  left: 59%;
+  left: 60%;
   top: 525px;
   
   background: #0D0D0D;
 }
 
+.wrapper3 {
+  max-width: 1337px;
+  margin:0 auto;
+}
+
 .designers{
-position: absolute;
-width: 1337px;
+position: relative;
 height: 619px;
+top: 169px;
 }
 
 .designerstext{
-  display: flex;
-  align-content: center;
   position: absolute;
-  width: 91px;
+  width: 7%;
   height: 24px;
-  left: 1049.74px;
-  top: 1909px;
+  left: 70%;
+  top: 169px;
   /* designers block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -194,29 +206,25 @@ height: 619px;
   font-size: 20px;
   line-height: 23px;
   /* identical to box height */
-  
-  
   color: #000000;
-  
   transform: rotate(-90deg);
 }
 
 .imgJess {
-  align-content: center;
   position: absolute;
-  width: 635.48px;
+  width: 47.5%;
   height: 538px;
-  left: 73px;
-  top: 1909px;
+  left: 0;
+  top: 169px;
+  background: url(/images/spurwing-agency-r6LceZ3ckpM-unsplash.jpg);
 }
 
 .textJess {
-  align-content: center;
   position: absolute;
-  width: 320px;
+  width: 24%;
   height: 57px;
-  left: 387px;
-  top: 2471px;
+  left: 23%;
+  top: 731px;
   /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -227,22 +235,19 @@ height: 619px;
 }
 
 .imgKameron{
-  display: flex;
-  align-content: center;
   position: absolute;
-  width: 319.02px;
+  width: 24%;
   height: 439.46px;
-  left: 739.98px;
-  top: 2005px;
+  left: 50%;
+  top: 265px;
 }
 
 .txtKameron{
-  align-content: center;
   position: absolute;
-  width: 320px;
+  width: 24%;
   height: 57px;
-  left: 739px;
-  top: 2468px;
+  left: 50%;
+  top: 728px;
   /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -253,21 +258,20 @@ height: 619px;
 }
 
 .imgLouisse{
-  display: flex;
-  align-content: center;
   position: absolute;
-  width: 320px;
+  width: 24%;
   height: 439.46px;
-  left: 1089.78px;
-  top: 2005px;  
+  left: 76%;
+  margin-left:1px;
+  top: 265px;  
 }
 
 .txtLouisse{
 position: absolute;
-width: 320px;
+width: 24%;
 height: 57px;
-left: 1090px;
-top: 2468px;
+left: 76%;
+top: 728px;
 /* textLouisse block font*/
 font-family: 'Roboto';
 font-style: normal;
@@ -278,20 +282,17 @@ color: #000000;
 }
 
 .Testimonials {
-  display: flex;
-  align-content: center;
-  position: absolute;
-  width: 1440px;
+  position: relative;
   height: 813px;
   left: 0px;
-  top: 2786px;  
+  top: 509px;  
 }
 
 .Testimonialstxt {
   position: absolute;
   width: 117px;
   height: 23px;
-  left: 132px;
+  left: 9%;
   top: 0px;
   /* Testimonials block font*/
   font-family: 'Roboto';
@@ -305,7 +306,7 @@ color: #000000;
 
 .TxtCreativity {
   position: absolute;
-  width: 186px;
+  width: 13%;
   height: 49px;
   left: 0px;
   top:649px;  
@@ -320,7 +321,7 @@ color: #000000;
 
 .TxtCreativity1 {
   position: absolute;
-  width: 186px;
+  width: 13%;
   height: 49px;
   left: 0px;
   top:418px;  
@@ -335,7 +336,7 @@ color: #000000;
 
 .websitetxt{
   position:absolute;
-  width:186px;
+  width: 13%;
   height:49px;
   left:0px;
   top:195px;
@@ -366,10 +367,6 @@ color: #000000;
 }
 
 .frame27Testimonials{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 0px;
   gap: 42px;
   
@@ -458,9 +455,6 @@ color: #000000;
 }
 
 .framestrong {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 28px;
   padding: 0px 9px 18px;
   position: absolute;
