@@ -352,42 +352,44 @@ color: #000000;
 
 .frame30Testimonials{
   position: absolute;
-  width: 1179px;
+  width: 82%;
   height: 760px;
-  left: 130px;
+  left: 9%;
   top: 56px;
 }
 
 .imgTestimonials{
   position: absolute;
-  width: 515px;
+  width: 43%;
   height: 757px;
-  left: 72px;
+  left: 5%;
   top: 0px;  
+  background: url(/images/keghan-crossland-ZZxmc66SjfM-unsplash.jpg);
 }
 
 .frame27Testimonials{
   padding: 0px;
-  gap: 42px;
-  
   position: absolute;
-  width: 590px;
+  width: 40%;
   height: 760px;
-  left: 589px;
+  left: 54%;
   top: 40.5px;
 }
 
-.imgsiinitta{
-  width: 221px;
+.imgsinitta{
+  position: absolute;
+  width: 37%;
   height: 333px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  left: 23%;
+  top: 386.5px;
+  background: url(/images/sinitta-leunen-YaReHIzNdRw-unsplash.jpg);
 }
 
 .articletestimonials{
-  width: 221px;
+  position: absolute;
+  width: 43%;
   height: 304px;
+  left: 20%;
   /* articletestimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -395,15 +397,8 @@ color: #000000;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
-  
+
   color: #000000;
-  
-  
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .strongpoints{
