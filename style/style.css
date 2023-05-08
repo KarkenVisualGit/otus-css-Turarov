@@ -401,6 +401,11 @@ color: #000000;
   color: #000000;
 }
 
+.wrapper4 {
+  max-width: 1686px;
+  margin:0 auto;
+}
+
 .strongpoints{
   position: absolute;
   width: 1686px;
@@ -430,7 +435,8 @@ color: #000000;
   width: 350px;
   height: 525px;
   left: 0px;
-  top: 139px; 
+  top: 139px;
+  background: url(/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg)
 }
 
 .imgstrong1 {
