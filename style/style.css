@@ -3,9 +3,6 @@
   margin:0 auto;
 }
 
-main {
-
-}
 header {
   padding: 0px;
   position: relative;
@@ -44,7 +41,7 @@ img{
 .div_hero{
 position: relative;
 height: 630px;
-background: url(/images/inside-weather-Uxqlfigh6oE-unsplash.jpg);
+background: url(/otus-css-Turarov/images/inside-weather-Uxqlfigh6oE-unsplash.jpg);
 }
 
 .frame{
@@ -102,7 +99,7 @@ left: 0px;
 top: 0px;
 width: 47%;
 height: 840px;
-background: url(/images/jared-weiss-P3cB0ynqYBw-unsplash.jpg);
+background: url(/otus-css-Turarov/images/jared-weiss-P3cB0ynqYBw-unsplash.jpg);
 }
 
 .biographytext{
@@ -216,7 +213,7 @@ top: 169px;
   height: 538px;
   left: 0;
   top: 169px;
-  background: url(/images/spurwing-agency-r6LceZ3ckpM-unsplash.jpg);
+  background: url(/otus-css-Turarov/images/spurwing-agency-r6LceZ3ckpM-unsplash.jpg);
 }
 
 .textJess {
@@ -285,15 +282,15 @@ color: #000000;
   position: relative;
   height: 813px;
   left: 0px;
-  top: 509px;  
+  top: 558px;  
 }
 
 .Testimonialstxt {
   position: absolute;
   width: 117px;
   height: 23px;
-  left: 9%;
-  top: 0px;
+  left: 7%;
+  top: -2%;
   /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -364,7 +361,7 @@ color: #000000;
   height: 757px;
   left: 5%;
   top: 0px;  
-  background: url(/images/keghan-crossland-ZZxmc66SjfM-unsplash.jpg);
+  background: url(/otus-css-Turarov/images/keghan-crossland-ZZxmc66SjfM-unsplash.jpg);
 }
 
 .frame27Testimonials{
@@ -382,7 +379,7 @@ color: #000000;
   height: 333px;
   left: 23%;
   top: 386.5px;
-  background: url(/images/sinitta-leunen-YaReHIzNdRw-unsplash.jpg);
+  background: url(/otus-css-Turarov/images/sinitta-leunen-YaReHIzNdRw-unsplash.jpg);
 }
 
 .articletestimonials{
@@ -407,19 +404,18 @@ color: #000000;
 }
 
 .strongpoints{
-  position: absolute;
-  width: 1686px;
+  position: relative;
   height: 665px;
   left: 0px;
-  top: 3733px;
+  top: 655px;
 }
 
 .strongtxt{
   position: absolute;
-  width: 122px;
+  width: 14%;
   height: 23px;
-  left: 378px;
-  top: 0px;
+  left: 16.5%;
+  top: -5%;
   /* strongtxt block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -432,70 +428,64 @@ color: #000000;
 
 .imgstrong{
   position: absolute;
-  width: 350px;
+  width: 20.7%;
   height: 525px;
   left: 0px;
-  top: 139px;
-  background: url(/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg)
+  top: 20.9%;
+  background: url(/otus-css-Turarov/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg)
 }
 
 .imgstrong1 {
   position: absolute;
-  width: 351px;
+  width: 20.6%;
   height: 525px;
-  top: 139px;
-  left: 380px;
+  top: 20.9%;
+  left: 22.5%;
+  background: url(/otus-css-Turarov/images/avery-klein-JaXs8Tk5Iww-unsplash.jpg);
 }
 
 .imgstrong2 {
   position: absolute;
-  width: 351px;
+  width: 20.6%;
   height: 525px;
-  top: 139px;
-  left: 1186px;
+  top: 20.9%;
+  left: 70.3%;
+  background: url(/otus-css-Turarov/images/avery-klein-JaXs8Tk5Iww-unsplash.jpg);
 }
 
 .framestrong {
-  gap: 28px;
   padding: 0px 9px 18px;
   position: absolute;
-  width: 395px;
-  height: 664px;
-  left: 761px;
-  top: -100px;
+  width: 23.4%;
+  height: 40.6%;
+  left: 45.1%;
+  top: -12%;
 }
 
 h3 {
-  width: 377px;
-  height: 115px;
+  width: 22.4%;
+  height: 7%;
   /* h3 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 500;
   font-size: 86px;
   line-height: 115px;
-  /* identical to box height */ 
   color: #000000;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;  
 }
 
 .frame14 {
   position: absolute;
   padding: 0px; 
-  width: 229px;
+  width: 23.4%;
   height: 506.49px;
   top:220px;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  left:21%;
 }
 
 .txtframe14 {
   position: absolute;
+  width: 13.6%;
   /* txtframe14 block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -503,8 +493,4 @@ h3 {
   font-size: 34px;
   line-height: 41px;
   color: #000000;
-  /* Inside auto layout */ 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
