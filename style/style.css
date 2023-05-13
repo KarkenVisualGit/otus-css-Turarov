@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   max-width: 1440px;
   margin:0 auto;
 }
@@ -39,7 +39,7 @@ body{
 .div_hero{
 position: relative;
 height: 630px;
-background: url(/otus-css-Turarov/images/inside-weather-Uxqlfigh6oE-unsplash.jpg);
+background: url(/images/inside-weather-Uxqlfigh6oE-unsplash.jpg);
 }
 
 .frame{
@@ -94,30 +94,26 @@ border: 2px solid red;
 flex-flow: row wrap;
 height: 840px;
 margin-top:135px;
-justify-content: space-between;
+justify-content: flex-start;
 align-items: center;
+align-content: flex-start;
 }
 
 .image_biography {
 display: flex;
 align-self: flex-start;
-justify-content: flex-start;
-align-items: flex-start;
-align-content: flex-start;
 flex-basis: 47.5%;
 height: 840px;
 order: -1;
-background: url(/otus-css-Turarov/images/jared-weiss-P3cB0ynqYBw-unsplash.jpg);
+background: url(/images/jared-weiss-P3cB0ynqYBw-unsplash.jpg);
 }
 
 .biographytext {
 display: flex;
-position: absolute;
-width: 7%;
+flex-basis: 7%;
 height: 23px;
-top:3%;
-left:47.5%;
-transform: translate(-50%,-50%);
+align-self: flex-start;
+margin-top:3%;
 /* biography block font*/
 font-family: 'Roboto';
 font-style: normal;
@@ -132,11 +128,10 @@ transform: rotate(-90deg);
 
 h2{
 display: flex;
-position: absolute;
-width: 20%;
+flex-basis: 20%;
 height: 230px;
-left: 59.5%;
-top: 91px;
+align-self: flex-start;
+margin-top:14%;
 /* h2 block font*/
 font-family: 'Playfair Display';
 font-style: normal;
@@ -226,7 +221,7 @@ top: 140px;
   height: 538px;
   left: 1.5%;
   top: 169px;
-  background: url(/otus-css-Turarov/images/spurwing-agency-r6LceZ3ckpM-unsplash.jpg);
+  background: url(/images/spurwing-agency-r6LceZ3ckpM-unsplash.jpg);
 }
 
 .textJess {
@@ -374,7 +369,7 @@ color: #000000;
   height: 757px;
   left: 5%;
   top: 0px;  
-  background: url(/otus-css-Turarov/images/keghan-crossland-ZZxmc66SjfM-unsplash.jpg);
+  background: url(/images/keghan-crossland-ZZxmc66SjfM-unsplash.jpg);
 }
 
 .frame27Testimonials{
@@ -392,7 +387,7 @@ color: #000000;
   height: 333px;
   left: 22.5%;
   top: 50.3%;
-  background: url(/otus-css-Turarov/images/sinitta-leunen-YaReHIzNdRw-unsplash.jpg);
+  background: url(/images/sinitta-leunen-YaReHIzNdRw-unsplash.jpg);
 }
 
 .articletestimonials{
@@ -445,7 +440,7 @@ color: #000000;
   height: 525px;
   left: 7.5%;
   top: 21%;
-  background: url(/otus-css-Turarov/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg)
+  background: url(/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg)
 }
 
 .imgstrong1 {
@@ -454,7 +449,7 @@ color: #000000;
   height: 525px;
   top: 21%;
   left: 30%;
-  background: url(/otus-css-Turarov/images/avery-klein-JaXs8Tk5Iww-unsplash.jpg);
+  background: url(/images/avery-klein-JaXs8Tk5Iww-unsplash.jpg);
 }
 
 .imgstrong2 {
@@ -463,7 +458,7 @@ color: #000000;
   height: 525px;
   top: 20.9%;
   left: 77.6%;
-  background: url(/otus-css-Turarov/images/avery-klein-JaXs8Tk5Iww-unsplash.jpg);
+  background: url(/images/avery-klein-JaXs8Tk5Iww-unsplash.jpg);
 }
 
 .framestrong {
