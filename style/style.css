@@ -84,7 +84,6 @@ color: #000000;
 }
 
 .wrapper2 {
-  display: flex;
   max-width: 1175px;
   margin:0 auto;
 }
@@ -92,19 +91,20 @@ color: #000000;
 .biography {
 display: flex;
 border: 2px solid red;
-flex-flow: column wrap;
+flex-flow: row wrap;
 height: 840px;
-top:135px;
-justify-content: center;
+margin-top:135px;
+justify-content: space-between;
 align-items: center;
 }
 
 .image_biography {
 display: flex;
+align-self: flex-start;
 justify-content: flex-start;
 align-items: flex-start;
 align-content: flex-start;
-flex-basis: 47%;
+flex-basis: 47.5%;
 height: 840px;
 order: -1;
 background: url(/otus-css-Turarov/images/jared-weiss-P3cB0ynqYBw-unsplash.jpg);
