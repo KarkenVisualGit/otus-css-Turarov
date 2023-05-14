@@ -1,132 +1,101 @@
-header {
-  display: block;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 10px;
-  
-  position: absolute;
-  width: 1440px;
-  height: 135px;
-  left: 0px;
-  top: 0px;
+.wrapper{
+  max-width: 1440px;
+  margin:0 auto;
 }
-menu {
-align-self: auto;
-justify-content:center;
-align-content: center;
-align-items:normal;
-position: absolute;
-width: 34px;
-height: 0px;
-left: 703px;
 
-border: 1px solid #000000;
+.menu {
+  position: relative;
+  height: 135px;
+  text-align:center;
 }
+
+.button {
+position: absolute;
+top:44%;
+left:48.5%;
+}
+
 body{
   /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2em;
   background-color:#FFFFFF;
 }
-img{
-  justify-content:center;
-   /* align-content: center;*/
+
+.wrapper1 {
+  max-width: 1065px;
+  margin:0 auto;
 }
-.div_hero{
-position: absolute;
-justify-content:center;
-align-content: center;
-width: 1065px;
+
+.hero-section{
+position: relative;
 height: 630px;
-left: 187px;
-top:135px;
+background: url(/images/inside-weather.jpg);
 }
-.frame{
-  display:flex;
-  justify-content:center;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 110px;
-  padding-top: 20px;
-  gap: 14px;
-  
+
+.frame-hero {
   position: absolute;
-  width: 600px;
+  width: 56%;
+  top:50%;
+  left:50%;
   height: 360px;
-  left: 419.5px;
-  top:271px;
-  
-  background: #FFFFFF;  
+  transform: translate(-50%,-50%);
+  text-align:center;
+  background-color: #FFFFFF;
 }
-h1{
-  /* h1 font*/
-width: 560px;
-height: 103px;
+
+.hero-title { 
+margin:17.5% auto 0;
+/* h1 font*/
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 500;
 font-size: 86px;
 line-height: 120%;
-/* or 103px */
-display: flex;
-position: absolute;
-justify-content:center;
-align-items: center;
 text-align: center;
-left: 75px;
-top:55px;
 color: #000000;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
 }
+
 .hero-text{
-  width: 557px;
-  height: 23px;
-  display: flex;
-  position: absolute;
-  align-items: center;
   text-align: center;
-  justify-content:center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  left: 75px;
-  top:213px;
   color: #000000;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
-.biography{
-align-content: center;
-display: flex;  
-position: absolute;
-width: 1175px;
-height: 840px;
 
+.wrapper2 {
+  max-width: 1175px;
+  margin:0 auto;
 }
-.image_biography{
+
+.biography {
 display: flex;
-position: absolute;
-width: 553px;
+flex-flow: row nowrap;
 height: 840px;
-left: 134px;
-top: 900px;
+margin-top:135px;
+justify-content: flex-start;
+align-items: center;
+align-content: flex-start;
 }
-.biographytext{
-position: absolute;
-width: 92px;
+
+.image_biography {
+display: flex;
+align-self: flex-start;
+flex-basis: 47.5%;
+height: 840px;
+background: url(/images/jared-weiss.jpg);
+}
+
+.biographytext {
+display: flex;
+flex-basis: 7%;
 height: 23px;
-left: 720px;
-top: 994px;
+align-self: flex-start;
+margin-top:3%;
 /* biography block font*/
 font-family: 'Roboto';
 font-style: normal;
@@ -138,14 +107,20 @@ color: #000000;
 
 transform: rotate(-90deg);
 }
-h2{
+
+.bio-txt-section {
 display: flex;
-align-content: center;
-position: absolute;
-width: 475px;
+flex-flow: column nowrap;
+}
+
+.biography-title {
+display: flex;
+flex-basis: 44%;
 height: 230px;
-left: 834px;
-top: 1063px;
+align-self: flex-start;
+flex: 1 1 auto;
+margin:15% 11% 0;
+/* margin-top:54%; */
 /* h2 block font*/
 font-family: 'Playfair Display';
 font-style: normal;
@@ -156,14 +131,13 @@ line-height: 115px;
 color: #000000;
 }
 
-.about{
+.bio-txt-about {
   display: flex;
-  align-content: center;
-  position: absolute;
-  width: 475px;
+  flex: 1 1 auto;
+  flex-basis: 44%;
+  width:100%;
   height: 42px;
-  left: 834px;
-  top: 1318px;
+  margin:0% 12% -4%;
   /* about block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -174,14 +148,20 @@ color: #000000;
   color: #0D0D0D;
 }
 
+.rectanglebio {
+  display: flex;
+  width: 3%;
+  height: 4px;
+  margin:20% 12% -2%;
+  background: #0D0D0D;
+}
+
 .articlebio {
   display: flex;
-  align-content: center;
-  position: absolute;
-  width: 449px;
+  flex-basis: 38%;
   height: 124px;
-  left: 832px;
-  top: 1446px;
+  margin:0% 12% 16%;
+  width:100%;
   /* article bio block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -192,32 +172,23 @@ color: #000000;
   color: #0D0D0D;  
 }
 
-.rectangle{
-  display: flex;
-  align-content: center;
-  position: absolute;
-  width: 14px;
-  height: 4px;
-  left: 834px;
-  top: 1425px;
-  
-  background: #0D0D0D;
+.wrapper3 {
+  max-width: 1337px;
+  margin:0 auto;
 }
 
-.designers{
-position: absolute;
-width: 1337px;
+.designers {
+position: relative;
 height: 619px;
+top: 0px;
 }
 
-.designerstext{
-  display: flex;
-  align-content: center;
+.designerstext {
   position: absolute;
-  width: 91px;
+  width: 7%;
   height: 24px;
-  left: 1049.74px;
-  top: 1909px;
+  left: 72%;
+  top: 29.3%;
   /* designers block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -225,28 +196,25 @@ height: 619px;
   font-size: 20px;
   line-height: 23px;
   /* identical to box height */
-  
-  
   color: #000000;
-  
   transform: rotate(-90deg);
 }
+
 .imgJess {
-  align-content: center;
   position: absolute;
-  width: 635.48px;
+  width: 47.5%;
   height: 538px;
-  left: 73px;
-  top: 1909px;
+  left: 1.5%;
+  top: 169px;
+  background: url(/images/spurwing-agency.jpg);
 }
 
 .textJess {
-  align-content: center;
   position: absolute;
-  width: 320px;
+  width: 24%;
   height: 57px;
-  left: 387px;
-  top: 2471px;
+  left: 25%;
+  top: 115%;
   /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -257,22 +225,20 @@ height: 619px;
 }
 
 .imgKameron{
-  display: flex;
-  align-content: center;
   position: absolute;
-  width: 319.02px;
+  width: 24%;
   height: 439.46px;
-  left: 739.98px;
-  top: 2005px;
+  left: 51%;
+  top: 265px;
+  background: url(/images/stil-P1.jpg);
 }
 
 .txtKameron{
-  align-content: center;
   position: absolute;
-  width: 320px;
+  width: 24%;
   height: 57px;
-  left: 739px;
-  top: 2468px;
+  left: 51.5%;
+  top: 114.5%;
   /* textJess block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -283,21 +249,21 @@ height: 619px;
 }
 
 .imgLouisse{
-  display: flex;
-  align-content: center;
   position: absolute;
-  width: 320px;
+  width: 24%;
   height: 439.46px;
-  left: 1089.78px;
-  top: 2005px;  
+  left: 77%;
+  margin-left:1px;
+  top: 265px; 
+  background: url(/images/stil_mv.jpg);
 }
 
 .txtLouisse{
 position: absolute;
-width: 320px;
+width: 24%;
 height: 57px;
-left: 1090px;
-top: 2468px;
+left: 77.5%;
+top: 114.5%;
 /* textLouisse block font*/
 font-family: 'Roboto';
 font-style: normal;
@@ -308,21 +274,18 @@ color: #000000;
 }
 
 .Testimonials {
-  display: flex;
-  align-content: center;
-  position: absolute;
-  width: 1440px;
+  position: relative;
   height: 813px;
   left: 0px;
-  top: 2786px;  
+  top: 420px;  
 }
 
 .Testimonialstxt {
   position: absolute;
   width: 117px;
   height: 23px;
-  left: 132px;
-  top: 0px;
+  left: 9%;
+  top: -2%;
   /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -335,10 +298,10 @@ color: #000000;
 
 .TxtCreativity {
   position: absolute;
-  width: 186px;
+  width: 13%;
   height: 49px;
-  left: 0px;
-  top:649px;  
+  left: 4.3%;
+  top:78%;  
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -350,25 +313,25 @@ color: #000000;
 
 .TxtCreativity1 {
   position: absolute;
-  width: 186px;
+  width: 13%;
   height: 49px;
-  left: 0px;
-  top:418px;  
+  left: 4.3%;
+  top:49.5%;  
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
-  transform: rotate(-90deg);s
+  transform: rotate(-90deg);
 }
 
 .websitetxt{
   position:absolute;
-  width:186px;
+  width: 13%;
   height:49px;
-  left:0px;
-  top:195px;
+  left:4.3%;
+  top:21.5%;
   /* website block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -381,43 +344,44 @@ color: #000000;
 
 .frame30Testimonials{
   position: absolute;
-  width: 1179px;
+  width: 82%;
   height: 760px;
-  left: 130px;
-  top: 56px;
+  left: 10.2%;
+  top: 7.5%;
 }
+
 .imgTestimonials{
   position: absolute;
-  width: 515px;
+  width: 43%;
   height: 757px;
-  left: 72px;
+  left: 5%;
   top: 0px;  
+  background: url(/images/keghan-crossland.jpg);
 }
+
 .frame27Testimonials{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 0px;
-  gap: 42px;
-  
   position: absolute;
-  width: 590px;
+  width: 40%;
   height: 760px;
-  left: 589px;
-  top: 40.5px;
+  left: 54%;
+  top: 8%;
 }
-.imgsiinitta{
-  width: 221px;
+
+.imgsinitta{
+  position: absolute;
+  width: 37%;
   height: 333px;
- 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  left: 22.5%;
+  top: 50.3%;
+  background: url(/images/sinitta-leunen.jpg);
 }
+
 .articletestimonials{
-  width: 221px;
+  position: absolute;
+  width: 43%;
   height: 304px;
+  left: 20%;
   /* articletestimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -425,103 +389,98 @@ color: #000000;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
-  
+
   color: #000000;
-  
-  
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
+
+.wrapper4 {
+  max-width: 1686px;
+  margin:0 auto;
+}
+
 .strongpoints{
-  position: absolute;
-  width: 1686px;
+  position: relative;
   height: 665px;
-  left: 0px;
-  top: 3733px;
+  left:0px;
+  top: 560px;
 }
+
 .strongtxt{
   position: absolute;
-  width: 122px;
+  width: 14%;
   height: 23px;
-  left: 378px;
-  top: 0px;
+  left: 23.5%;
+  top: -3%;
   /* strongtxt block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  
   color: #000000;
-  
   transform: rotate(-90deg);
 }
+
 .imgstrong{
   position: absolute;
-  width: 350px;
+  width: 20.5%;
   height: 525px;
-  left: 0px;
-  top: 139px; 
+  left: 7.5%;
+  top: 21%;
+  background: url(/images/dawid-liberadzki.jpg)
 }
-.imgstrong1{
+
+.imgstrong1 {
   position: absolute;
-  width: 351px;
+  width: 20.5%;
   height: 525px;
-  top: 139px;
-  left: 380px;
-  
+  top: 21%;
+  left: 30%;
+  background: url(/images/avery-klein.jpg);
 }
-.imgstrong2{
+
+.imgstrong2 {
   position: absolute;
-  width: 351px;
+  width: 20.6%;
   height: 525px;
-  top: 139px;
-  left: 1186px;
+  top: 20.9%;
+  left: 77.6%;
+  background: url(/images/avery-klein.jpg);
 }
-.framestrong{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 28px;
+
+.framestrong {
   padding: 0px 9px 18px;
   position: absolute;
-  width: 395px;
-  height: 664px;
-  left: 761px;
-  top: -100px;
+  width: 23.4%;
+  height: 40.6%;
+  left: 52.5%;
+  top: -13%;
 }
-h3{
-  width: 377px;
-  height: 115px;
+
+.strength-title {
+  width: 22.4%;
+  height: 7%;
   /* h3 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 500;
   font-size: 86px;
   line-height: 115px;
-  /* identical to box height */ 
   color: #000000;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;  
 }
-.frame14{
+
+.frame-txt-strength {
   position: absolute;
   padding: 0px; 
-  width: 229px;
+  width: 23.4%;
   height: 506.49px;
   top:220px;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  left:21%;
 }
-.txtframe14{
+
+.txt-strength {
   position: absolute;
+  width: 13.6%;
   /* txtframe14 block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -529,8 +488,4 @@ h3{
   font-size: 34px;
   line-height: 41px;
   color: #000000;
-  /* Inside auto layout */ 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
