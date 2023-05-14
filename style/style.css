@@ -126,7 +126,7 @@ line-height: 115px;
 color: #000000;
 }
 
-.about{
+.about {
   display: flex;
   position: absolute;
   width: 44%;
@@ -160,7 +160,7 @@ color: #000000;
   color: #0D0D0D;  
 }
 
-.rectangle{
+.rectangle {
   display: flex;
   position: absolute;
   width: 1%;
@@ -176,13 +176,13 @@ color: #000000;
   margin:0 auto;
 }
 
-.designers{
+.designers {
 position: relative;
 height: 619px;
 top: 140px;
 }
 
-.designerstext{
+.designerstext {
   position: absolute;
   width: 7%;
   height: 24px;
@@ -456,7 +456,7 @@ color: #000000;
   top: -13%;
 }
 
-h3 {
+.strength {
   width: 22.4%;
   height: 7%;
   /* h3 block font*/
@@ -477,7 +477,7 @@ h3 {
   left:21%;
 }
 
-.txtframe14 {
+.txt-strength {
   position: absolute;
   width: 13.6%;
   /* txtframe14 block font*/
