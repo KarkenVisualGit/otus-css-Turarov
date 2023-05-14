@@ -74,8 +74,7 @@ color: #000000;
 
 .biography {
 display: flex;
-border: 2px solid red;
-flex-flow: row wrap;
+flex-flow: row nowrap;
 height: 840px;
 margin-top:135px;
 justify-content: flex-start;
@@ -88,7 +87,6 @@ display: flex;
 align-self: flex-start;
 flex-basis: 47.5%;
 height: 840px;
-order: -1;
 background: url(/images/jared-weiss.jpg);
 }
 
@@ -110,12 +108,19 @@ color: #000000;
 transform: rotate(-90deg);
 }
 
+.bio-txt-section {
+display: flex;
+flex-flow: column nowrap;
+}
+
 .biography-title {
 display: flex;
-flex-basis: 20%;
+flex-basis: 44%;
 height: 230px;
 align-self: flex-start;
-margin-top:14%;
+flex: 1 1 auto;
+margin:15% 11% 0;
+/* margin-top:54%; */
 /* h2 block font*/
 font-family: 'Playfair Display';
 font-style: normal;
@@ -126,13 +131,13 @@ line-height: 115px;
 color: #000000;
 }
 
-.about {
+.bio-txt-about {
   display: flex;
-  position: absolute;
-  width: 44%;
+  flex: 1 1 auto;
+  flex-basis: 44%;
+  width:100%;
   height: 42px;
-  left: 60%;  
-  top: 45.5%;
+  margin:0% 12% -4%;
   /* about block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -143,13 +148,20 @@ color: #000000;
   color: #0D0D0D;
 }
 
+.rectanglebio {
+  display: flex;
+  width: 3%;
+  height: 4px;
+  margin:20% 12% -2%;
+  background: #0D0D0D;
+}
+
 .articlebio {
   display: flex;
-  position: absolute;
-  width: 38%;
+  flex-basis: 38%;
   height: 124px;
-  left: 56%;
-  top: 59%;
+  margin:0% 12% 16%;
+  width:100%;
   /* article bio block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -160,17 +172,6 @@ color: #000000;
   color: #0D0D0D;  
 }
 
-.rectangle {
-  display: flex;
-  position: absolute;
-  width: 1%;
-  height: 4px;
-  left: 59.5%;
-  top: 525px;
-  
-  background: #0D0D0D;
-}
-
 .wrapper3 {
   max-width: 1337px;
   margin:0 auto;
@@ -179,7 +180,7 @@ color: #000000;
 .designers {
 position: relative;
 height: 619px;
-top: 140px;
+top: 0px;
 }
 
 .designerstext {
@@ -276,7 +277,7 @@ color: #000000;
   position: relative;
   height: 813px;
   left: 0px;
-  top: 558px;  
+  top: 420px;  
 }
 
 .Testimonialstxt {
@@ -401,7 +402,7 @@ color: #000000;
   position: relative;
   height: 665px;
   left:0px;
-  top: 695px;
+  top: 560px;
 }
 
 .strongtxt{
