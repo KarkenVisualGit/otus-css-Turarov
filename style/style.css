@@ -456,7 +456,7 @@ color: #000000;
   top: -13%;
 }
 
-.strength {
+.strength-title {
   width: 22.4%;
   height: 7%;
   /* h3 block font*/
@@ -468,7 +468,7 @@ color: #000000;
   color: #000000;
 }
 
-.frame14 {
+.frame-txt-strength {
   position: absolute;
   padding: 0px; 
   width: 23.4%;
