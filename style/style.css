@@ -4,23 +4,15 @@
 }
 
 header {
-  padding: 0px;
   position: relative;
   height: 135px;
-  width:100%;
   text-align:center;
-  left: 0px;
-  top: 0px;
 }
 
-line {
+.button {
 position: absolute;
-top:50%;
-left:50%;
-transform: translate(-50%,-50%);
-width: 2%;
-height: 0px;
-border: 1px solid #000000;
+top:44%;
+left:48.5%;
 }
 
 body{
@@ -36,7 +28,7 @@ body{
   margin:0 auto;
 }
 
-.div_hero{
+.hero-section{
 position: relative;
 height: 630px;
 background: url(/images/inside-weather.jpg);
