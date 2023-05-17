@@ -24,14 +24,16 @@ body{
 }
 
 .wrapper1 {
-  max-width: 1065px;
+  width: 1065px;
   margin:0 auto;
 }
 
-.hero-section{
+.hero-section {
 position: relative;
-max-width:1065px;
+max-width: 100%;
 height: 630px;
+background-repeat: no-repeat;
+background-size: cover;
 background: url(/images/inside-weather.jpg);
 }
 
@@ -87,8 +89,9 @@ align-content: flex-start;
 display: flex;
 align-self: flex-start;
 flex-basis: 47%;
-max-width:47%;
 height: 840px;
+background-repeat: no-repeat;
+background-size: cover;
 background: url(/images/jared-weiss.jpg);
 }
 
@@ -377,7 +380,9 @@ color: #000000;
   width: 43%;
   height: 757px;
   margin-left: 5%;
-  margin-top: 0%;  
+  margin-top: 0%; 
+  display: block;
+  max-width: 100%; 
   background: url(/images/keghan-crossland.jpg);
 }
 
