@@ -380,6 +380,11 @@ color: #000000;
   transform: rotate(-90deg);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .left-frame-Testimonials{
   position: absolute;
   width: 82%;
