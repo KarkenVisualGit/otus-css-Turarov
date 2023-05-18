@@ -28,9 +28,15 @@ body{
   margin:0 auto;
 }
 
+
 .hero-section{
+display:block;
+overflow: clip;
 position: relative;
 height: 630px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 background: url(/images/inside-weather.jpg);
 }
 
@@ -83,10 +89,13 @@ align-content: flex-start;
 }
 
 .image_biography {
-display: flex;
 align-self: flex-start;
-flex-basis: 47.5%;
+flex: 1 1 47%;
+max-width: 47%;
 height: 840px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 background: url(/images/jared-weiss.jpg);
 }
 
@@ -110,6 +119,7 @@ transform: rotate(-90deg);
 
 .bio-txt-section {
 display: flex;
+flex: 1 1 auto;
 flex-flow: column nowrap;
 }
 
@@ -133,11 +143,10 @@ color: #000000;
 
 .bio-txt-about {
   display: flex;
-  flex: 1 1 auto;
-  flex-basis: 44%;
-  width:100%;
+  flex: 1 1 100%;
+  width:88%;
   height: 42px;
-  margin:0% 12% -4%;
+  margin:0% 12% -8%;
   /* about block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -161,7 +170,7 @@ color: #000000;
   flex-basis: 38%;
   height: 124px;
   margin:0% 12% 16%;
-  width:100%;
+  width:80%;
   /* article bio block font*/
   font-family: 'Bitter';
   font-style: normal;
