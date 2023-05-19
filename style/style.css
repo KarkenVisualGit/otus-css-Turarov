@@ -440,8 +440,6 @@ a {
   background: url(/images/sinitta-leunen.jpg);
 }
 
-
-
 .wrapper4 {
   max-width: 1686px;
   margin:0 auto;
@@ -526,14 +524,14 @@ a {
   top:0%;
 }
 
-ul {
+.list-footer {
   position: absolute;
   width: 13.6%;
   margin-top: 10%;
   margin-left:9%;
 }
 
-li {
+.list-item-footer {
   list-style-type: none;
   position: relative;
   font-family: 'Bitter';
