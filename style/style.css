@@ -101,7 +101,7 @@ background: url(/images/jared-weiss.jpg);
 
 .biographytext {
 display: flex;
-flex-basis: 9%;
+flex-basis: 8%;
 height: 23px;
 align-self: flex-start;
 margin-top:3%;
@@ -129,7 +129,7 @@ flex-basis: 44%;
 height: 230px;
 align-self: flex-start;
 flex: 1 1 auto;
-margin: 5% 9% 5%;
+margin: 5% 10% 5%;
 /* margin-top:54%; */
 /* h2 block font*/
 font-family: 'Playfair Display';
@@ -142,9 +142,9 @@ color: #000000;
 }
 
 .list-bio {
-  flex: none;
+  flex: 1 1 0;
   max-width:88%;
-  margin:0% 0% 5%;
+  margin:0% 2% 6%;
   list-style-type: none;
   font-family: 'Roboto';
   font-style: normal;
@@ -162,26 +162,13 @@ color: #000000;
   content: " /"
 }
 
-.list-item-bio:last-child::after {
+.list-item-bio:first-child::after {
   content: ""
 }
 
-.bio-txt-about {
-  display: flex;
-  flex: 1 1 0;
-  max-width:100%;
-  height: 42px;
-  margin:0% 8% 0%;
-  /* about block font*/
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  
-  color: #0D0D0D;
+.list-item-bio:last-child::after {
+  content: ""
 }
-
 
 .articlebio::before {
   display: flex;
@@ -194,9 +181,9 @@ color: #000000;
 
 .articlebio {
   display: flex;
-  flex-basis: 38%;
+  flex-basis: 48%;
   height: 124px;
-  margin:10% 3% 7%;
+  margin:11% 3% 5%;
   width:87%;
   /* article bio block font*/
   font-family: 'Bitter';
@@ -312,7 +299,7 @@ color: #000000;
 .Testimonials {
   display: grid;
   position: relative;
-  grid-template-columns : 1fr 3fr 3fr;
+  grid-template-columns: 1fr 3fr 3fr;
   grid-template-rows: 1fr 3fr 3fr 3fr;
   padding: 10px 10px;
   height: 813px;
