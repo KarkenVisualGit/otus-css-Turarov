@@ -28,11 +28,6 @@ body{
   margin:0 auto;
 }
 
-<<<<<<< HEAD
-.hero-section{
-position: relative;
-height: 630px;
-=======
 
 .hero-section{
 display:block;
@@ -42,7 +37,6 @@ height: 630px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
 background: url(/images/inside-weather.jpg);
 }
 
@@ -85,29 +79,6 @@ color: #000000;
 }
 
 .biography {
-<<<<<<< HEAD
-position: relative;
-height: 840px;
-top:135px;
-}
-
-.image_biography{
-position: absolute;
-left: 0px;
-top: 0px;
-width: 47%;
-height: 840px;
-background: url(/images/jared-weiss.jpg);
-}
-
-.biographytext{
-position: absolute;
-width: 7%;
-height: 23px;
-top:3%;
-left:47.5%;
-transform: translate(-50%,-50%);
-=======
 display: flex;
 flex-flow: row nowrap;
 height: 840px;
@@ -134,7 +105,6 @@ flex-basis: 8%;
 height: 23px;
 align-self: flex-start;
 margin-top:3%;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
 /* biography block font*/
 font-family: 'Roboto';
 font-style: normal;
@@ -147,14 +117,6 @@ color: #000000;
 transform: rotate(-90deg);
 }
 
-<<<<<<< HEAD
-h2{
-position: absolute;
-width: 20%;
-height: 230px;
-left: 59.5%;
-top: 91px;
-=======
 .bio-txt-section {
 display: flex;
 flex: 1 1 auto;
@@ -169,7 +131,6 @@ align-self: flex-start;
 flex: 1 1 auto;
 margin: 5% 10% 5%;
 /* margin-top:54%; */
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
 /* h2 block font*/
 font-family: 'Playfair Display';
 font-style: normal;
@@ -180,21 +141,11 @@ line-height: 115px;
 color: #000000;
 }
 
-<<<<<<< HEAD
-.about{
-  position: absolute;
-  width: 44%;
-  height: 42px;
-  left: 60%;  
-  top: 45.5%;
-  /* about block font*/
-=======
 .list-bio {
   flex: 1 1 0;
   max-width:88%;
   margin:0% 2% 6%;
   list-style-type: none;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -229,19 +180,11 @@ color: #000000;
 }
 
 .articlebio {
-<<<<<<< HEAD
-  position: absolute;
-  width: 38%;
-  height: 124px;
-  left: 56%;
-  top: 59%;
-=======
   display: flex;
   flex-basis: 48%;
   height: 124px;
   margin:5% 13% 5%;
   width:87%;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   /* article bio block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -252,30 +195,6 @@ color: #000000;
   color: #0D0D0D;  
 }
 
-<<<<<<< HEAD
-.rectangle{
-  position: absolute;
-  width: 1%;
-  height: 4px;
-  left: 59.5%;
-  top: 525px;
-  
-  background: #0D0D0D;
-}
-
-.wrapper3 {
-  max-width: 1337px;
-  margin:0 auto;
-}
-
-.designers{
-position: relative;
-height: 619px;
-top: 140px;
-}
-
-.designerstext{
-=======
 .wrapper3 {
   max-width: 1337px;
   margin:0 auto;
@@ -288,7 +207,6 @@ top: 0px;
 }
 
 .designerstext {
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   position: absolute;
   width: 7%;
   height: 24px;
@@ -359,13 +277,8 @@ top: 0px;
   height: 439.46px;
   left: 77%;
   margin-left:1px;
-<<<<<<< HEAD
-  top: 265px;  
-  background: url(/images/stil-_mv.jpg);
-=======
   top: 265px; 
   background: url(/images/stil_mv.jpg);
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
 }
 
 .txtLouisse {
@@ -384,12 +297,6 @@ color: #000000;
 }
 
 .Testimonials {
-<<<<<<< HEAD
-  position: relative;
-  height: 813px;
-  left: 0px;
-  top: 558px;  
-=======
   display: grid;
   position: relative;
   grid-template-columns: 1fr 3fr 3fr;
@@ -398,7 +305,6 @@ color: #000000;
   height: 813px;
   left: 0px;
   top: 420px;  
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
 }
 
 .item-testimonials-1 {
@@ -409,13 +315,8 @@ color: #000000;
 .Testimonials-title {
   width: 8%;
   height: 23px;
-<<<<<<< HEAD
-  left: 9%;
-  top: -2%;
-=======
   margin-left: 65.5%;
   margin-top: 0%;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -426,14 +327,6 @@ color: #000000;
   color: #000000;
 }
 
-<<<<<<< HEAD
-.TxtCreativity {
-  position: absolute;
-  width: 13%;
-  height: 49px;
-  left: 4.3%;
-  top:78%;  
-=======
 .item-testimonials-2 {
   grid-row: 2 / 3;
   grid-column: 1/2; 
@@ -444,7 +337,6 @@ color: #000000;
   height: 49px;
   margin-left: 69%;
   margin-top: 75%;  
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -454,14 +346,6 @@ color: #000000;
   transform: rotate(-90deg); 
 }
 
-<<<<<<< HEAD
-.TxtCreativity1 {
-  position: absolute;
-  width: 13%;
-  height: 49px;
-  left: 4.3%;
-  top:49.5%;  
-=======
 .item-testimonials-3 {
   grid-row: 3 / 4;
   grid-column: 1/2; 
@@ -472,7 +356,6 @@ color: #000000;
   height: 49px;
   margin-left: 69%;
   margin-top: 18%;  
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -482,14 +365,6 @@ color: #000000;
   transform: rotate(-90deg);
 }
 
-<<<<<<< HEAD
-.websitetxt{
-  position:absolute;
-  width: 13%;
-  height:49px;
-  left:4.3%;
-  top:21.5%;
-=======
 .item-testimonials-4 {
   grid-row: 3 / 4;
   grid-column: 1/2; 
@@ -500,7 +375,6 @@ color: #000000;
   height:49px;
   margin-left: 69%;
   margin-top: 130%;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   /* website block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -511,48 +385,6 @@ color: #000000;
   transform: rotate(-90deg);
 }
 
-<<<<<<< HEAD
-.frame30Testimonials{
-  position: absolute;
-  width: 82%;
-  height: 760px;
-  left: 10.2%;
-  top: 7.5%;
-}
-
-.imgTestimonials{
-  position: absolute;
-  width: 43%;
-  height: 757px;
-  left: 5%;
-  top: 0px;  
-  background: url(/images/keghan-crossland.jpg);
-}
-
-.frame27Testimonials{
-  padding: 0px;
-  position: absolute;
-  width: 40%;
-  height: 760px;
-  left: 54%;
-  top: 8%;
-}
-
-.imgsinitta{
-  position: absolute;
-  width: 37%;
-  height: 333px;
-  left: 22.5%;
-  top: 50.3%;
-  background: url(/images/sinitta-leunen.jpg);
-}
-
-.articletestimonials{
-  position: absolute;
-  width: 43%;
-  height: 304px;
-  left: 20%;
-=======
 a {
   text-decoration: none;
   color: black;
@@ -593,7 +425,6 @@ a {
   height: 304px;
   margin-left: -19%;
   margin-top: -9%;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   /* articletestimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -605,8 +436,6 @@ a {
   color: #000000;
 }
 
-<<<<<<< HEAD
-=======
 .item-testimonials-7 {
   grid-row: 3 / 4;
   grid-column: 3 / 4;
@@ -624,25 +453,16 @@ a {
   background: url(/images/sinitta-leunen.jpg);
 }
 
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
 .wrapper4 {
   max-width: 1686px;
   margin:0 auto;
 }
 
-<<<<<<< HEAD
-.strongpoints{
-  position: relative;
-  height: 665px;
-  left:0px;
-  top: 695px;
-=======
 .strongpoints {
   position: relative;
   height: 665px;
   left:0px;
   margin-top: 545px;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
 }
 
 .strongtxt{
@@ -697,11 +517,7 @@ a {
   top: -13%;
 }
 
-<<<<<<< HEAD
-h3 {
-=======
 .strength-title {
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   width: 22.4%;
   height: 7%;
   /* h3 block font*/
@@ -713,25 +529,11 @@ h3 {
   color: #000000;
 }
 
-<<<<<<< HEAD
-.frame14 {
-=======
 .frame-txt-strength {
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   position: absolute;
   padding: 0px; 
   width: 23.4%;
   height: 506.49px;
-<<<<<<< HEAD
-  top:220px;
-  left:21%;
-}
-
-.txtframe14 {
-  position: absolute;
-  width: 13.6%;
-  /* txtframe14 block font*/
-=======
   top:0%;
 }
 
@@ -745,7 +547,6 @@ h3 {
 .list-item-footer {
   list-style-type: none;
   position: relative;
->>>>>>> b5058cd552491dc72179536dd0a04aa30f714e96
   font-family: 'Bitter';
   font-style: normal;
   font-weight: 400;
