@@ -28,9 +28,15 @@ body{
   margin:0 auto;
 }
 
+
 .hero-section{
+display:block;
+overflow: clip;
 position: relative;
 height: 630px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 background: url(/images/inside-weather.jpg);
 }
 
@@ -73,27 +79,32 @@ color: #000000;
 }
 
 .biography {
-position: relative;
+display: flex;
+flex-flow: row nowrap;
 height: 840px;
-top:135px;
+margin-top:135px;
+justify-content: flex-start;
+align-items: center;
+align-content: flex-start;
 }
 
-.image_biography{
-position: absolute;
-left: 0px;
-top: 0px;
-width: 47%;
+.image_biography {
+align-self: flex-start;
+flex: 1 1 47%;
+max-width: 47%;
 height: 840px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 background: url(/images/jared-weiss.jpg);
 }
 
-.biographytext{
-position: absolute;
-width: 7%;
+.biographytext {
+display: flex;
+flex-basis: 7%;
 height: 23px;
-top:3%;
-left:47.5%;
-transform: translate(-50%,-50%);
+align-self: flex-start;
+margin-top:3%;
 /* biography block font*/
 font-family: 'Roboto';
 font-style: normal;
@@ -106,12 +117,20 @@ color: #000000;
 transform: rotate(-90deg);
 }
 
-h2{
-position: absolute;
-width: 20%;
+.bio-txt-section {
+display: flex;
+flex: 1 1 auto;
+flex-flow: column nowrap;
+}
+
+.biography-title {
+display: flex;
+flex-basis: 44%;
 height: 230px;
-left: 59.5%;
-top: 91px;
+align-self: flex-start;
+flex: 1 1 auto;
+margin:15% 11% 0;
+/* margin-top:54%; */
 /* h2 block font*/
 font-family: 'Playfair Display';
 font-style: normal;
@@ -122,12 +141,12 @@ line-height: 115px;
 color: #000000;
 }
 
-.about{
-  position: absolute;
-  width: 44%;
+.bio-txt-about {
+  display: flex;
+  flex: 1 1 100%;
+  width:88%;
   height: 42px;
-  left: 60%;  
-  top: 45.5%;
+  margin:0% 12% -8%;
   /* about block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -138,12 +157,20 @@ color: #000000;
   color: #0D0D0D;
 }
 
+.rectanglebio {
+  display: flex;
+  width: 3%;
+  height: 4px;
+  margin:20% 12% -2%;
+  background: #0D0D0D;
+}
+
 .articlebio {
-  position: absolute;
-  width: 38%;
+  display: flex;
+  flex-basis: 38%;
   height: 124px;
-  left: 56%;
-  top: 59%;
+  margin:0% 12% 16%;
+  width:80%;
   /* article bio block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -154,28 +181,18 @@ color: #000000;
   color: #0D0D0D;  
 }
 
-.rectangle{
-  position: absolute;
-  width: 1%;
-  height: 4px;
-  left: 59.5%;
-  top: 525px;
-  
-  background: #0D0D0D;
-}
-
 .wrapper3 {
   max-width: 1337px;
   margin:0 auto;
 }
 
-.designers{
+.designers {
 position: relative;
 height: 619px;
-top: 140px;
+top: 0px;
 }
 
-.designerstext{
+.designerstext {
   position: absolute;
   width: 7%;
   height: 24px;
@@ -246,8 +263,8 @@ top: 140px;
   height: 439.46px;
   left: 77%;
   margin-left:1px;
-  top: 265px;  
-  background: url(/images/stil-_mv.jpg);
+  top: 265px; 
+  background: url(/images/stil_mv.jpg);
 }
 
 .txtLouisse{
@@ -269,7 +286,7 @@ color: #000000;
   position: relative;
   height: 813px;
   left: 0px;
-  top: 558px;  
+  top: 420px;  
 }
 
 .Testimonialstxt {
@@ -394,7 +411,7 @@ color: #000000;
   position: relative;
   height: 665px;
   left:0px;
-  top: 695px;
+  top: 560px;
 }
 
 .strongtxt{
@@ -449,7 +466,7 @@ color: #000000;
   top: -13%;
 }
 
-h3 {
+.strength-title {
   width: 22.4%;
   height: 7%;
   /* h3 block font*/
@@ -461,7 +478,7 @@ h3 {
   color: #000000;
 }
 
-.frame14 {
+.frame-txt-strength {
   position: absolute;
   padding: 0px; 
   width: 23.4%;
@@ -470,7 +487,7 @@ h3 {
   left:21%;
 }
 
-.txtframe14 {
+.txt-strength {
   position: absolute;
   width: 13.6%;
   /* txtframe14 block font*/
