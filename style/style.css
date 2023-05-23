@@ -301,6 +301,8 @@ color: #000000;
   position: relative;
   grid-template-columns: 1fr 3fr 3fr;
   grid-template-rows: 1fr 3fr 3fr;
+  align-items: center;
+  justify-content: space-between;
   padding: 10px 10px;
   height: 813px;
   left: 0px;
@@ -316,7 +318,7 @@ color: #000000;
   width: 8%;
   height: 23px;
   margin-left: 65.5%;
-  margin-top: 0%;
+  margin-top: -30%;
   /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -336,7 +338,7 @@ color: #000000;
   width: 13%;
   height: 49px;
   margin-left: 69%;
-  margin-top: 75%;  
+  margin-top: 5%;  
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -347,15 +349,16 @@ color: #000000;
 }
 
 .item-testimonials-3 {
-  grid-row: 3 / 4;
+  grid-row: 2 / 4;
   grid-column: 1/2; 
+  margin-left: 75%;
+  margin-top: 55%; 
 }
 
 .subtitle-2 {
   width: 13%;
   height: 49px;
-  margin-left: 69%;
-  margin-top: 18%;  
+   
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -368,13 +371,14 @@ color: #000000;
 .item-testimonials-4 {
   grid-row: 3 / 4;
   grid-column: 1/2; 
+  margin-left: 75%;
+  margin-top: 110%;
 }
 
 .subtitle-3 {
   width: 13%;
   height:49px;
-  margin-left: 69%;
-  margin-top: 130%;
+  
   /* website block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -396,10 +400,11 @@ a {
 }
 
 .left-frame-Testimonials{
-  max-width: 82%;
+  display: block;
+  /* max-width: 82%;
   height: 760px;
   margin-left: 0%;
-  margin-top: 0%;
+  margin-top: 4.5%; */
 }
 
 .img-left-Testimonials{
@@ -407,7 +412,6 @@ a {
   height: 757px;
   margin-left: 0%;
   margin-top: 4.5%; 
-  /* display: block; */
   /* max-width: 100%;  */
   background-repeat: no-repeat;
   background-position: center;
@@ -421,10 +425,10 @@ a {
 }
 
 .article-testimonials{
-  width: 100%;
+  max-width: 100%;
   height: 304px;
   margin-left: -19%;
-  margin-top: -9%;
+  margin-top: -21%;
   /* articletestimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -443,10 +447,11 @@ a {
 }
 
 .img-right-Testimonials {
+  display: block;
   width: 36%;
   height: 333px;
   margin-left: 12.5%;
-  margin-top: -6.5%;
+  margin-top: -10.5%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
