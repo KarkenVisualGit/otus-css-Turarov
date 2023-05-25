@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,124 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <! -- comment Подключение google шрифтов -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    
     <title>Document</title>
 </head>
 <body>
     <main>
-        <header>
-            <! -- comment Линии элемента меню -->
-            <br><menu top: 60px;></menu>
-            <br><menu top: 67px;></menu>
-            <br><menu top: 75px;></menu>
+        <header class="menu wrapper" >
+            <p><button class="button"><img src="/images/Menu.png" alt="menu_button"></button></p>   
         </header>
-        <section class="div_hero">
-            <! -- comment Блок секции hero -->
-            <img src="images/inside-weather-Uxqlfigh6oE-unsplash.jpg" alt="image_hero">
-            </section>
-            <element class="frame">
-                <h1>Mod Studio</h1>
-                <p class="hero-text" style="align-self:center;">Modern Web Studio</p>
-            </element>
-        <section class="biography">
-            <! -- comment Блок секции biography -->
-        <img class="image_biography" src="images/jared-weiss-P3cB0ynqYBw-unsplash.jpg" alt="biography_image">
-        <p class="biographytext">Biography</p> 
-        <h2>Katya <br>Mills</h2>
-        <p class="about"> 
-        <br> Art Director 
-        <br>Scenography / Styling / Creative Photography / Design</p>
-        <element class="rectangle"></element>
-        <article class="articlebio">
+
+        <section class="hero-section wrapper1">
+            <div class="frame-hero">
+                <h1 class="hero-title">Mod Studio</h1>
+                <p class="hero-text">Modern Web Studio</p>
+            </div>
+        </section>
+
+        <section class="biography wrapper2">
+        <img class="image_biography">
+        <p class="biographytext">Biography</p>
+        <div class="bio-txt-section">
+        <h2 class="biography-title">Katya <br>Mills</h2>
+        <ul class="list-bio">
+            <li class="list-item-bio">Art Director</li><br>
+            <li class="list-item-bio">Scenography</li> 
+            <li class="list-item-bio">Styling</li>
+            <li class="list-item-bio">Creative Photography</li>
+            <li class="list-item-bio">Design</li>
+        </ul>
+        <blockquote class="articlebio">
             <br>“The more I deal with the work 
             <br>as something that is my own, 
             <br>as something that is personal, 
             <br>the more successful it is.”
-        </article>
-        </section> 
-        <section class="designers">
-            <! -- comment Блок секции designers -->
-            <img class="imgJess" src="images/spurwing-agency-r6LceZ3ckpM-unsplash.jpg" alt="ImageJess">
+        </blockquote>
+        </div>
+        </section>  
+
+        <div class="designers wrapper3">
+            <img class="imgJess">
             <p class="designerstext">Designers</p>
             <p class="textJess">
-                <element style="text-transform: uppercase;"><strong>Jess Wonder</strong></element>
-                <br><strong>From/ </strong>Be more flower</element>
-                <br><strong>Skills/</strong> Design Strategy / Marketing</element>
+                <span style="text-transform: uppercase;"><strong>Jess Wonder</strong></span>
+                <br><strong>From/ </strong>Be more flower
+                <br><strong>Skills/</strong> Design Strategy / Marketing
             </p>
-            <img class="imgKameron" src="images/stil-P1jQzyvqfns-unsplash.jpg">
+            <img class="imgKameron" alt="ImageKameron">
             <p class="txtKameron">
-                <element style="text-transform: uppercase"><strong>Kameron Clein</strong></element>
+                <span style="text-transform: uppercase"><strong>Kameron Clein</strong></span>
                 <br><strong>From/</strong> Be more flower
                 <br><strong>Skills/</strong>
-                <element style="font-weight:lighter">Design Strategy / Marketing</element>
+                <span style="font-weight:lighter">Design Strategy / Marketing</span>
             </p>
-            <img class="imgLouisse" src="images/stil-_mvSe9q8_n4-unsplash.jpg">
+            <img class="imgLouisse" alt="ImageLouisse">
             <p class="txtLouisse">
-                <element style="text-transform: uppercase"><strong>Louisse Red</strong></element>
+                <span style="text-transform: uppercase"><strong>Louisse Red</strong></span>
                 <br><strong>From/</strong>
-                <element style="font-weight:lighter"> Be more flower</element>
+                <span style="font-weight:lighter"> Be more flower</span>
                 <br><strong>Skills/</strong>
-                <element style="font-weight:lighter">Design Strategy / Marketing</element>
+                <span style="font-weight:lighter">Design Strategy / Marketing</span>
             </p>
-       </section>
-       <section class="Testimonials">
-        <! -- comment Блок секции Testimonials -->
-        <p class="Testimonialstxt">
+        </div>
+        
+    <div class="Testimonials wrapper">
+        <div class="item-testimonials-1">
+            <p class="Testimonials-title">
             Testimonials   
-        </p>
-        <p class="TxtCreativity"><span style="font-weight: 700">Creativity</span>
-        <br>www.whitepapers.com</p>
-        <p class="TxtCreativity1"><span style="font-weight: 700">Creativity</span> 
-        <br>www.whitepapers.com</p>
-        <p class="websitetxt"> <span style="font-weight: 700">Website</span> 
-        <br>www.whitepapers.com</p>
-        <span class="frame30Testimonials">
-        <img src="images/keghan-crossland-ZZxmc66SjfM-unsplash.jpg" class="imgTestimonials">
-        </span>
-         <span class="frame27Testimonials">
-            <article class="articletestimonials">
+            </p>
+        </div>
+        <div class="item-testimonials-2">
+            <p class="subtitle-1"><span style="font-weight: 700">Website</span>
+            <br><a href="">www.whitepapers.com</a></p>
+        </div>
+        <div class="item-testimonials-3">
+            <p class="subtitle-2"><span style="font-weight: 700">Creativity</span> 
+            <br><a href="">www.whitepapers.com</a></p>
+        </div>
+        <div class="item-testimonials-4">
+            <p class="subtitle-3"> <span style="font-weight: 700">Creativity</span> 
+            <br><a href="">www.whitepapers.com</a></p>
+        </div>
+        <div class="item-testimonials-5">
+            <span class="left-frame-Testimonials">
+            <img class="img-left-Testimonials">
+            </span>
+        </div>
+        <div class="item-testimonials-6">
+            <p class="article-testimonials">
                 <br>I just really 
                 <br>want to do 
                 <br>good work 
                 <br>and work with 
                 <br>some great 
                 <br>people, people 
-                <br>who challenge me.
-                </article>
-            <img class="imgsiinitta" src="images/sinitta-leunen-YaReHIzNdRw-unsplash.jpg">
-            </span>
-       </section>
-       <section class="strongpoints">
-        <! -- comment Блок секции strongpoints -->
-        <p class = "strongtxt">Strong points</p>   
-        <img src="images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg" class="imgstrong"> 
-        <img src="images/avery-klein-JaXs8Tk5Iww-unsplash.jpg" class="imgstrong1">
-        <img src="images/avery-klein-JaXs8Tk5Iww-unsplash.jpg" class="imgstrong2">
-        <span class="framestrong">
-            <h3>Strengths</h3>
-        <element class="frame14">
-        <p class="txtframe14">Interiors
-        <br> Outdoors
-        <br> Portraits
-        <br> Styling
-        <br>Events
-        <br> Architecture
-        <br> Design
-        <br> Celebrations
-        <br> Artistic
-        <br> Fashion
-        <br> Nature
-        <br> Creativity
+                <br>who challenge 
+                <br>me.
+            </p>
+        </div>
+        <p class="item-testimonials-7">    
+            <img class="img-right-Testimonials">
         </p>
-        </element>
-        </span>
+    </div>
+
+       <section class="strongpoints wrapper4">
+        <p class="strongtxt">Strong points</p>   
+        <img class="imgstrong"> 
+        <img class="imgstrong1">
+        <img class="imgstrong2">
+        <div class="framestrong">
+        <h3 class="strength-title">Strengths</h3>
+        <p class="frame-txt-strength">
+        <ul class="list-footer">
+            <li class="list-item-footer">Interiors</li>
+            <li class="list-item-footer">Outdoors</li>
+            <li class="list-item-footer">Portraits</li>
+            <li class="list-item-footer">Styling</li>
+            <li class="list-item-footer">Events</li>
+            <li class="list-item-footer">Architecture</li>
+            <li class="list-item-footer">Design</li>
+            <li class="list-item-footer">Celebrations</li>
+            <li class="list-item-footer">Artistic</li>
+            <li class="list-item-footer">Fashion</li>
+            <li class="list-item-footer">Nature</li>
+            <li class="list-item-footer">Creativity</li>
+        </ul>
+        </p>
+    </div>
     </section>
+
     </main>
 </body>
 </html>
