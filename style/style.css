@@ -101,7 +101,7 @@ background: url(/images/jared-weiss.jpg);
 
 .biographytext {
 display: flex;
-flex-basis: 7%;
+flex-basis: 8%;
 height: 23px;
 align-self: flex-start;
 margin-top:3%;
@@ -129,7 +129,7 @@ flex-basis: 44%;
 height: 230px;
 align-self: flex-start;
 flex: 1 1 auto;
-margin:15% 11% 0;
+margin: 5% 10% 5%;
 /* margin-top:54%; */
 /* h2 block font*/
 font-family: 'Playfair Display';
@@ -141,36 +141,50 @@ line-height: 115px;
 color: #000000;
 }
 
-.bio-txt-about {
-  display: flex;
-  flex: 1 1 100%;
-  width:88%;
-  height: 42px;
-  margin:0% 12% -8%;
-  /* about block font*/
+.list-bio {
+  flex: 1 1 0;
+  max-width:88%;
+  margin:0% 2% 6%;
+  list-style-type: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  
   color: #0D0D0D;
 }
 
-.rectanglebio {
+.list-item-bio {
+  display: inline-block;
+}
+
+.list-item-bio::after {
+  content: " /"
+}
+
+.list-item-bio:first-child::after {
+  content: ""
+}
+
+.list-item-bio:last-child::after {
+  content: ""
+}
+
+.articlebio::before {
   display: flex;
+  content: "";
   width: 3%;
   height: 4px;
-  margin:20% 12% -2%;
+  margin:2% -3% 0%;
   background: #0D0D0D;
 }
 
 .articlebio {
   display: flex;
-  flex-basis: 38%;
+  flex-basis: 48%;
   height: 124px;
-  margin:0% 12% 16%;
-  width:80%;
+  margin:5% 13% 5%;
+  width:87%;
   /* article bio block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -267,7 +281,7 @@ top: 0px;
   background: url(/images/stil_mv.jpg);
 }
 
-.txtLouisse{
+.txtLouisse {
 position: absolute;
 width: 24%;
 height: 57px;
@@ -283,18 +297,28 @@ color: #000000;
 }
 
 .Testimonials {
+  display: grid;
   position: relative;
+  grid-template-columns: 1fr 3fr 3fr;
+  grid-template-rows: 1fr 3fr 3fr;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
   height: 813px;
   left: 0px;
   top: 420px;  
 }
 
-.Testimonialstxt {
-  position: absolute;
-  width: 117px;
+.item-testimonials-1 {
+  grid-row:1 / 2;
+  grid-column: 1 / 2; 
+}
+
+.Testimonials-title {
+  width: 8%;
   height: 23px;
-  left: 9%;
-  top: -2%;
+  margin-left: 65.5%;
+  margin-top: -30%;
   /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -305,12 +329,16 @@ color: #000000;
   color: #000000;
 }
 
-.TxtCreativity {
-  position: absolute;
+.item-testimonials-2 {
+  grid-row: 2 / 3;
+  grid-column: 1/2; 
+}
+
+.subtitle-1 {
   width: 13%;
   height: 49px;
-  left: 4.3%;
-  top:78%;  
+  margin-left: 69%;
+  margin-top: 5%;  
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -320,12 +348,17 @@ color: #000000;
   transform: rotate(-90deg); 
 }
 
-.TxtCreativity1 {
-  position: absolute;
+.item-testimonials-3 {
+  grid-row: 2 / 4;
+  grid-column: 1/2; 
+  margin-left: 75%;
+  margin-top: 55%; 
+}
+
+.subtitle-2 {
   width: 13%;
   height: 49px;
-  left: 4.3%;
-  top:49.5%;  
+   
   /* TxtCreativity block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -335,12 +368,17 @@ color: #000000;
   transform: rotate(-90deg);
 }
 
-.websitetxt{
-  position:absolute;
+.item-testimonials-4 {
+  grid-row: 3 / 4;
+  grid-column: 1/2; 
+  margin-left: 75%;
+  margin-top: 110%;
+}
+
+.subtitle-3 {
   width: 13%;
   height:49px;
-  left:4.3%;
-  top:21.5%;
+  
   /* website block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -351,46 +389,46 @@ color: #000000;
   transform: rotate(-90deg);
 }
 
-.frame30Testimonials{
-  position: absolute;
-  width: 82%;
-  height: 760px;
-  left: 10.2%;
-  top: 7.5%;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.imgTestimonials{
-  position: absolute;
-  width: 43%;
+.item-testimonials-5 {
+  grid-row: 1 / 4;
+  grid-column: 2 / 4; 
+}
+
+.left-frame-Testimonials{
+  display: block;
+  /* max-width: 82%;
+  height: 760px;
+  margin-left: 0%;
+  margin-top: 4.5%; */
+}
+
+.img-left-Testimonials{
+  width: 41.5%;
   height: 757px;
-  left: 5%;
-  top: 0px;  
+  margin-left: 0%;
+  margin-top: 4.5%; 
+  /* max-width: 100%;  */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background: url(/images/keghan-crossland.jpg);
 }
 
-.frame27Testimonials{
-  padding: 0px;
-  position: absolute;
-  width: 40%;
-  height: 760px;
-  left: 54%;
-  top: 8%;
+.item-testimonials-6 {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4; 
 }
 
-.imgsinitta{
-  position: absolute;
-  width: 37%;
-  height: 333px;
-  left: 22.5%;
-  top: 50.3%;
-  background: url(/images/sinitta-leunen.jpg);
-}
-
-.articletestimonials{
-  position: absolute;
-  width: 43%;
+.article-testimonials{
+  max-width: 100%;
   height: 304px;
-  left: 20%;
+  margin-left: -19%;
+  margin-top: -21%;
   /* articletestimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -402,16 +440,34 @@ color: #000000;
   color: #000000;
 }
 
+.item-testimonials-7 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+
+}
+
+.img-right-Testimonials {
+  display: block;
+  width: 36%;
+  height: 333px;
+  margin-left: 12.5%;
+  margin-top: -10.5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: url(/images/sinitta-leunen.jpg);
+}
+
 .wrapper4 {
   max-width: 1686px;
   margin:0 auto;
 }
 
-.strongpoints{
+.strongpoints {
   position: relative;
   height: 665px;
   left:0px;
-  top: 560px;
+  margin-top: 545px;
 }
 
 .strongtxt{
@@ -483,14 +539,19 @@ color: #000000;
   padding: 0px; 
   width: 23.4%;
   height: 506.49px;
-  top:220px;
-  left:21%;
+  top:0%;
 }
 
-.txt-strength {
+.list-footer {
   position: absolute;
   width: 13.6%;
-  /* txtframe14 block font*/
+  margin-top: 10%;
+  margin-left:9%;
+}
+
+.list-item-footer {
+  list-style-type: none;
+  position: relative;
   font-family: 'Bitter';
   font-style: normal;
   font-weight: 400;
