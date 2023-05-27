@@ -206,7 +206,7 @@ height: 619px;
 top: 0px;
 }
 
-.designerstext {
+.designers-title {
   position: absolute;
   width: 7%;
   height: 24px;
@@ -223,7 +223,7 @@ top: 0px;
   transform: rotate(-90deg);
 }
 
-.imgJess {
+.img-Designer1 {
   position: absolute;
   width: 47.5%;
   height: 538px;
@@ -232,7 +232,7 @@ top: 0px;
   background: url(/images/spurwing-agency.jpg);
 }
 
-.textJess {
+.text-Designer1 {
   position: absolute;
   width: 24%;
   height: 57px;
@@ -247,7 +247,7 @@ top: 0px;
   color: #000000;
 }
 
-.imgKameron{
+.img-Designer2 {
   position: absolute;
   width: 24%;
   height: 439.46px;
@@ -256,7 +256,7 @@ top: 0px;
   background: url(/images/stil-P1.jpg);
 }
 
-.txtKameron{
+.txt-Designer2 {
   position: absolute;
   width: 24%;
   height: 57px;
@@ -271,7 +271,7 @@ top: 0px;
   color: #000000;
 }
 
-.imgLouisse{
+.img-Designer3 {
   position: absolute;
   width: 24%;
   height: 439.46px;
@@ -281,7 +281,7 @@ top: 0px;
   background: url(/images/stil_mv.jpg);
 }
 
-.txtLouisse {
+.txt-Designer3 {
 position: absolute;
 width: 24%;
 height: 57px;
