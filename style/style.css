@@ -197,7 +197,7 @@ color: #000000;
 
 .wrapper3 {
   max-width: 1337px;
-  margin:0 auto;
+  margin:0 auto; 
 }
 
 .designers {
@@ -210,7 +210,7 @@ top: 0px;
   position: absolute;
   width: 7%;
   height: 24px;
-  left: 72%;
+  left: 71%;
   top: 29.3%;
   /* designers block font*/
   font-family: 'Roboto';
@@ -227,7 +227,7 @@ top: 0px;
   position: absolute;
   width: 47.5%;
   height: 538px;
-  left: 1.5%;
+  left: 0%;
   top: 169px;
   background: url(/images/spurwing-agency.jpg);
 }
@@ -236,7 +236,7 @@ top: 0px;
   position: absolute;
   width: 24%;
   height: 57px;
-  left: 25%;
+  left: 24%;
   top: 115%;
   /* textJess block font*/
   font-family: 'Roboto';
@@ -251,7 +251,7 @@ top: 0px;
   position: absolute;
   width: 24%;
   height: 439.46px;
-  left: 51%;
+  left: 50%;
   top: 265px;
   background: url(/images/stil-P1.jpg);
 }
@@ -260,7 +260,7 @@ top: 0px;
   position: absolute;
   width: 24%;
   height: 57px;
-  left: 51.5%;
+  left: 50%;
   top: 114.5%;
   /* textJess block font*/
   font-family: 'Roboto';
@@ -275,8 +275,7 @@ top: 0px;
   position: absolute;
   width: 24%;
   height: 439.46px;
-  left: 77%;
-  margin-left:1px;
+  left: 76%;
   top: 265px; 
   background: url(/images/stil_mv.jpg);
 }
@@ -285,7 +284,7 @@ top: 0px;
 position: absolute;
 width: 24%;
 height: 57px;
-left: 77.5%;
+left: 76%;
 top: 114.5%;
 /* textLouisse block font*/
 font-family: 'Roboto';
@@ -315,6 +314,7 @@ color: #000000;
 }
 
 .Testimonials-title {
+  display:block;
   width: 100%;
   height: 23px;
   /* Testimonials block font*/
@@ -323,25 +323,26 @@ color: #000000;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  transform: translateX(128px) translateY(-20px);
+  padding: 0rem 0rem 0rem 0rem;
+  transform: translateX(130px) translateY(-20px);
   color: #000000;
 }
 
 .site-name {
-   transform: translateX(128px) translateY(0px);
-   transform: rotate(-90deg);
+  display:block;
+  transform: translate(-2.3rem, -7rem) rotate(-90deg);
 }
 
 .item-testimonials-2 {
-  grid-column: 1 / 3;
-  grid-row: 2 / 4;
-  transform: translate(20px, -20%); 
+  grid-area: 2 / 2 / 5 / 3;
+  transform: translate(0rem, 8rem); 
   justify-self: start;
   align-self: start;
 }
 
 .subtitle-1 {
-  /* display: block; */
+  display: block;
+  padding: 0rem 0rem 0rem 0rem;
   width: 100%;
   height: 49px;
   /* TxtCreativity block font*/
@@ -352,11 +353,13 @@ color: #000000;
   line-height: 1.2rem;
   color: #000000;
   padding-left: 0%;
-  transform: rotate(-90deg); 
+  writing-mode: vertical-rl;
+  transform: rotate(180deg); 
 }
 
 .item-testimonials-3 {
-  grid-area: 4 / 1 / 6 / 2; 
+  grid-area: 5 / 2 / 7 / 3;
+  transform: translate(0rem, 0.5rem); 
 }
 
 .subtitle-2 {
@@ -370,11 +373,13 @@ color: #000000;
   font-size: 1rem;
   line-height: 1.2rem;
   color: #000000;
-  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
 .item-testimonials-4 {
-  grid-area: 6 / 1 / 8 / 2; 
+  grid-area: 7 / 2 / 9 / 3; 
+  transform: translate(0rem, 1.7rem);
  
 }
 
@@ -389,20 +394,19 @@ color: #000000;
   font-size: 16px;
   line-height: 19px; 
   color: #000000;
-  
-  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
-a {
+.a_testimonials {
   text-decoration: none;
   color: black;
-  
 }
 
 .item-testimonials-5 {
   grid-area: 1 / 2 / 9 / 7;
-  justify-self:stretch;
-  align-self: center;
+  /* justify-self: start;
+  align-self: center; */
 }
 
 .left-frame-Testimonials{
@@ -410,9 +414,9 @@ a {
 }
 
 .img-left-Testimonials{
-  width: 90.5%;
+  width: 82.3%;
   height: 757px;
-  transform: translateX(27px) translateY(25px);
+  transform: translate(5.1rem, 1.5rem);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -427,7 +431,7 @@ a {
 .article-testimonials{
   max-width: 100%;
   height: 304px;
-  padding: 0% 20%;
+  padding: 2% 20%;
   transform: translateX(25px) translateY(10px);
   /* articletestimonials block font*/
   font-family: 'Bitter';
@@ -448,10 +452,10 @@ a {
 
 .img-right-Testimonials {
   display: block;
-  width: 91%;
+  width: 100%;
   height: 333px;
-  padding: 0% 5%;
-  transform: translateX(30px) translateY(10px);
+  padding: 0% 0%;
+  transform: translateX(30px) translateY(18px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
