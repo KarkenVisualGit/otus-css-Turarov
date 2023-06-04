@@ -247,7 +247,7 @@ margin-top: 160px;
   display: block;
   width: 95.4%;
   height: 538px;
-  margin-left: 2.5%;
+  margin-left: 0.5%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -274,6 +274,10 @@ margin-top: 160px;
   /* outline: 1px solid red; */
 }
 
+.designer_name {
+  text-transform: uppercase;
+}
+
 .list-item-des {
   display: inline-block;
   max-width: 100%;
@@ -295,7 +299,7 @@ margin-top: 160px;
   display: block;
   width: 104%;
   height: 439.46px;
-  margin-left: -2%;
+  margin-left: -4%;
   margin-top: 31%;
   /* left: 51%; */
   background-repeat: no-repeat;
@@ -332,7 +336,7 @@ margin-top: 160px;
   display: block;
   width: 106%;
   height: 439.46px;
-  margin-left:0%;
+  margin-left:-4%;
   margin-top: 32%; 
   background-repeat: no-repeat;
   background-position: center;
