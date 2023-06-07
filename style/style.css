@@ -258,7 +258,7 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: url(/images/spurwing-agency.jpg);
+  background-image: url(/images/spurwing-agency.jpg);
   transform: translateX(20px) translateY(10px);
 }
 
@@ -314,7 +314,7 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: url(/images/stil-P1.jpg);
+  background-image: url(/images/stil-P1.jpg);
   transform: translateX(20px);
 }
 
@@ -345,7 +345,7 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: url(/images/stil_mv.jpg);
+  background-image: url(/images/stil_mv.jpg);
   
 }
 
@@ -378,7 +378,7 @@ margin-top: 7%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: url(/images/spurwing-agency.jpg);
+  background-image: url(/images/spurwing-agency.jpg);
   /* outline: 1px solid red; */
 }
 
