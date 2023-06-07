@@ -1,6 +1,7 @@
 .wrapper{
   max-width: 1440px;
   margin:0 auto;
+  /* outline: 1px solid red; */
 }
 
 .menu {
@@ -18,19 +19,20 @@ left:48.5%;
 body{
   /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.2em;
+  font-size: 1rem;
+  line-height: 1.2rem;
   background-color:#FFFFFF;
 }
 
 .wrapper1 {
+  display:block;
   max-width: 1065px;
   margin:0 auto;
+  /* outline: 1px solid red; */
 }
 
 
 .hero-section{
-display:block;
 overflow: clip;
 position: relative;
 height: 630px;
@@ -76,13 +78,14 @@ color: #000000;
 .wrapper2 {
   max-width: 1175px;
   margin:0 auto;
+  /* outline: 1px solid red; */
 }
 
 .biography {
 display: flex;
 flex-flow: row nowrap;
 height: 840px;
-margin-top:135px;
+margin-top: 143px;
 justify-content: flex-start;
 align-items: center;
 align-content: flex-start;
@@ -198,103 +201,208 @@ color: #000000;
 .wrapper3 {
   max-width: 1337px;
   margin:0 auto;
+  /* outline: 1px solid red; */
+  /* overflow-x: auto; */
+  
 }
 
 .designers {
-position: relative;
-height: 619px;
-top: 0px;
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row nowrap;
+	align-items: center;
+	position: relative;
+	/* outline: 1px solid red; */
+	margin-top: 160px;
+	overflow-x: auto;
+  transform: translateX(0px);
 }
 
-.designerstext {
+.item-designer-big { 
+  display: flex;
+  flex: 1 0 50%; 
+  flex-flow: column nowrap; 
+}
+
+.item-designer-middle { 
+  display: flex;
+  flex: 1 0 25%;  
+  flex-flow: column nowrap; 
+}
+
+.designers-title {
   position: absolute;
   width: 7%;
   height: 24px;
-  left: 72%;
-  top: 29.3%;
+  margin-left: 23.5%;
+  margin-top: 2%;
+  /* padding: 0rem;
+  outline: 1px solid green; */
   /* designers block font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height */
   color: #000000;
-  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg) translateX(-15px);
 }
 
-.imgJess {
-  position: absolute;
-  width: 47.5%;
+.img-Designer1 {
+  display: block;
+  max-width: 95.4%;
   height: 538px;
-  left: 1.5%;
-  top: 169px;
-  background: url(/images/spurwing-agency.jpg);
+  margin-top: -1%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/spurwing-agency.jpg);
+  transform: translateX(20px) translateY(10px);
 }
 
-.textJess {
-  position: absolute;
-  width: 24%;
+.list-Designer1 {
+  display: block;
+  list-style-type: none;
+  max-width: 64%;
   height: 57px;
-  left: 25%;
-  top: 115%;
-  /* textJess block font*/
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 19px;
-  
-  color: #000000;
+  margin-left: 41%;
+  margin-top: 2.5%;
+  transform: translateX(20px);
 }
 
-.imgKameron{
-  position: absolute;
-  width: 24%;
-  height: 439.46px;
-  left: 51%;
-  top: 265px;
-  background: url(/images/stil-P1.jpg);
-}
-
-.txtKameron{
-  position: absolute;
-  width: 24%;
+.list-skills
+{
+  display: block;
+  list-style-type: none;
+  max-width: 60%;
   height: 57px;
-  left: 51.5%;
-  top: 114.5%;
-  /* textJess block font*/
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 19px;
+  margin-left: 41%;
+  margin-top: -5%; 
+  /* outline: 1px solid red; */
+  transform: translateX(20px);
+}
+
+.designer_name {
+  text-transform: uppercase;
+}
+
+.list-item-des {
+  display: inline-block;
+  max-width: 100%;
+}
   
-  color: #000000;
+  .list-item-des::after {
+    content: "/"
 }
 
-.imgLouisse{
-  position: absolute;
-  width: 24%;
+.list-item-des:first-child::after {
+  content: ""
+}
+
+  .list-item-des:last-child::after {
+    content: ""
+}
+
+.img-Designer2 {
+  display: block;
+  max-width: 95%;
   height: 439.46px;
-  left: 77%;
-  margin-left:1px;
-  top: 265px; 
-  background: url(/images/stil_mv.jpg);
+  margin-left: 1%;
+  margin-top: 17%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/stil-P1.jpg);
+  transform: translateX(20px);
 }
 
-.txtLouisse {
-position: absolute;
-width: 24%;
+.list-Designer2 {
+  list-style-type: none;
+  max-width: 100%;
+  height: 57px;
+  margin-left: -6%;
+  margin-top: 3%;
+}
+
+.list-skills-2
+{
+  display: block;
+  list-style-type: none;
+  max-width: 100%;
+  margin-left: -6%;
+  margin-top: -10%; 
+  /* outline: 1px solid red; */
+}
+
+.img-Designer3 {
+  display: block;
+  max-width: 100%;
+  height: 439.46px;
+  margin-left:10%;
+  margin-top: 27%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/stil_mv.jpg);
+  
+}
+
+.list-Designer3 {
+list-style-type: none;
+max-width: 70%;
 height: 57px;
-left: 77.5%;
-top: 114.5%;
+margin-left: 0%;
+margin-top: 0%;
 /* textLouisse block font*/
-font-family: 'Roboto';
-font-style: normal;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
 }
+
+.list-skills-3
+{
+  display: block;
+  list-style-type: none;
+  max-width: 100%;
+  height: 57px;
+  margin-left: 0%;
+  margin-top: -10%; 
+  /* outline: 1px solid red; */
+}
+
+.img-Designer-4 {
+  display: inline-block;
+  width: 95.4%;
+  height: 538px;
+  margin-left:4%;
+  margin-top: -1%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/spurwing-agency.jpg);
+  /* outline: 1px solid red; */
+}
+
+.list-Designer4 {
+  display: block;
+  list-style-type: none;
+  max-width: 100%;
+  height: 57px;
+  margin-left: 0%;
+  margin-top: 0%;
+  /* textLouisse block font*/
+  transform: translateX(0px);
+  }
+  
+  .list-skills-4
+  {
+    display: block;
+    list-style-type: none;
+    max-width: 100%;
+    height: 57px;
+    margin-left: 0%;
+    margin-top: -5%; 
+    /* outline: 1px solid red; */
+    transform: translateX(0px);
+  }
 
 .Testimonials {
   display: grid;
@@ -306,7 +414,7 @@ color: #000000;
   padding: 10px 10px;
   height: 813px;
   left: 0px;
-  top: 420px;  
+  margin-top: 195px;  
 }
 
 .item-testimonials-1 {
@@ -461,13 +569,14 @@ a {
 .wrapper4 {
   max-width: 1686px;
   margin:0 auto;
+  /* outline: 1px solid red; */
 }
 
 .strongpoints {
   position: relative;
   height: 665px;
   left:0px;
-  margin-top: 545px;
+  margin-top: 130px;
 }
 
 .strongtxt{
