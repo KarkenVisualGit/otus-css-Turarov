@@ -42,6 +42,12 @@ background-size: cover;
 background: url(/images/inside-weather.jpg);
 }
 
+@media screen and (max-width:500px){
+  .hero-section{
+    height: 500px; 
+  }  
+}
+
 .frame-hero {
   position: absolute;
   width: 56%;
@@ -569,7 +575,7 @@ a {
 .wrapper4 {
   max-width: 1686px;
   margin:0px auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   /* overflow:auto; */
 }
 
@@ -578,34 +584,48 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-top: 252px;
   overflow: auto;
-  > div {
-    flex: 350px;
-    margin: 15px;
-  }
+}
+
+.grid-strongpoints > div{
+  flex: 350px;
+  margin: 15px; 
+}
   
-  
-  @supports (display: grid) {
-    position: relative;
-    display: grid;
-    grid-column-gap: 30px;
-    overflow: auto;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-auto-flow: column;
-    margin-top: 252px;
-    > div {
+  /* @supports (display: grid) {
+    .grid-strongpoints{
+      position: relative;
+      display: grid;
+      grid-column-gap: 30px;
+      overflow: auto;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      grid-auto-flow: column;
+    } */
+    
+    /*.grid-strongpoints > div {
       margin: 0;
-    }
-  }
-} 
+    } */
+  
+
+
+.strongtitles {
+  position: relative;
+  width: 100%;
+  margin-top: 135px;
+  left:0%;
+  height: 120px;
+  /* transform: translate(-50%,-50%); */
+  text-align:center;
+  /* outline: 1px solid red; */
+}
 
 .strongtxt{
   position: absolute;
   width: 23px;
   height: 122px;
-  margin-left: 15%;
-  margin-top: 0%;
+  /* margin-left: 15%;
+  margin-top: 0%; */
+  margin: 0% 70% 0% 30%;
   /* strongtxt block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -614,16 +634,17 @@ a {
   line-height: 23px;
   color: #000000;
   writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(-195px, 130px);
-  outline: 1px solid red;
+  transform: rotate(180deg) translate(0px, 10px); 
+  /* translate(-195px, 130px) */
+  /* outline: 1px solid red; */
 }
 
 .strongpoints-title {
   position: absolute;
   max-width: 377px;
   min-height: 115px;
-  margin: 0% 44%;
-  transform: translate(0px, -135px);
+  margin: 0% 53%;
+  transform: translate(0px, -7px);
   /* h3 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
@@ -631,7 +652,7 @@ a {
   font-size: 86px;
   line-height: 115px;
   color: #000000;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .imgstrong{
@@ -640,13 +661,19 @@ a {
   display: flex;
   max-width: 89%;
   height: 525px;
+  /* margin:30px; */
+  min-width:350px;
+  /* padding: 0px 30px; */
+  gap: 30px;
+  /* margin-left: 30px; */
   /* min-width: 350px; */
-  /* width: calc((100% / 4) - 30px); */
-  transform: translate(122px, 0px);
+  width: calc((100% / 4) - 70px);
+  transform: translate(90px, 0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/dawid-liberadzki.jpg)
+  background-image: url(/images/dawid-liberadzki.jpg);
+  outline: 1px solid red;
 }
 
 .imgstrong1 {
@@ -655,9 +682,11 @@ a {
   justify-content: center;
   max-width: 87%;
   height: 525px;
-  padding-left:0%;
-  /* min-width: 350px; */
-  /* width: calc((100% / 4) - 30px); */
+  /* margin:30px; */
+  gap: 30px;
+  /* min-width:350px; */
+  min-width: 350px;
+  width: calc((100% / 4) - 70px);
   transform: translate(82px, 0px);
   background-repeat: no-repeat;
   background-position: center;
@@ -671,8 +700,11 @@ a {
   justify-content: center;
   max-width: 87%;
   height: 525px;
+  margin:30px;
+  min-width:350px;
+  gap: 30px;
   /* min-width: 350px; */
-  /* width: calc((100% / 4) - 30px); */
+  width: calc((100% / 4) - 70px);
   transform: translate(20px, 0px);
   background-repeat: no-repeat;
   background-position: center;
@@ -686,6 +718,9 @@ a {
   justify-content: center;
   max-width: 80%;
   height: 525px;
+  min-width:395px;
+  gap: 30px;
+  width: calc((100% / 4) - 26.5px);
   /* min-width: 143px; */
   /* width: 25%; */
   transform: translate(0px, 0px);
@@ -693,7 +728,7 @@ a {
 
 .list-strongpoints {
   display: block;
-  margin-left: 16%;
+  margin-left: 0%;
   /* position: absolute;
   max-width: 13.6%; */
   /* margin-top: 10%;
