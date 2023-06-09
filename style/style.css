@@ -568,23 +568,44 @@ a {
 
 .wrapper4 {
   max-width: 1686px;
-  margin:0 auto;
-  /* outline: 1px solid red; */
+  margin:0px auto;
+  outline: 1px solid red;
+  /* overflow:auto; */
 }
 
-.strongpoints {
+.grid-strongpoints {
   position: relative;
-  height: 665px;
-  left:0px;
-  margin-top: 130px;
-}
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 252px;
+  overflow: auto;
+  > div {
+    flex: 350px;
+    margin: 15px;
+  }
+  
+  
+  @supports (display: grid) {
+    position: relative;
+    display: grid;
+    grid-column-gap: 30px;
+    overflow: auto;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-flow: column;
+    margin-top: 252px;
+    > div {
+      margin: 0;
+    }
+  }
+} 
 
 .strongtxt{
   position: absolute;
-  width: 14%;
-  height: 23px;
-  left: 23.5%;
-  top: -3%;
+  width: 23px;
+  height: 122px;
+  margin-left: 15%;
+  margin-top: 0%;
   /* strongtxt block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -592,48 +613,17 @@ a {
   font-size: 20px;
   line-height: 23px;
   color: #000000;
-  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg) translate(-195px, 130px);
+  outline: 1px solid red;
 }
 
-.imgstrong{
+.strongpoints-title {
   position: absolute;
-  width: 20.5%;
-  height: 525px;
-  left: 7.5%;
-  top: 21%;
-  background: url(/images/dawid-liberadzki.jpg)
-}
-
-.imgstrong1 {
-  position: absolute;
-  width: 20.5%;
-  height: 525px;
-  top: 21%;
-  left: 30%;
-  background: url(/images/avery-klein.jpg);
-}
-
-.imgstrong2 {
-  position: absolute;
-  width: 20.6%;
-  height: 525px;
-  top: 20.9%;
-  left: 77.6%;
-  background: url(/images/avery-klein.jpg);
-}
-
-.framestrong {
-  padding: 0px 9px 18px;
-  position: absolute;
-  width: 23.4%;
-  height: 40.6%;
-  left: 52.5%;
-  top: -13%;
-}
-
-.strength-title {
-  width: 22.4%;
-  height: 7%;
+  max-width: 377px;
+  min-height: 115px;
+  margin: 0% 44%;
+  transform: translate(0px, -135px);
   /* h3 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
@@ -641,24 +631,76 @@ a {
   font-size: 86px;
   line-height: 115px;
   color: #000000;
+  outline: 1px solid red;
 }
 
-.frame-txt-strength {
-  position: absolute;
-  padding: 0px; 
-  width: 23.4%;
-  height: 506.49px;
-  top:0%;
+.imgstrong{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  max-width: 89%;
+  height: 525px;
+  /* min-width: 350px; */
+  /* width: calc((100% / 4) - 30px); */
+  transform: translate(122px, 0px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/dawid-liberadzki.jpg)
 }
 
-.list-footer {
-  position: absolute;
-  width: 13.6%;
-  margin-top: 10%;
-  margin-left:9%;
+.imgstrong1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 87%;
+  height: 525px;
+  padding-left:0%;
+  /* min-width: 350px; */
+  /* width: calc((100% / 4) - 30px); */
+  transform: translate(82px, 0px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/avery-klein.jpg);
 }
 
-.list-item-footer {
+.imgstrong2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 87%;
+  height: 525px;
+  /* min-width: 350px; */
+  /* width: calc((100% / 4) - 30px); */
+  transform: translate(20px, 0px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/avery-klein.jpg);
+}
+
+.frame-txt-strongpoints {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  height: 525px;
+  /* min-width: 143px; */
+  /* width: 25%; */
+  transform: translate(0px, 0px);
+}
+
+.list-strongpoints {
+  display: block;
+  margin-left: 16%;
+  /* position: absolute;
+  max-width: 13.6%; */
+  /* margin-top: 10%;
+  margin-left:0%; */
+}
+
+.list-item-strongpoints {
   list-style-type: none;
   position: relative;
   font-family: 'Bitter';
