@@ -574,9 +574,8 @@ a {
 
 .wrapper4 {
   max-width: 1686px;
-  margin:0px auto;
+  margin: 110px auto;
   /* outline: 1px solid red; */
-  /* overflow:auto; */
 }
 
 .grid-strongpoints {
@@ -585,11 +584,11 @@ a {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow: auto;
+  /* outline: 1px solid red; */
 }
 
 .grid-strongpoints > div{
-  flex: 350px;
-  margin: 15px; 
+  margin: 30px; 
 }
   
   /* @supports (display: grid) {
@@ -600,33 +599,19 @@ a {
       overflow: auto;
       grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
       grid-auto-flow: column;
-    } */
+    }
     
-    /*.grid-strongpoints > div {
-      margin: 0;
-    } */
-  
+    .grid-strongpoints > div {
+      margin: 30px;
+    }
+  } */
 
-
-.strongtitles {
-  position: relative;
-  width: 100%;
-  margin-top: 135px;
-  left:0%;
-  height: 120px;
-  /* transform: translate(-50%,-50%); */
-  text-align:center;
-  /* outline: 1px solid red; */
-}
-
-.strongtxt{
-  position: absolute;
+.strong-txt-title {
+  display: inline-block;
   width: 23px;
   height: 122px;
-  /* margin-left: 15%;
-  margin-top: 0%; */
-  margin: 0% 70% 0% 30%;
-  /* strongtxt block font*/
+  margin: 0% 70% 100% 0%;
+  /*h3 strong-txt-title font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -634,18 +619,16 @@ a {
   line-height: 23px;
   color: #000000;
   writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(0px, 10px); 
-  /* translate(-195px, 130px) */
-  /* outline: 1px solid red; */
+  transform: rotate(180deg) translate(40px, 160px); 
 }
 
 .strongpoints-title {
-  position: absolute;
+  /* position: absolute; */
   max-width: 377px;
   min-height: 115px;
-  margin: 0% 53%;
-  transform: translate(0px, -7px);
-  /* h3 block font*/
+  margin: 0% 0%;
+  transform: translate(30px, -15px);
+  /* h4 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 500;
@@ -659,35 +642,23 @@ a {
   align-items: center;
   justify-content: center;
   display: flex;
-  max-width: 89%;
   height: 525px;
-  /* margin:30px; */
   min-width:350px;
-  /* padding: 0px 30px; */
-  gap: 30px;
-  /* margin-left: 30px; */
-  /* min-width: 350px; */
-  width: calc((100% / 4) - 70px);
-  transform: translate(90px, 0px);
+  transform: translate(90px, 120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: url(/images/dawid-liberadzki.jpg);
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .imgstrong1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 87%;
   height: 525px;
-  /* margin:30px; */
-  gap: 30px;
-  /* min-width:350px; */
   min-width: 350px;
-  width: calc((100% / 4) - 70px);
-  transform: translate(82px, 0px);
+  transform: translate(70px, 120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -698,14 +669,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 87%;
   height: 525px;
-  margin:30px;
   min-width:350px;
-  gap: 30px;
-  /* min-width: 350px; */
-  width: calc((100% / 4) - 70px);
-  transform: translate(20px, 0px);
+  transform: translate(0px, 120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -714,25 +680,20 @@ a {
 
 .frame-txt-strongpoints {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 80%;
-  height: 525px;
+  /* max-width: 80%; */
+  height: 665px;
   min-width:395px;
   gap: 30px;
-  width: calc((100% / 4) - 26.5px);
-  /* min-width: 143px; */
-  /* width: 25%; */
   transform: translate(0px, 0px);
 }
 
 .list-strongpoints {
   display: block;
-  margin-left: 0%;
-  /* position: absolute;
-  max-width: 13.6%; */
-  /* margin-top: 10%;
-  margin-left:0%; */
+  padding-bottom: 0%;
+  transform: translate(0px, -30px);
 }
 
 .list-item-strongpoints {
