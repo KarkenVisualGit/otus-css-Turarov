@@ -580,8 +580,14 @@ a {
 
 .grid-strongpoints {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   overflow: auto;
   /* outline: 1px solid red; */
@@ -592,8 +598,9 @@ a {
 }
   
   @supports (display: grid) {
-    .grid-strongpoints{
+    .grid-strongpoints {
       position: relative;
+      display: -ms-grid;
       display: grid;
       grid-column-gap: 30px;
       overflow: auto;
@@ -618,8 +625,12 @@ a {
   font-size: 20px;
   line-height: 23px;
   color: #000000;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(50px, 160px); 
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg) translate(50px, 160px);
+      -ms-transform: rotate(180deg) translate(50px, 160px);
+          transform: rotate(180deg) translate(50px, 160px); 
 }
 
 .strongpoints-title {
@@ -627,7 +638,9 @@ a {
   max-width: 377px;
   min-height: 115px;
   margin: 0% 0%;
-  transform: translate(0px, -15px);
+  -webkit-transform: translate(0px, -15px);
+  -ms-transform: translate(0px, -15px);
+          transform: translate(0px, -15px);
   /* h4 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
@@ -639,12 +652,20 @@ a {
 }
 
 .imgstrong{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+            justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 525px;
   min-width:350px;
-  transform: translate(70px, 120px);
+  -webkit-transform: translate(70px, 120px);
+  -ms-transform: translate(70px, 120px);
+          transform: translate(70px, 120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -653,12 +674,20 @@ a {
 }
 
 .imgstrong1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 525px;
   min-width: 350px;
-  transform: translate(60px, 120px);
+  -webkit-transform: translate(60px, 120px);
+      -ms-transform: translate(60px, 120px);
+          transform: translate(60px, 120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -666,12 +695,20 @@ a {
 }
 
 .imgstrong2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 525px;
   min-width:350px;
-  transform: translate(0px, 120px);
+  -webkit-transform: translate(0px, 120px);
+      -ms-transform: translate(0px, 120px);
+          transform: translate(0px, 120px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -679,21 +716,32 @@ a {
 }
 
 .frame-txt-strongpoints {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* max-width: 80%; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 665px;
   min-width:395px;
   gap: 30px;
-  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
 }
 
 .list-strongpoints {
   display: block;
-  padding-bottom: 0%;
-  transform: translate(-30px, -30px);
+  -webkit-transform: translate(-30px, -30px);
+  -ms-transform: translate(-30px, -30px);
+      transform: translate(-30px, -30px);
 }
 
 .list-item-strongpoints {
