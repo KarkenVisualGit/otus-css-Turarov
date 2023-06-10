@@ -95,7 +95,7 @@ max-width: 47%;
 height: 840px;
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;
+background-size: contain;
 background: url(/images/jared-weiss.jpg);
 }
 
@@ -298,25 +298,18 @@ color: #000000;
 .Testimonials {
   display: grid;
   position: relative;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10px 10px;
   gap:10px;
-  /* height: 813px; */
   top: 420px;  
-}
-
-.item-testimonials-1 {
-  grid-area: 1 / 1 / 2 / 3;
-  justify-self: start;
-  align-self: start;
 }
 
 .Testimonials-title {
   display:block;
-  max-width: 100%;
-  /* height: 23px; */
+  position: absolute;
+  outline: 1px solid #666;
   /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -324,29 +317,33 @@ color: #000000;
   font-size: 20px;
   line-height: 23px;
   padding: 0rem 0rem 0rem 0rem;
-  transform: translateX(130px) translateY(-30px);
+  transform: translateX(140px) translateY(-370px);
   color: #000000;
 }
 
-.site-name {
+.testimonials-site-link {
   display:block;
   max-width: 100%;
-  transform: translate(-2.3rem, -7rem) rotate(-90deg);
+  font-weight: 400;
+  writing-mode: vertical-rl;
+  transform: translate(0rem, 0rem) rotate(180deg);
 }
 
-.item-testimonials-2 {
-  grid-area: 2 / 2 / 5 / 3;
-  transform: translate(0rem, 8rem); 
-  justify-self: start;
+.item-testimonials-top {
+  grid-area: 1 / 1 / 4 / 2;
+  transform: translate(0rem, 0rem); 
+  justify-self: end;
   align-self: start;
 }
 
-.subtitle-1 {
+.sub-position-top {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg) translate(-1.2rem, -9rem); 
+}
+
+.subtitle-name {
   display: block;
-  padding: 0rem 0rem 0rem 0rem;
-  max-width: 100%;
-  /* height: 49px; */
-  /* TxtCreativity block font*/
+  /* item-testimonials-link block font*/
   font-weight: 700;
   font-family: 'Roboto';
   font-style: normal;
@@ -354,49 +351,30 @@ color: #000000;
   line-height: 1.2rem;
   color: #000000;
   padding-left: 0%;
+}
+
+.item-testimonials-middle {
+  grid-area: 4 / 1 / 6 / 2;
+  transform: translate(0rem, 0rem); 
+  justify-self: end;
+  align-self: start;
+}
+
+.sub-position-middle {
   writing-mode: vertical-rl;
-  transform: rotate(180deg); 
+  transform: rotate(180deg) translate(-1.2rem, -7rem); 
 }
 
-.item-testimonials-3 {
-  grid-area: 5 / 2 / 7 / 3;
-  transform: translate(0rem, 0.5rem); 
+.item-testimonials-bottom {
+  grid-area: 7 / 1 / 9 / 2; 
+  transform: translate(0rem, 0rem);
+  justify-self: end;
+  align-self: start;
 }
 
-.subtitle-2 {
-  display: block;
-  max-width: 100%;
-  /* height: 49px; */
-  /* TxtCreativity block font*/
-  font-weight: 700;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  color: #000000;
+.sub-position-bottom {
   writing-mode: vertical-rl;
-  transform: rotate(180deg);
-}
-
-.item-testimonials-4 {
-  grid-area: 7 / 2 / 9 / 3; 
-  transform: translate(0rem, 1.7rem);
- 
-}
-
-.subtitle-3 {
-  display: block;
-  max-width: 100%;
-  /* height:49px; */
-  /* website block font*/
-  font-weight: 700;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 19px; 
-  color: #000000;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+  transform: rotate(180deg) translate(-1.2rem, -0.8rem); 
 }
 
 .a_testimonials {
@@ -404,13 +382,12 @@ color: #000000;
   color: black;
 }
 
-.item-testimonials-5 {
-  grid-area: 1 / 2 / 9 / 7;
-  /* justify-self: start;
-  align-self: center; */
+.item-testimonials-big-image {
+  grid-area: 1 / 2 / 9 / 6;
+  align-self: start;
 }
 
-.left-frame-Testimonials{
+.big-frame-Testimonials{
   display: block;
   max-width: 100%;
   height:auto;
@@ -418,26 +395,33 @@ color: #000000;
 
 .img-left-Testimonials{
   max-width: 82.3%;
-  height: 757px;
-  transform: translate(5.1rem, 1rem);
+  min-height: 757px;
+  transform: translate(-0.3rem, 3.1rem);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  object-fit: cover;
+  background-size: contain;
   background-image: url(/images/keghan-crossland.jpg);
 }
 
-.item-testimonials-6 {
-  grid-area: 1 / 7 / 5 / 12;
-  align-self: center;
+.item-testimonials-article {
+  grid-area: 1 / 6 / 5 / 8;
+  align-self: start;
+}
+
+.article-box {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
 }
 
 .article-testimonials{
-  display: block;
   max-width: 100%;
-  /* height: 304px; */
-  padding: 2% 0%;
-  transform: translateX(-20px) translateY(0px);
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  padding: 0rem 0rem 0rem 0rem;
+  transform: translateX(-20%) translateY(60px);
   /* articletestimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
@@ -449,27 +433,27 @@ color: #000000;
   color: #000000;
 }
 
-.item-testimonials-7 {
-  grid-area: 5 / 8 / 9 / 10;
-  align-self: center;
+.item-testimonials-small-img {
+  grid-area: 5 / 6 / 9 / 8;
+  align-self: start;
 
 }
 
 .right-img-box {
   display: block;
   max-width: 100%;
-  /* height: auto; */
+  height: auto;
 }
 
 .img-right-Testimonials {
   max-width: 100%;
-  height: 333px;
-  padding: 0% 0%;
-  transform: translateX(30px) translateY(-15px);
+  min-width: 100%;
+  max-height: 333px;
+  min-height: 333px;
+  transform: translateX(-20%) translateY(50px);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  object-fit: cover;
+  background-size: contain;
   background-image: url(/images/sinitta-leunen.jpg);
 }
 
