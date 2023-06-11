@@ -298,7 +298,7 @@ color: #000000;
 .Testimonials {
   display: grid;
   position: relative;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   align-items: center;
   justify-content: center;
   padding: 10px 10px;
@@ -337,7 +337,7 @@ color: #000000;
 
 .sub-position-top {
   writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(-1.2rem, -9rem); 
+  transform: rotate(180deg) translate(0.7rem, -9rem); 
 }
 
 .subtitle-name {
@@ -361,7 +361,7 @@ color: #000000;
 
 .sub-position-middle {
   writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(-1.2rem, -7rem); 
+  transform: rotate(180deg) translate(0.7rem, -7rem); 
 }
 
 .item-testimonials-bottom {
@@ -373,7 +373,7 @@ color: #000000;
 
 .sub-position-bottom {
   writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(-1.2rem, -0.8rem); 
+  transform: rotate(180deg) translate(0.7rem, -0.8rem); 
 }
 
 .a_testimonials {
@@ -382,7 +382,7 @@ color: #000000;
 }
 
 .item-testimonials-big-image {
-  grid-area: 1 / 2 / 9 / 6;
+  grid-area: 1 / 2 / 9 / 5;
   align-self: start;
 }
 
@@ -393,9 +393,9 @@ color: #000000;
 }
 
 .img-left-Testimonials{
-  max-width: 82.3%;
+  max-width: 84%;
   min-height: 757px;
-  transform: translate(-0.3rem, 3.1rem);
+  transform: translate(-0.3rem, 3.3rem);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -403,7 +403,7 @@ color: #000000;
 }
 
 .item-testimonials-article {
-  grid-area: 1 / 6 / 5 / 8;
+  grid-area: 1 / 5 / 5 / 7;
   align-self: start;
 }
 
@@ -421,8 +421,8 @@ color: #000000;
   max-height: 100%;
   min-height: 100%;
   padding: 0rem 0rem 0rem 0rem;
-  transform: translateX(-20%) translateY(60px);
-  /* articletestimonials block font*/
+  transform: translateX(-15px) translateY(60px);
+  /* article-testimonials block font*/
   font-family: 'Bitter';
   font-style: normal;
   font-weight: 400;
@@ -434,7 +434,7 @@ color: #000000;
 }
 
 .item-testimonials-small-img {
-  grid-area: 5 / 6 / 9 / 8;
+  grid-area: 5 / 5 / 9 / 7;
   align-self: start;
 
 }
@@ -450,7 +450,7 @@ color: #000000;
   min-width: 100%;
   max-height: 333px;
   min-height: 333px;
-  transform: translateX(-20%) translateY(50px);
+  transform: translateX(-15px) translateY(50px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
