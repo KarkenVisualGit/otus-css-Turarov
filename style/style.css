@@ -309,7 +309,6 @@ color: #000000;
 .Testimonials-title {
   display:block;
   position: absolute;
-  outline: 1px solid #666;
   /* Testimonials block font*/
   font-family: 'Roboto';
   font-style: normal;
@@ -413,6 +412,7 @@ color: #000000;
   box-sizing: border-box;
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .article-testimonials{
