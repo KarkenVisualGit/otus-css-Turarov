@@ -227,7 +227,7 @@ color: #000000;
 
 .item-designer-middle { 
   display: flex;
-  flex: 0 0 24%;  
+  flex: 1 0 24%;  
   margin-left: 30px;
   flex-flow: column nowrap; 
 }
@@ -257,35 +257,32 @@ color: #000000;
 }
 
 .img-Designer1 {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   min-height: 538px;
-  margin-top: -1%;
+  margin-top: 0%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-image: url(/images/spurwing-agency.jpg);
-  transform: translateX(20px) translateY(10px);
+  transform: translateX(0px) translateY(0px);
 }
 
 .list-box-1{
   display: block;
   max-width: 100%;
-  /* height: auto; */
+  min-height: auto;
   padding-left: 50%;
 }
 
 .list-box{
-  display: inline-block;
+  display: block;
   max-width: 100%;
-  /* height: auto; */
-  /* padding-left: 50%; */
+  min-height: auto;
 }
 
 .list-Designer1 {
   margin: 0; padding: 0;
-  display: inline-block;
-  list-style-type: none;
   padding-left: 0;
   max-width: 100%;
   min-height: 57px;
@@ -294,10 +291,15 @@ color: #000000;
   transform: translateX(0px);
 }
 
+ul.list-Designer1 li {
+  display: inline-block;
+  list-style-type: none;  
+}
+
+
 .list-skills
 {
-  display: inline-block;
-  list-style-type: none;
+  margin: 0; padding: 0;
   max-width: 100%;
   min-height: 100%;
   margin-left: 0%;
@@ -307,13 +309,16 @@ color: #000000;
   transform: translateX(0px);
 }
 
-
-.list-item-des {
+ul.list-skills li {
   display: inline-block;
+  list-style-type: none; 
+}
+
+/* .list-item-des {
   list-style-type: none;
   max-width: 100%;
   min-width: 100%;
-}
+} */
   
   .list-item-des::after {
     content: "/"
@@ -324,7 +329,7 @@ color: #000000;
 }
 
 .img-Designer2 {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   min-height: 439.46px;
   margin-left: 0px;
@@ -333,7 +338,7 @@ color: #000000;
   background-position: center;
   background-size: contain;
   background-image: url(/images/stil-P1.jpg);
-  transform: translateX(10px) translateY(40px);
+  transform: translateX(0px) translateY(40px);
 }
 
 .list-Designer2 {
