@@ -73,7 +73,7 @@ color: #000000;
   color: #000000;
 }
 
-.wrapper2 {
+.wrapper_bio {
   max-width: 1175px;
   margin:0 auto;
 }
@@ -88,14 +88,24 @@ align-items: center;
 align-content: flex-start;
 }
 
+.imagebio {
+  align-self: flex-start;
+  flex: 1 0 42%;
+}
+
+.bio_img_block{
+  display: block;
+  max-width: 100%;
+  height:auto;
+}
+
 .image_biography {
-align-self: flex-start;
-flex: 1 1 47%;
-max-width: 47%;
-height: 840px;
+max-width: 100%;
+min-width: 100%;
+min-height: 840px;
 background-repeat: no-repeat;
 background-position: center;
-background-size: contain;
+background-size: cover;
 background: url(/images/jared-weiss.jpg);
 }
 
@@ -129,7 +139,7 @@ flex-basis: 44%;
 height: 230px;
 align-self: flex-start;
 flex: 1 1 auto;
-margin: 5% 10% 5%;
+margin: 15% 10% 0%;
 /* margin-top:54%; */
 /* h2 block font*/
 font-family: 'Playfair Display';
@@ -141,11 +151,19 @@ line-height: 115px;
 color: #000000;
 }
 
+.bio_position{
+  padding-left: 54px;
+  padding-top: 20px;
+}
+
 .list-bio {
   flex: 1 1 0;
   max-width:88%;
-  margin:0% 2% 6%;
+  margin:-3% 2% 2%;
   list-style-type: none;
+}
+
+.bio_title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -183,7 +201,7 @@ color: #000000;
   display: flex;
   flex-basis: 48%;
   height: 124px;
-  margin:5% 13% 5%;
+  margin:7% 13% 16%;
   width:87%;
   /* article bio block font*/
   font-family: 'Bitter';
@@ -195,7 +213,7 @@ color: #000000;
   color: #0D0D0D;  
 }
 
-.wrapper3 {
+.wrapper_designers {
   max-width: 1337px;
   margin:0 auto; 
 }
