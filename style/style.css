@@ -301,7 +301,7 @@ color: #000000;
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
   justify-content: center;
-  padding: 10px 10px;
+  padding: 10px;
   gap:10px;
   top: 420px;  
 }
@@ -315,7 +315,7 @@ color: #000000;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  padding: 0rem 0rem 0rem 0rem;
+  padding: 0;
   transform: translateX(140px) translateY(-370px);
   color: #000000;
 }
