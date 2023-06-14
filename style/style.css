@@ -290,7 +290,7 @@ color: #000000;
     transform: translateX(0px) translateY(-5px);  
   }
   
-  .img-Designer1 {
+  .img-Designer-big {
     display: block;
     max-width: 100%;
     width:635.48px;
@@ -305,7 +305,7 @@ color: #000000;
     transform: translateX(0px) translateY(-10px);
   }
   
-  .list-box-1{
+  .list-box-big{
     display: block;
     max-width: 100%;
     min-height: auto;
@@ -318,20 +318,20 @@ color: #000000;
     min-height: auto;
   }
   
-  .list-Designer1 {
+  .list-Designer-big {
     margin: 0; padding: 0;
     max-width: 100%;
     min-height: 57px;
     transform: translateX(0px) translateY(-17px);
   }
   
-  ul.list-Designer1 li {
+  ul.list-Designer-big li {
     display: inline-block;
     list-style-type: none;  
   }
   
   
-  .list-skills
+  .list-skills-big
   {
     margin: 0; padding: 0;
     max-width: 100%;
@@ -340,7 +340,7 @@ color: #000000;
     transform: translateX(0px) translateY(-57px);
   }
   
-  ul.list-skills li {
+  ul.list-skills-big li {
     display: inline-block;
     list-style-type: none; 
   }
@@ -353,7 +353,7 @@ color: #000000;
       content: ""
   }
   
-  .img-Designer2 {
+  .img-Designer-middle {
     display: block;
     max-width: 100%;
     min-height: 439.46px;
@@ -370,19 +370,19 @@ color: #000000;
     transform: translateX(0px) translateY(40px);  
   }
   
-  .list-Designer2 {
+  .list-Designer-middle {
     margin: 0; padding: 0;
     max-width: 80%;
     height: 57px;
     transform: translateX(0px) translateY(22px);
   }
   
-  ul.list-Designer2 li {
+  ul.list-Designer-middle li {
     display: inline-block;
     list-style-type: none; 
   }
   
-  .list-skills-2
+  .list-skills-middle
   {
     margin: 0; padding: 0;
     max-width: 80%;
@@ -390,12 +390,12 @@ color: #000000;
     transform: translateX(0px) translateY(-15px);
   }
   
-  ul.list-skills-2 li {
+  ul.list-skills-middle li {
     display: inline-block;
     list-style-type: none; 
   }
   
-  .img-Designer3 {
+  .img-Designer-right {
     display: block;
     max-width: 100%;
     max-height: 100%;
@@ -415,7 +415,7 @@ color: #000000;
     transform: translateX(20px) translateY(60px);  
   }
   
-  .list-Designer3 {
+  .list-Designer-right {
   margin: 0; padding: 0;
   max-width: 80%;
   height: 57px;
@@ -423,12 +423,12 @@ color: #000000;
   transform: translateX(20px) translateY(45px);
   }
   
-  ul.list-Designer3 li {
+  ul.list-Designer-right li {
     display: inline-block;
     list-style-type: none;  
   }
   
-  .list-skills-3
+  .list-skills-right
   {
     margin: 0; padding: 0;
     max-width: 77%;
@@ -437,7 +437,7 @@ color: #000000;
     transform: translateX(20px) translateY(7px);
   }
   
-  ul.list-skills-3 li {
+  ul.list-skills-right li {
     display: inline-block;
     list-style-type: none;  
   }
