@@ -224,48 +224,51 @@ color: #000000;
   
   .designer-wrap {
     max-width: 1337px;
-    margin:0 auto;
-   
+    margin:160px auto;
     /* outline: 1px solid red; */
-    /* overflow-x: auto; */
-    
   }
   
   .designers {
+    position: relative;
     display: flex;
     justify-content: center;
-    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-wrap:nowrap;
     align-items: center;
     align-content: center;
-    position: relative;
     /* outline: 1px solid red; */
-    margin-top: 160px;
-    overflow: auto;
+    overflow-x: auto;
     /* transform: translateX(0px); */
   }
   
   .item-designer-big { 
-    display: flex;
-    flex: 0 1 48%;
-    margin: 15px; 
-    flex-flow: column nowrap; 
+    flex-basis: 48%;
+    /* flex: 1 1 48%; */
+    /* margin: 15px;  */
+    /* flex-flow: column nowrap;  */
   }
   
   .item-designer-middle { 
-    display: flex;
-    flex: 1 0 24%;  
-    margin-left: 15px;
-    flex-flow: column nowrap; 
+    flex-basis: 24%;
+    /* flex: 1 0 24%;   */
+    /* margin-left: 15px; */
+    /* flex-flow: column nowrap;  */
   }
-  
+
+  .item-designer-big > div {
+    margin: 15px;
+  }
+
+  .item-designer-middle > div {
+    margin-left: 15px;
+  }
   
   .designers-title {
     display: inline-block;
     position: absolute;
     max-width: 7%;
     min-height: 24px;
-    left: 60%;
-    top: 0%;
+    margin-left: 52.5%;
     padding: 0;
     /* outline: 1px solid red; */
     /* designers block font*/
@@ -276,33 +279,42 @@ color: #000000;
     line-height: 23px;
     color: #000000;
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translateX(-180px) translateY(-5px);
+    transform: rotate(180deg) translateX(-65px) translateY(-15px);
   }
   
   .designer_name_title {
-    display: block;
+    display: inline-block;
     font-weight: 700;
     text-transform: uppercase;
     /* outline: 1px solid red; */
   }
   
   .name_designer_left{
-    transform: translateX(0px) translateY(-5px);  
+    transform: translateX(-10px) translateY(-5px);  
   }
   
   .img-Designer-big {
-    display: block;
-    max-width: 100%;
-    width:635.48px;
-    min-width: 100%;
-    max-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    /* max-width: 100%; */
+    min-width:635.48px;
+    /* min-width: 100%; */
+    /* max-height: 100%; */
     height: 538px;
     margin-top: 0%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: url(/images/spurwing-agency.jpg);
-    transform: translateX(0px) translateY(-10px);
+    transform: translateX(0px) translateY(-5px);
   }
   
   .list-box-big{
@@ -322,7 +334,7 @@ color: #000000;
     margin: 0; padding: 0;
     max-width: 100%;
     min-height: 57px;
-    transform: translateX(0px) translateY(-17px);
+    transform: translateX(-10px) translateY(-20px);
   }
   
   ul.list-Designer-big li {
@@ -337,7 +349,7 @@ color: #000000;
     max-width: 100%;
     min-height: 100%;
     /* outline: 1px solid red; */
-    transform: translateX(0px) translateY(-57px);
+    transform: translateX(-10px) translateY(-60px);
   }
   
   ul.list-skills-big li {
@@ -354,16 +366,23 @@ color: #000000;
   }
   
   .img-Designer-middle {
-    display: block;
-    max-width: 100%;
-    min-height: 439.46px;
-    margin-left: 0px;
-    margin-top: 0%;
+    display: flex;
+    margin-left: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 319px;
+    height: 439.46px;
+    /* margin-left: 0px;
+    margin-top: 0%; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: url(/images/stil-P1.jpg);
-    transform: translateX(0px) translateY(30px);
+    transform: translateX(0px) translateY(40px);
   }
   
   .name_designer_middle{
@@ -396,16 +415,22 @@ color: #000000;
   }
   
   .img-Designer-right {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    min-height: 439.46px;
-    margin-left: 0px;
-    margin-top: 0%; 
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 320px;
+    /* max-height: 100%; */
+    height: 439.46px;
+    /* margin-left: 0px;
+    margin-top: 0%;  */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transform: translateX(0px) translateY(55px);
+    transform: translateX(0px) translateY(65px);
     background-image: url(/images/stil_mv.jpg);
     
   }
@@ -450,7 +475,7 @@ color: #000000;
     justify-content: center;
     padding: 10px;
     gap:10px;
-    top: 190px;  
+    margin-top: 180px;  
   }
   
   .Testimonials-title {
@@ -606,7 +631,7 @@ color: #000000;
 
 .wrapper_strongpoints {
   max-width: 1686px;
-  margin: 350px auto;
+  margin: 160px auto;
   /* outline: 1px solid red; */
 }
 
@@ -683,7 +708,7 @@ color: #000000;
   /* outline: 1px solid red; */
 }
 
-.imgstrong-liberadzki{
+.imgstrong-liberadzki {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -702,7 +727,7 @@ color: #000000;
   /* outline: 1px solid red; */
 }
 
-.imgstrong_position_left{
+.imgstrong_position_left {
   -webkit-transform: translate(70px, 120px);
       -ms-transform: translate(70px, 120px);
           transform: translate(70px, 120px);
@@ -768,6 +793,7 @@ color: #000000;
 }
 
 .list-item-strongpoints {
+  display: block;
   list-style-type: none;
   position: relative;
   font-family: 'Bitter';
@@ -776,4 +802,8 @@ color: #000000;
   font-size: 34px;
   line-height: 41px;
   color: #000000;
+}
+
+.list-item-strongpoints::after {
+  content: "";
 }
