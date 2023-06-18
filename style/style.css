@@ -43,7 +43,7 @@ background: url(/images/inside-weather.jpg);
 }
 
 @media screen and (max-width:500px){
-  .hero-section{
+  .hero-section {
     height: 500px; 
   }  
 }
@@ -225,31 +225,37 @@ color: #000000;
   .designer-wrap {
     max-width: 1337px;
     margin:160px auto;
+    
     /* outline: 1px solid red; */
   }
   
   .designers {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     flex-wrap:nowrap;
     align-items: center;
-    align-content: center;
     /* outline: 1px solid red; */
-    overflow-x: auto;
+    overflow: auto;
     /* transform: translateX(0px); */
   }
   
   .item-designer-big { 
     flex-basis: 48%;
+    flex: 1 1 auto;
+    /* flex-shrink: 1; */
     /* flex: 1 1 48%; */
     /* margin: 15px;  */
     /* flex-flow: column nowrap;  */
   }
+
   
   .item-designer-middle { 
     flex-basis: 24%;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    /* flex-shrink: 0; */
     /* flex: 1 0 24%;   */
     /* margin-left: 15px; */
     /* flex-flow: column nowrap;  */
@@ -268,8 +274,11 @@ color: #000000;
     position: absolute;
     max-width: 7%;
     min-height: 24px;
-    margin-left: 52.5%;
-    padding: 0;
+    left: 46.5%;
+    right: 0%;
+    padding-right: 32%;
+    padding-left: 10%;
+    margin-top: 0.5%;
     /* outline: 1px solid red; */
     /* designers block font*/
     font-family: 'Roboto';
@@ -279,7 +288,7 @@ color: #000000;
     line-height: 23px;
     color: #000000;
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translateX(-65px) translateY(-15px);
+    transform: rotate(180deg) translateX(0px) translateY(0px);
   }
   
   .designer_name_title {
@@ -292,6 +301,24 @@ color: #000000;
   .name_designer_left{
     transform: translateX(-10px) translateY(-5px);  
   }
+
+  .img-Designer-box {
+  display:block;
+  /* position:realtive; */
+  max-width: 100%;
+  width:635.48px;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 538px;
+  /* margin-top: 0%; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-image: url(/images/spurwing-agency.jpg);
+  transform: translateX(0px) translateY(-5px);
+  
+  }
+
   
   .img-Designer-big {
     display: -webkit-box;
@@ -304,23 +331,12 @@ color: #000000;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
     justify-content: center;
-    /* max-width: 100%; */
-    min-width:635.48px;
-    /* min-width: 100%; */
-    /* max-height: 100%; */
-    height: 538px;
-    margin-top: 0%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(/images/spurwing-agency.jpg);
-    transform: translateX(0px) translateY(-5px);
   }
   
   .list-box-big{
     display: block;
     max-width: 100%;
-    min-height: auto;
+    /* min-height: auto; */
     padding-left: 50%;
   }
   
@@ -365,6 +381,21 @@ color: #000000;
       content: ""
   }
   
+  .img-Designer-middle-box {
+   
+    width: 319px;
+    max-width:100%;
+    min-height: 439.46px;
+    /* margin-left: 0px;
+    margin-top: 0%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/stil-P1.jpg);
+    transform: translateX(0px) translateY(40px); 
+  
+  }
+
   .img-Designer-middle {
     display: flex;
     margin-left: 15px;
@@ -374,15 +405,7 @@ color: #000000;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
     justify-content: center;
-    min-width: 319px;
-    height: 439.46px;
-    /* margin-left: 0px;
-    margin-top: 0%; */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(/images/stil-P1.jpg);
-    transform: translateX(0px) translateY(40px);
+    
   }
   
   .name_designer_middle{
@@ -422,9 +445,10 @@ color: #000000;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
     justify-content: center;
-    min-width: 320px;
+    width: 320px;
     /* max-height: 100%; */
-    height: 439.46px;
+    max-width: 100%;
+    min-height: 439.46px;
     /* margin-left: 0px;
     margin-top: 0%;  */
     background-repeat: no-repeat;
@@ -467,15 +491,47 @@ color: #000000;
     list-style-type: none;  
   }
 
+  /* @media screen and (max-width:768px) {
+    .item-designer-big {
+      flex-basis: 33%;
+      transform: translateX(0px) translateY(0px);
+    }  
+
+    .img-Designer-box {
+      width: 320px;
+      max-width: 100%;
+      min-height: 439.46px;
+    }
+
+    .designers-title {
+      left: 2%;
+      padding-left: 0%;
+      padding-top: 0%;
+      writing-mode: horizontal-tb;
+      transform: rotate(0deg) translateX(0px) translateY(-50px);
+    }
+
+    .list-box-big{
+      padding-left: 0%;
+    }
+
+  } */
+
+  .wrapper_testimonials {
+    max-width: 1440px;
+    margin:0px auto;
+    /* outline: 1px solid red; */
+  }
+
   .Testimonials {
     display: grid;
     position: relative;
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
     gap:10px;
-    margin-top: 180px;  
+    margin-top: 0px;  
   }
   
   .Testimonials-title {
