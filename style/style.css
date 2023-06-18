@@ -274,11 +274,12 @@ color: #000000;
     position: absolute;
     max-width: 7%;
     min-height: 24px;
-    left: 46.5%;
-    right: 0%;
-    padding-right: 32%;
-    padding-left: 10%;
-    margin-top: 0.5%;
+    left: 62%;
+    margin-left: 1.5%;
+    padding: 15px;
+    /* padding-right: 32%;
+    padding-left: 10%; */
+    margin-top: 0;
     /* outline: 1px solid red; */
     /* designers block font*/
     font-family: 'Roboto';
@@ -492,6 +493,84 @@ color: #000000;
   }
 
   @media screen and (max-width:768px) {
+      .designers-title {
+      left: 2%;
+      padding-left: 0%;
+      padding-top: 0%;
+      writing-mode: horizontal-tb;
+      transform: rotate(0deg) translateX(0px) translateY(-50px);
+    }
+
+    .img-Designer-middle-box{
+      transform: translateX(0px) translateY(0px);  
+    }
+
+    .item-designer-big{
+      flex-basis: 33%;
+      transform: translateX(0px) translateY(0px);
+    }
+
+    .img-Designer-box {
+      width: 320px;
+      max-width: 100%;
+      min-height: 439.46px;
+      background-size: auto auto;
+    }
+
+    .list-box-big{
+      padding-left: 0%;
+    }
+
+    .name_designer_middle{
+      transform: translateX(-10px) translateY(0px);  
+    }
+    
+    .list-Designer-middle {
+      transform: translateX(-10px) translateY(-15px);
+    }
+
+    .list-skills-middle
+  {
+    max-width: 100%;
+    transform: translateX(-10px) translateY(-55px);
+  }
+
+  .item-designer-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .img-Designer-middle-box{
+    transform: translateX(0px) translateY(-10px); 
+  }
+    
+  .img-Designer-right {
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(0px) translateY(10px);
+    margin: 0;
+  }
+
+  .name_designer_right {
+    max-width: 70%;
+    transform: translateX(0px) translateY(15px);  
+  }
+  
+  .list-Designer-right {
+  transform: translateX(0px) translateY(0px);
+  }
+  
+  .list-skills-right
+  {
+    max-width: 100%;
+    transform: translateX(0px) translateY(-40px);
+  }
+
+  }
+
+  @media screen and (max-width:375px) {
     .item-designer-big {
       flex-basis: 33%;
       transform: translateX(0px) translateY(0px);
