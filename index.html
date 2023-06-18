@@ -15,17 +15,25 @@
 <body>
     <main>
         <header class="menu wrapper" >
-            <p><button class="button"><img src="/images/Menu.png" alt="menu_button"></button></p>   
+            <button class="button"><img src="/images/Menu.png" alt="menu_button">
+                <ul class="ul-menu-button"> 
+                    <li class="li-button"><a href="#hero-section">Hero-section</a></li> 
+                    <li class="li-button"><a href="#Biography">Biography</a></li> 
+                    <li class="li-button"><a href="#designers">Designers</a></li> 
+                    <li class="li-button"><a href="#testimonials">Testimonials</a></li>
+                    <li class="li-button"><a href="#strongpoints" class="brd">Strongpoints</a></li>
+                   </ul> 
+            </button>   
         </header>
 
-        <section class="hero-section wrapper_hero">
+        <section id="hero-section" class="hero-section wrapper_hero">
             <div class="frame-hero">
                 <h1 class="hero-title">Mod Studio</h1>
                 <p class="hero-text">Modern Web Studio</p>
             </div>
         </section>
 
-        <section class="biography wrapper_bio">
+        <section id="Biography" class="biography wrapper_bio">
             <div class="imagebio">
                 <div class="img_bio_block">
                     <div class="image_biography"></div>
@@ -50,7 +58,7 @@
             </div>
             </section>   
 
-            <section class="designer-wrap">
+            <section id="designers" class="designer-wrap">
                 <h4 class="designers-title">Designers</h4>
                 <div class="designers">
                     <div class="item-designer-big">
@@ -136,7 +144,7 @@
                 </div> -->
             </section>
         
-            <div class="Testimonials wrapper_testimonials">
+            <div id="testimonials" class="Testimonials wrapper_testimonials">
                 <h5 class="Testimonials-title">
                 Testimonials   
                 </h5>
@@ -184,7 +192,7 @@
             </div> 
         </div>
 
-    <section class="wrapper_strongpoints">
+    <section id="strongpoints" class="wrapper_strongpoints">
         <div class="grid-strongpoints">
             <div class="imgstrong-liberadzki imgstrong_position_left"></div>
             <div class="imgstrong-avery imgstrong_position_next">

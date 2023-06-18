@@ -16,6 +16,52 @@ top:44%;
 left:48.5%;
 }
 
+.ul-menu-button {
+  display: none;
+  width: 400px; /* Ширина меню */
+  list-style-type: none; /* Для списка убираем маркеры */
+  margin: 0; /* Нет отступов вокруг */
+  padding: 0; /* Убираем поля вокруг текста */
+ }
+
+ li.li-button ul.ul-menu-button {
+  position: relative;
+  display: none; /* Скрываем подменю */
+  margin-left: 0; /* Сдвигаем подменю вправо */
+  margin-top: 0; /* Сдвигаем подменю вверх */
+  transform: translate(0, 0);
+ }
+
+ .li-button a {
+  display: block; /* Ссылка как блочный элемент */
+  padding: 5px; /* Поля вокруг надписи */
+  text-decoration: none; /* Подчеркивание у ссылок убираем */
+  color: #666; /* Цвет текста */
+  border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+  background-color: #f0f0f0; /* Цвет фона */
+  border-bottom: none; /* Границу снизу не проводим */
+ }
+
+.button:hover .ul-menu-button {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  order: -1;
+  overflow: visible;
+  margin-left: 0;
+  transform: translate(0px, 0%);
+}
+
+.brd {
+  border-bottom: 1px solid #ccc; /* Линия снизу */
+ }
+
+ .li-button::after {
+  content: "";
+ }
+
 body{
   /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
