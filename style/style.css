@@ -79,19 +79,12 @@ body{
 
 
 .hero-section{
-overflow: clip;
 position: relative;
 height: 630px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background: url(/images/inside-weather.jpg);
-}
-
-@media screen and (max-width:500px){
-  .hero-section {
-    height: 500px; 
-  }  
+background-image: url(/images/inside-weather.jpg);
 }
 
 .frame-hero {
@@ -117,7 +110,7 @@ text-align: center;
 color: #000000;
 }
 
-.hero-text{
+.hero-text {
   text-align: center;
   font-family: 'Roboto';
   font-style: normal;
@@ -620,7 +613,37 @@ color: #000000;
 
   }
 
-  @media screen and (max-width:375px) {
+  @media screen and (max-width:480px) {
+
+    .menu {
+      display: none;
+    }
+
+    .hero-section {
+      height: 764px;
+      background-position: 10% 91%;
+      background-size:764px;
+    } 
+
+    .frame-hero {
+      width: 106%;
+      top:19%;
+      left:50%;
+      height: 344px;  
+      transform: translate(-50%,-50%);
+    }
+
+    .hero-title {
+      margin:25% auto 0;
+      font-weight: 400;
+      font-size: 70px;
+      line-height: 5rem;
+    }
+
+    .hero-text {
+      font-size: 18px; 
+    }
+
     .item-designer-big {
       flex-basis: 33%;
       transform: translateX(0px) translateY(0px);
