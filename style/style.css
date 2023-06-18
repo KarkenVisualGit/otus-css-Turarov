@@ -543,14 +543,18 @@ color: #000000;
   }
 
   .img-Designer-middle-box{
-    transform: translateX(0px) translateY(-10px); 
+    transform: translateX(-10px) translateY(-10px); 
   }
     
   .img-Designer-right {
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 0;
     transform: translateX(0px) translateY(10px);
-    margin: 0;
+  }
+
+  .item-designer-middle > div {
+    margin-left: 20px;
   }
 
   .name_designer_right {
