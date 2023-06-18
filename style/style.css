@@ -491,7 +491,7 @@ color: #000000;
     list-style-type: none;  
   }
 
-  /* @media screen and (max-width:768px) {
+  @media screen and (max-width:768px) {
     .item-designer-big {
       flex-basis: 33%;
       transform: translateX(0px) translateY(0px);
@@ -515,7 +515,7 @@ color: #000000;
       padding-left: 0%;
     }
 
-  } */
+  }
 
   .wrapper_testimonials {
     max-width: 1440px;
