@@ -24,7 +24,7 @@ body{
   background-color:#FFFFFF;
 }
 
-.wrapper1 {
+.wrapper_hero {
   display:block;
   max-width: 1065px;
   margin:0 auto;
@@ -41,6 +41,12 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background: url(/images/inside-weather.jpg);
+}
+
+@media screen and (max-width:500px){
+  .hero-section {
+    height: 500px; 
+  }  
 }
 
 .frame-hero {
@@ -83,598 +89,768 @@ color: #000000;
 }
 
 .biography {
-display: flex;
-flex-flow: row nowrap;
-height: 840px;
-margin-top:135px;
-justify-content: flex-start;
-align-items: center;
-align-content: flex-start;
-}
-
-.imagebio {
-  align-self: flex-start;
-  flex: 1 0 42%;
-}
-
-.bio_img_block{
-  display: block;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 840px;
+  margin-top:135px;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  }
+  
+  .imagebio {
+    align-self: flex-start;
+    flex: 1 0 42%;
+  }
+  
+  .bio_img_block{
+    display: block;
+    max-width: 100%;
+    height:auto;
+  }
+  
+  .image_biography {
   max-width: 100%;
-  height:auto;
-}
-
-.image_biography {
-max-width: 100%;
-min-width: 100%;
-min-height: 840px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background: url(/images/jared-weiss.jpg);
-}
-
-.biographytext {
-display: flex;
-flex-basis: 8%;
-height: 23px;
-align-self: flex-start;
-margin-top:3%;
-/* biography block font*/
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-
-color: #000000;
-
-transform: rotate(-90deg);
-}
-
-.bio-txt-section {
-display: flex;
-flex: 1 1 auto;
-flex-flow: column nowrap;
-}
-
-.biography-title {
-display: flex;
-flex-basis: 44%;
-height: 230px;
-align-self: flex-start;
-flex: 1 1 auto;
-margin: 15% 10% 0%;
-/* margin-top:54%; */
-/* h2 block font*/
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 500;
-font-size: 86px;
-line-height: 115px;
-
-color: #000000;
-}
-
-.bio_position{
-  padding-left: 54px;
-  padding-top: 20px;
-}
-
-.list-bio {
-  flex: 1 1 0;
-  max-width:88%;
-  margin:-3% 2% 2%;
-  list-style-type: none;
-}
-
-.bio_title {
+  min-width: 100%;
+  min-height: 840px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: url(/images/jared-weiss.jpg);
+  }
+  
+  .biographytext {
+  display: flex;
+  flex-basis: 8%;
+  height: 23px;
+  align-self: flex-start;
+  margin-top:3%;
+  /* biography block font*/
   font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #000000;
+  
+  transform: rotate(-90deg);
+  }
+  
+  .bio-txt-section {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column nowrap;
+  }
+  
+  .biography-title {
+  display: flex;
+  flex-basis: 44%;
+  height: 230px;
+  align-self: flex-start;
+  flex: 1 1 auto;
+  margin: 15% 10% 0%;
+  /* margin-top:54%; */
+  /* h2 block font*/
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  color: #0D0D0D;
-}
-
-.list-item-bio {
-  display: inline-block;
-}
-
-.list-item-bio::after {
-  content: " /"
-}
-
-.list-item-bio:first-child::after {
-  content: ""
-}
-
-.list-item-bio:last-child::after {
-  content: ""
-}
-
-.articlebio::before {
-  display: flex;
-  content: "";
-  width: 3%;
-  height: 4px;
-  margin:2% -3% 0%;
-  background: #0D0D0D;
-}
-
-.articlebio {
-  display: flex;
-  flex-basis: 48%;
-  height: 124px;
-  margin:7% 13% 16%;
-  width:87%;
-  /* article bio block font*/
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 31px;
+  font-size: 86px;
+  line-height: 115px;
   
-  color: #0D0D0D;  
-}
-
-.wrapper_designers {
-  max-width: 1337px;
-  margin:0 auto; 
-}
-
-.designers {
-	display: flex;
-	justify-content: flex-start;
-	flex-flow: row nowrap;
-	align-items: center;
-	position: relative;
-	/* outline: 1px solid red; */
-	margin-top: 160px;
-	overflow-x: auto;
-  transform: translateX(0px);
-}
-
-.item-designer-big { 
-  display: flex;
-  flex: 1 0 50%; 
-  flex-flow: column nowrap; 
-}
-
-.item-designer-middle { 
-  display: flex;
-  flex: 1 0 25%;  
-  flex-flow: column nowrap; 
-}
-
-.designers-title {
-  position: absolute;
-  width: 7%;
-  height: 24px;
-  margin-left: 23.5%;
-  margin-top: 2%;
-  /* padding: 0rem;
-  outline: 1px solid green; */
-  /* designers block font*/
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
   color: #000000;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg) translateX(-15px);
-}
-
-.img-Designer1 {
-  display: block;
-  max-width: 95.4%;
-  height: 538px;
-  margin-top: -1%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/spurwing-agency.jpg);
-  transform: translateX(20px) translateY(10px);
-}
-
-.list-Designer1 {
-  display: block;
-  list-style-type: none;
-  max-width: 64%;
-  height: 57px;
-  margin-left: 41%;
-  margin-top: 2.5%;
-  transform: translateX(20px);
-}
-
-.list-skills
-{
-  display: block;
-  list-style-type: none;
-  max-width: 60%;
-  height: 57px;
-  margin-left: 41%;
-  margin-top: -5%; 
-  /* outline: 1px solid red; */
-  transform: translateX(20px);
-}
-
-.designer_name {
-  text-transform: uppercase;
-}
-
-.list-item-des {
-  display: inline-block;
-  max-width: 100%;
-}
-  
-  .list-item-des::after {
-    content: "/"
-}
-
-.list-item-des:first-child::after {
-  content: ""
-}
-
-  .list-item-des:last-child::after {
-    content: ""
-}
-
-.img-Designer2 {
-  display: block;
-  max-width: 95%;
-  height: 439.46px;
-  margin-left: 1%;
-  margin-top: 17%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/stil-P1.jpg);
-  transform: translateX(20px);
-}
-
-.list-Designer2 {
-  list-style-type: none;
-  max-width: 100%;
-  height: 57px;
-  margin-left: -6%;
-  margin-top: 3%;
-}
-
-.list-skills-2
-{
-  display: block;
-  list-style-type: none;
-  max-width: 100%;
-  margin-left: -6%;
-  margin-top: -10%; 
-  /* outline: 1px solid red; */
-}
-
-.img-Designer3 {
-  display: block;
-  max-width: 100%;
-  height: 439.46px;
-  margin-left:10%;
-  margin-top: 27%; 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/stil_mv.jpg);
-  
-}
-
-.list-Designer3 {
-list-style-type: none;
-max-width: 70%;
-height: 57px;
-margin-left: 0%;
-margin-top: 0%;
-/* textLouisse block font*/
-}
-
-.list-skills-3
-{
-  display: block;
-  list-style-type: none;
-  max-width: 100%;
-  height: 57px;
-  margin-left: 0%;
-  margin-top: -10%; 
-  /* outline: 1px solid red; */
-}
-
-.img-Designer-4 {
-  display: inline-block;
-  width: 95.4%;
-  height: 538px;
-  margin-left:4%;
-  margin-top: -1%; 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/spurwing-agency.jpg);
-  /* outline: 1px solid red; */
-}
-
-.list-Designer4 {
-  display: block;
-  list-style-type: none;
-  max-width: 100%;
-  height: 57px;
-  margin-left: 0%;
-  margin-top: 0%;
-  /* textLouisse block font*/
-  transform: translateX(0px);
   }
   
-  .list-skills-4
-  {
-    display: block;
+  .bio_position{
+    padding-left: 54px;
+    padding-top: 20px;
+  }
+  
+  .list-bio {
+    flex: 1 1 0;
+    max-width:88%;
+    margin:-3% 2% 2%;
     list-style-type: none;
-    max-width: 100%;
-    height: 57px;
-    margin-left: 0%;
-    margin-top: -5%; 
+  }
+  
+  .bio_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0D0D0D;
+  }
+  
+  .list-item-bio {
+    display: inline-block;
+  }
+  
+  .list-item-bio::after {
+    content: " /"
+  }
+  
+  .list-item-bio:first-child::after {
+    content: ""
+  }
+  
+  .list-item-bio:last-child::after {
+    content: ""
+  }
+  
+  .articlebio::before {
+    display: flex;
+    content: "";
+    width: 3%;
+    height: 4px;
+    margin:2% -3% 0%;
+    background: #0D0D0D;
+  }
+  
+  .articlebio {
+    display: flex;
+    flex-basis: 48%;
+    height: 124px;
+    margin:7% 13% 16%;
+    width:87%;
+    /* article bio block font*/
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    
+    color: #0D0D0D;  
+  }
+  
+  .designer-wrap {
+    max-width: 1337px;
+    margin:160px auto;
+    
     /* outline: 1px solid red; */
-    transform: translateX(0px);
+  }
+  
+  .designers {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-items: center;
+    /* outline: 1px solid red; */
+    overflow: auto;
+    /* transform: translateX(0px); */
+  }
+  
+  .item-designer-big { 
+    flex-basis: 48%;
+    flex: 1 1 auto;
+    /* flex-shrink: 1; */
+    /* flex: 1 1 48%; */
+    /* margin: 15px;  */
+    /* flex-flow: column nowrap;  */
   }
 
-.Testimonials {
-  display: grid;
-  position: relative;
-  grid-template-columns: repeat(7, 1fr);
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  gap:10px;
-  top: 205px;  
-}
+  
+  .item-designer-middle { 
+    flex-basis: 24%;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    /* flex-shrink: 0; */
+    /* flex: 1 0 24%;   */
+    /* margin-left: 15px; */
+    /* flex-flow: column nowrap;  */
+  }
 
-.Testimonials-title {
+  .item-designer-big > div {
+    margin: 15px;
+  }
+
+  .item-designer-middle > div {
+    margin-left: 15px;
+  }
+  
+  .designers-title {
+    display: inline-block;
+    position: absolute;
+    max-width: 7%;
+    min-height: 24px;
+    left: 46.5%;
+    right: 0%;
+    padding-right: 32%;
+    padding-left: 10%;
+    margin-top: 0.5%;
+    /* outline: 1px solid red; */
+    /* designers block font*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) translateX(0px) translateY(0px);
+  }
+  
+  .designer_name_title {
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* outline: 1px solid red; */
+  }
+  
+  .name_designer_left{
+    transform: translateX(-10px) translateY(-5px);  
+  }
+
+  .img-Designer-box {
   display:block;
-  position: absolute;
-  /* Testimonials block font*/
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  padding: 0;
-  transform: translateX(140px) translateY(-370px);
-  color: #000000;
-}
-
-.testimonials-site-link {
-  display:block;
+  /* position:realtive; */
   max-width: 100%;
-  font-weight: 400;
-  writing-mode: vertical-rl;
-  transform: translate(0rem, 0rem) rotate(180deg);
-}
-
-.item-testimonials-top {
-  grid-area: 1 / 1 / 4 / 2;
-  transform: translate(0rem, 0rem); 
-  justify-self: end;
-  align-self: start;
-}
-
-.sub-position-top {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(0.7rem, -9rem); 
-}
-
-.subtitle-name {
-  display: block;
-  /* item-testimonials-link block font*/
-  font-weight: 700;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  color: #000000;
-  padding-left: 0%;
-}
-
-.item-testimonials-middle {
-  grid-area: 4 / 1 / 6 / 2;
-  transform: translate(0rem, 0rem); 
-  justify-self: end;
-  align-self: start;
-}
-
-.sub-position-middle {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(0.7rem, -7rem); 
-}
-
-.item-testimonials-bottom {
-  grid-area: 7 / 1 / 9 / 2; 
-  transform: translate(0rem, 0rem);
-  justify-self: end;
-  align-self: start;
-}
-
-.sub-position-bottom {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg) translate(0.7rem, -0.8rem); 
-}
-
-.a_testimonials {
-  text-decoration: none;
-  color: black;
-}
-
-.item-testimonials-big-image {
-  grid-area: 1 / 2 / 9 / 5;
-  align-self: start;
-}
-
-.big-frame-Testimonials{
-  display: block;
-  max-width: 100%;
-  height:auto;
-}
-
-.img-left-Testimonials{
-  max-width: 84%;
-  min-height: 757px;
-  transform: translate(-0.3rem, 3.3rem);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-image: url(/images/keghan-crossland.jpg);
-}
-
-.item-testimonials-article {
-  grid-area: 1 / 5 / 5 / 7;
-  align-self: start;
-}
-
-.article-box {
-  display: block;
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.article-testimonials{
-  max-width: 100%;
+  width:635.48px;
   min-width: 100%;
   max-height: 100%;
-  min-height: 100%;
-  padding: 0;
-  transform: translateX(-15px) translateY(60px);
-  /* article-testimonials block font*/
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
-  text-align: center;
-
-  color: #000000;
-}
-
-.item-testimonials-small-img {
-  grid-area: 5 / 5 / 9 / 7;
-  align-self: start;
-
-}
-
-.right-img-box {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.img-right-Testimonials {
-  max-width: 100%;
-  min-width: 100%;
-  max-height: 333px;
-  min-height: 333px;
-  transform: translateX(-15px) translateY(50px);
+  min-height: 538px;
+  /* margin-top: 0%; */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  background-image: url(/images/sinitta-leunen.jpg);
-}
+  background-size:cover;
+  background-image: url(/images/spurwing-agency.jpg);
+  transform: translateX(0px) translateY(-5px);
+  
+  }
 
-.wrapper4 {
+  
+  .img-Designer-big {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .list-box-big{
+    display: block;
+    max-width: 100%;
+    /* min-height: auto; */
+    padding-left: 50%;
+  }
+  
+  .list-box{
+    display: block;
+    max-width: 100%;
+    min-height: auto;
+  }
+  
+  .list-Designer-big {
+    margin: 0; padding: 0;
+    max-width: 100%;
+    min-height: 57px;
+    transform: translateX(-10px) translateY(-20px);
+  }
+  
+  ul.list-Designer-big li {
+    display: inline-block;
+    list-style-type: none;  
+  }
+  
+  
+  .list-skills-big
+  {
+    margin: 0; padding: 0;
+    max-width: 100%;
+    min-height: 100%;
+    /* outline: 1px solid red; */
+    transform: translateX(-10px) translateY(-60px);
+  }
+  
+  ul.list-skills-big li {
+    display: inline-block;
+    list-style-type: none; 
+  }
+    
+  li::after {
+      content: "/"
+  }
+  
+  li:last-child::after {
+      content: ""
+  }
+  
+  .img-Designer-middle-box {
+   
+    width: 319px;
+    max-width:100%;
+    min-height: 439.46px;
+    /* margin-left: 0px;
+    margin-top: 0%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/stil-P1.jpg);
+    transform: translateX(0px) translateY(40px); 
+  
+  }
+
+  .img-Designer-middle {
+    display: flex;
+    margin-left: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    
+  }
+  
+  .name_designer_middle{
+    transform: translateX(0px) translateY(40px);  
+  }
+  
+  .list-Designer-middle {
+    margin: 0; padding: 0;
+    max-width: 80%;
+    height: 57px;
+    transform: translateX(0px) translateY(22px);
+  }
+  
+  ul.list-Designer-middle li {
+    display: inline-block;
+    list-style-type: none; 
+  }
+  
+  .list-skills-middle
+  {
+    margin: 0; padding: 0;
+    max-width: 80%;
+    /* outline: 1px solid red; */
+    transform: translateX(0px) translateY(-15px);
+  }
+  
+  ul.list-skills-middle li {
+    display: inline-block;
+    list-style-type: none; 
+  }
+  
+  .img-Designer-right {
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    width: 320px;
+    /* max-height: 100%; */
+    max-width: 100%;
+    min-height: 439.46px;
+    /* margin-left: 0px;
+    margin-top: 0%;  */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: translateX(0px) translateY(65px);
+    background-image: url(/images/stil_mv.jpg);
+    
+  }
+  
+  .name_designer_right {
+    max-width: 70%;
+    transform: translateX(20px) translateY(60px);  
+  }
+  
+  .list-Designer-right {
+  margin: 0; padding: 0;
+  max-width: 80%;
+  height: 57px;
+  /* textLouisse block font*/
+  transform: translateX(20px) translateY(45px);
+  }
+  
+  ul.list-Designer-right li {
+    display: inline-block;
+    list-style-type: none;  
+  }
+  
+  .list-skills-right
+  {
+    margin: 0; padding: 0;
+    max-width: 77%;
+    height: 57px;
+    /* outline: 1px solid red; */
+    transform: translateX(20px) translateY(7px);
+  }
+  
+  ul.list-skills-right li {
+    display: inline-block;
+    list-style-type: none;  
+  }
+
+  /* @media screen and (max-width:768px) {
+    .item-designer-big {
+      flex-basis: 33%;
+      transform: translateX(0px) translateY(0px);
+    }  
+
+    .img-Designer-box {
+      width: 320px;
+      max-width: 100%;
+      min-height: 439.46px;
+    }
+
+    .designers-title {
+      left: 2%;
+      padding-left: 0%;
+      padding-top: 0%;
+      writing-mode: horizontal-tb;
+      transform: rotate(0deg) translateX(0px) translateY(-50px);
+    }
+
+    .list-box-big{
+      padding-left: 0%;
+    }
+
+  } */
+
+  .wrapper_testimonials {
+    max-width: 1440px;
+    margin:0px auto;
+    /* outline: 1px solid red; */
+  }
+
+  .Testimonials {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap:10px;
+    margin-top: 0px;  
+  }
+  
+  .Testimonials-title {
+    display:block;
+    position: absolute;
+    /* Testimonials block font*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 0;
+    transform: translateX(140px) translateY(-370px);
+    color: #000000;
+  }
+  
+  .testimonials-site-link {
+    display:block;
+    max-width: 100%;
+    font-weight: 400;
+    writing-mode: vertical-rl;
+    transform: translate(0rem, 0rem) rotate(180deg);
+  }
+  
+  .item-testimonials-top {
+    grid-area: 1 / 1 / 4 / 2;
+    transform: translate(0rem, 0rem); 
+    justify-self: end;
+    align-self: start;
+  }
+  
+  .sub-position-top {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) translate(0.7rem, -9rem); 
+  }
+  
+  .subtitle-name {
+    display: block;
+    /* item-testimonials-link block font*/
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #000000;
+    padding-left: 0%;
+  }
+  
+  .item-testimonials-middle {
+    grid-area: 4 / 1 / 6 / 2;
+    transform: translate(0rem, 0rem); 
+    justify-self: end;
+    align-self: start;
+  }
+  
+  .sub-position-middle {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) translate(0.7rem, -7rem); 
+  }
+  
+  .item-testimonials-bottom {
+    grid-area: 7 / 1 / 9 / 2; 
+    transform: translate(0rem, 0rem);
+    justify-self: end;
+    align-self: start;
+  }
+  
+  .sub-position-bottom {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg) translate(0.7rem, -0.8rem); 
+  }
+  
+  .a_testimonials {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .item-testimonials-big-image {
+    grid-area: 1 / 2 / 9 / 5;
+    align-self: start;
+  }
+  
+  .big-frame-Testimonials{
+    display: block;
+    max-width: 100%;
+    height:auto;
+  }
+  
+  .img-left-Testimonials{
+    max-width: 84%;
+    min-height: 757px;
+    transform: translate(-0.3rem, 3.3rem);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(/images/keghan-crossland.jpg);
+  }
+  
+  .item-testimonials-article {
+    grid-area: 1 / 5 / 5 / 7;
+    align-self: start;
+  }
+  
+  .article-box {
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .article-testimonials{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    padding: 0;
+    transform: translateX(-15px) translateY(60px);
+    /* article-testimonials block font*/
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .item-testimonials-small-img {
+    grid-area: 5 / 5 / 9 / 7;
+    align-self: start;
+  
+  }
+  
+  .right-img-box {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .img-right-Testimonials {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 333px;
+    min-height: 333px;
+    transform: translateX(-15px) translateY(50px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(/images/sinitta-leunen.jpg);
+  }
+
+.wrapper_strongpoints {
   max-width: 1686px;
-  margin:0 auto;
+  margin: 160px auto;
   /* outline: 1px solid red; */
 }
 
-.strongpoints {
+.grid-strongpoints {
   position: relative;
-  height: 665px;
-  left:0px;
-  margin-top: 377px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  overflow: auto;
+  /* outline: 1px solid red; */
 }
 
-.strongtxt{
-  position: absolute;
-  width: 14%;
-  height: 23px;
-  left: 23.5%;
-  top: -3%;
-  /* strongtxt block font*/
+.grid-strongpoints > div{
+  margin: 30px; 
+}
+  
+  @supports (display: grid) {
+    .grid-strongpoints {
+      position: relative;
+      display: -ms-grid;
+      display: grid;
+      grid-column-gap: 30px;
+      overflow: auto;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      grid-auto-flow: column;
+    }
+    
+    .grid-strongpoints > div {
+      margin: 30px;
+    }
+  }
+
+.strong-txt-title {
+  display: inline-block;
+  width: 23px;
+  height: 122px;
+  margin: 0% 70% 100% 0%;
+  /*h3 strong-txt-title font*/
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
-  transform: rotate(-90deg);
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg) translate(50px, 160px);
+      -ms-transform: rotate(180deg) translate(50px, 160px);
+          transform: rotate(180deg) translate(50px, 160px); 
 }
 
-.imgstrong{
-  position: absolute;
-  width: 20.5%;
-  height: 525px;
-  left: 7.5%;
-  top: 21%;
-  background: url(/images/dawid-liberadzki.jpg)
-}
-
-.imgstrong1 {
-  position: absolute;
-  width: 20.5%;
-  height: 525px;
-  top: 21%;
-  left: 30%;
-  background: url(/images/avery-klein.jpg);
-}
-
-.imgstrong2 {
-  position: absolute;
-  width: 20.6%;
-  height: 525px;
-  top: 20.9%;
-  left: 77.6%;
-  background: url(/images/avery-klein.jpg);
-}
-
-.framestrong {
-  padding: 0px 9px 18px;
-  position: absolute;
-  width: 23.4%;
-  height: 40.6%;
-  left: 52.5%;
-  top: -13%;
-}
-
-.strength-title {
-  width: 22.4%;
-  height: 7%;
-  /* h3 block font*/
+.strongpoints-title {
+  /* position: absolute; */
+  max-width: 377px;
+  min-height: 115px;
+  margin: 0% 0%;
+  -webkit-transform: translate(0px, -15px);
+  -ms-transform: translate(0px, -15px);
+          transform: translate(0px, -15px);
+  /* h4 block font*/
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 500;
   font-size: 86px;
   line-height: 115px;
   color: #000000;
+  /* outline: 1px solid red; */
 }
 
-.frame-txt-strength {
-  position: absolute;
-  padding: 0px; 
-  width: 23.4%;
-  height: 506.49px;
-  top:0%;
+.imgstrong-liberadzki {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+            justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 525px;
+  min-width:350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/dawid-liberadzki.jpg);
+  /* outline: 1px solid red; */
 }
 
-.list-footer {
-  position: absolute;
-  width: 13.6%;
-  margin-top: 10%;
-  margin-left:9%;
+.imgstrong_position_left {
+  -webkit-transform: translate(70px, 120px);
+      -ms-transform: translate(70px, 120px);
+          transform: translate(70px, 120px);
 }
 
-.list-item-footer {
+.imgstrong-avery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 525px;
+  min-width: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/avery-klein.jpg);
+}
+
+.imgstrong_position_next {
+  -webkit-transform: translate(60px, 120px);
+      -ms-transform: translate(60px, 120px);
+          transform: translate(60px, 120px);
+ }
+
+.imgstrong_position_last {
+  -webkit-transform: translate(0px, 120px);
+      -ms-transform: translate(0px, 120px);
+          transform: translate(0px, 120px);
+ }
+
+.frame-txt-strongpoints {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 665px;
+  min-width:395px;
+  gap: 30px;
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.list-strongpoints {
+  display: block;
+  -webkit-transform: translate(-30px, -30px);
+  -ms-transform: translate(-30px, -30px);
+      transform: translate(-30px, -30px);
+}
+
+.list-item-strongpoints {
+  display: block;
   list-style-type: none;
   position: relative;
   font-family: 'Bitter';
@@ -683,4 +859,8 @@ margin-top: 0%;
   font-size: 34px;
   line-height: 41px;
   color: #000000;
+}
+
+.list-item-strongpoints::after {
+  content: "";
 }
