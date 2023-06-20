@@ -33,6 +33,7 @@ body{
 
 
 .hero-section{
+display:block;
 overflow: clip;
 position: relative;
 height: 630px;
