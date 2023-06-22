@@ -529,257 +529,6 @@ color: #000000;
     list-style-type: none;  
   }
 
-  @media screen and (max-width:768px) {
-
-    .biography {
-      flex-flow: row wrap-reverse; 
-
-    }
-
-    .image_biography {
-      max-width: 450px;
-      min-height: 400.54px;
-      background-size: cover;
-      padding-top: 0px;
-      transform: translate(0px, 30px); 
-    }
-
-    .biographytext {
-      align-self: center;
-      font-size: 18px;
-      line-height: 21px; 
-      transform: rotate(0deg); 
-      order: 1;  
-      padding-left: 77%;
-      transform: translate(0px, -95px);
-    }
-
-    .bio-txt-section {
-      flex-flow: row wrap;
-    }
-
-    .biography-title {
-      margin: 0;
-      padding: 0;
-      order: -1;
-      width:100%;
-      font-weight: 400;
-      font-size: 64px;
-      line-height: 85px;  
-      flex-basis: 100%;
-
-    }
-
-    .bio_title_block {
-      padding-left: 0;
-      padding-top: 55px;
-      padding-bottom: 10px;
-      margin: 0;
-      transform: translate(10px, -50px);
-    }
-
-    .biography-title::before {
-      content: "-";
-    }
-
-    .biography-title br {
-      display: none;
-    }
-
-    .articlebio {
-      flex-basis: 95%;
-      margin: 0;
-      order: -1;
-      font-weight: 300;
-      width:100%;
-      font-size: 30px;
-      line-height: 36px;
-      transform: translate(0, -70px);
-      color: #000000;
-    }
-
-    .articlebio br {
-      display: none;
-    }
-
-    .bio_position {
-      order: -1;
-      padding: 0;
-      transform: translate(10px, -160px);
-    }
-
-    .list-bio {
-      justify-content: flex-start;
-      margin: 0;
-      padding : 0;
-      transform: translate(-70px, -125px);
-      order: -1;
-    }
-
-    .list-item-bio {
-      display:list-item;
-      list-style-type: none;
-    }
-
-    .list-item-bio::after {
-      content: ""
-    }
-
-    .list-item-bio::before {
-      display: flex;
-      content: "";
-      width: 2%;
-      height: 2px;
-      margin: 0% -3% 0%;
-      transform: translate(0px, 10px);
-      background: #0D0D0D; 
-    }
-
-    .articlebio::before {
-      display: none;
-    }
-
-      .designers-title {
-      left: 2%;
-      padding-left: 0%;
-      padding-top: 0%;
-      writing-mode: horizontal-tb;
-      transform: rotate(0deg) translateX(0px) translateY(-50px);
-    }
-
-    .img-Designer-middle-box{
-      transform: translateX(0px) translateY(0px);  
-    }
-
-    .item-designer-big{
-      flex-basis: 33%;
-      transform: translateX(0px) translateY(0px);
-    }
-
-    .img-Designer-box {
-      width: 320px;
-      max-width: 100%;
-      min-height: 439.46px;
-      background-size: auto auto;
-    }
-
-    .list-box-big{
-      padding-left: 0%;
-    }
-
-    .name_designer_middle{
-      transform: translateX(-10px) translateY(0px);  
-    }
-    
-    .list-Designer-middle {
-      transform: translateX(-10px) translateY(-15px);
-    }
-
-    .list-skills-middle
-  {
-    max-width: 100%;
-    transform: translateX(-10px) translateY(-55px);
-  }
-
-  .item-designer-middle{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-  }
-
-  .img-Designer-middle-box{
-    transform: translateX(-10px) translateY(-10px); 
-  }
-    
-  .img-Designer-right {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0;
-    transform: translateX(0px) translateY(10px);
-  }
-
-  .item-designer-middle > div {
-    margin-left: 20px;
-  }
-
-  .name_designer_right {
-    max-width: 70%;
-    transform: translateX(0px) translateY(15px);  
-  }
-  
-  .list-Designer-right {
-  transform: translateX(0px) translateY(0px);
-  }
-  
-  .list-skills-right
-  {
-    max-width: 100%;
-    transform: translateX(0px) translateY(-40px);
-  }
-
-  }
-
-  @media screen and (max-width:480px) {
-
-    .menu {
-      display: none;
-    }
-
-    .hero-section {
-      height: 764px;
-      background-position: 10% 91%;
-      background-size:764px;
-    } 
-
-    .frame-hero {
-      display: block;
-      max-width: 106%;
-      width:450px;
-      top:19%;
-      left:50%;
-      min-height: 344px;  
-      transform: translate(-50%,-50%);
-    }
-
-    .hero-title {
-      margin:28% auto 0;
-      font-weight: 400;
-      font-size: 70px;
-      line-height: 5rem;
-    }
-
-    .hero-text {
-      font-size: 18px; 
-    }
-
-
-
-    .item-designer-big {
-      flex-basis: 33%;
-      transform: translateX(0px) translateY(0px);
-    }  
-
-    .img-Designer-box {
-      width: 320px;
-      max-width: 100%;
-      min-height: 439.46px;
-    }
-
-    .designers-title {
-      left: 2%;
-      padding-left: 0%;
-      padding-top: 0%;
-      writing-mode: horizontal-tb;
-      transform: rotate(0deg) translateX(0px) translateY(-50px);
-    }
-
-    .list-box-big{
-      padding-left: 0%;
-    }
-
-  }
-
   .wrapper_testimonials {
     max-width: 1440px;
     margin:0px auto;
@@ -903,7 +652,6 @@ color: #000000;
     box-sizing: border-box;
     max-width: 100%;
     height: auto;
-    object-fit: contain;
   }
   
   .article-testimonials{
@@ -1125,4 +873,418 @@ color: #000000;
 
 .list-item-strongpoints::after {
   content: "";
+}
+
+@media screen and (max-width:768px) {
+
+  .biography {
+    flex-flow: row wrap-reverse; 
+
+  }
+
+  .image_biography {
+    max-width: 450px;
+    min-height: 400.54px;
+    background-size: cover;
+    padding-top: 0px;
+    transform: translate(0px, 30px); 
+  }
+
+  .biographytext {
+    align-self: center;
+    font-size: 18px;
+    line-height: 21px; 
+    transform: rotate(0deg); 
+    order: 1;  
+    padding-left: 77%;
+    transform: translate(0px, -95px);
+  }
+
+  .bio-txt-section {
+    flex-flow: row wrap;
+  }
+
+  .biography-title {
+    margin: 0;
+    padding: 0;
+    order: -1;
+    width:100%;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;  
+    flex-basis: 100%;
+
+  }
+
+  .bio_title_block {
+    padding-left: 0;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    margin: 0;
+    transform: translate(10px, -50px);
+  }
+
+  .biography-title::before {
+    content: "-";
+  }
+
+  .biography-title br {
+    display: none;
+  }
+
+  .articlebio {
+    flex-basis: 95%;
+    margin: 0;
+    order: -1;
+    font-weight: 300;
+    width:100%;
+    font-size: 30px;
+    line-height: 36px;
+    transform: translate(0, -70px);
+    color: #000000;
+  }
+
+  .articlebio br {
+    display: none;
+  }
+
+  .bio_position {
+    order: -1;
+    padding: 0;
+    transform: translate(10px, -160px);
+  }
+
+  .list-bio {
+    justify-content: flex-start;
+    margin: 0;
+    padding : 0;
+    transform: translate(-70px, -125px);
+    order: -1;
+  }
+
+  .list-item-bio {
+    display:list-item;
+    list-style-type: none;
+  }
+
+  .list-item-bio::after {
+    content: ""
+  }
+
+  .list-item-bio::before {
+    display: flex;
+    content: "";
+    width: 2%;
+    height: 2px;
+    margin: 0% -3% 0%;
+    transform: translate(0px, 10px);
+    background: #0D0D0D; 
+  }
+
+  .articlebio::before {
+    display: none;
+  }
+
+    .designers-title {
+    left: 2%;
+    padding-left: 0%;
+    padding-top: 0%;
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg) translateX(0px) translateY(-50px);
+  }
+
+  .img-Designer-middle-box{
+    transform: translateX(0px) translateY(0px);  
+  }
+
+  .item-designer-big{
+    flex-basis: 33%;
+    transform: translateX(0px) translateY(0px);
+  }
+
+  .img-Designer-box {
+    width: 320px;
+    max-width: 100%;
+    min-height: 439.46px;
+    background-size: auto auto;
+  }
+
+  .list-box-big{
+    padding-left: 0%;
+  }
+
+  .name_designer_middle{
+    transform: translateX(-10px) translateY(0px);  
+  }
+  
+  .list-Designer-middle {
+    transform: translateX(-10px) translateY(-15px);
+  }
+
+  .list-skills-middle
+{
+  max-width: 100%;
+  transform: translateX(-10px) translateY(-55px);
+}
+
+.item-designer-middle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.img-Designer-middle-box{
+  transform: translateX(-10px) translateY(-10px); 
+}
+  
+.img-Designer-right {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  transform: translateX(0px) translateY(10px);
+}
+
+.item-designer-middle > div {
+  margin-left: 20px;
+}
+
+.name_designer_right {
+  max-width: 70%;
+  transform: translateX(0px) translateY(15px);  
+}
+
+.list-Designer-right {
+transform: translateX(0px) translateY(0px);
+}
+
+.list-skills-right
+{
+  max-width: 100%;
+  transform: translateX(0px) translateY(-40px);
+}
+
+.Testimonials {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  margin: 0;
+  padding:0;
+  gap: 0;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Testimonials-title {
+  display: block;
+  width: 109px;
+  height: 21px;
+  top: -25.5%;
+  right: 2%;
+  padding:0;
+  margin:0;
+  transform: translateX(0px) translateY(-15px);
+}
+
+.item-testimonials-article {
+  order:5;
+  align-self: center;
+  margin-top:-20%;
+  padding-bottom: 0px;
+}
+
+.article-testimonials {
+  transform: translateX(0px) translateY(0px); 
+}
+
+.article-box {
+  max-width: 342px;
+  min-height: 178px;
+}
+
+.article-testimonials br {
+  display:none;
+}
+
+.item-testimonials-small-img {
+ display: flex; 
+ flex:1 0 100%;
+ order:4;
+ align-self: center;
+ justify-content: center;
+}
+
+.right-img-box {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-right-Testimonials {
+  max-width: 100%;
+  min-width: 100%;
+  width:410px;
+  min-height: 330px;
+  background-size:cover;
+  transform: translateX(5px) translateY(0px);
+}
+
+.item-testimonials-top {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  order: 3;
+  flex-basis:24%;
+  margin-left: 30px;
+  justify-content: flex-start;
+  transform: translate(0px, 0px);
+  align-self: center; 
+}
+
+.item-testimonials-middle {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  flex-basis:24%;
+  justify-content: flex-end;
+  order: 2;
+  transform: translate(2rem, 0rem);
+}
+
+.testimonials-site-link {
+  writing-mode:horizontal-tb;
+  transform: translate(0rem, 0rem) rotate(0deg);
+}
+
+.sub-position-top {
+  writing-mode:horizontal-tb;
+  transform: translate(0rem, 0rem) rotate(0deg); 
+}
+
+.sub-position-middle {
+  writing-mode:horizontal-tb;
+  transform: translate(0rem, 0rem) rotate(0deg);
+}
+
+.sub-position-bottom {
+  writing-mode:horizontal-tb;
+  transform: translate(10px, 0px) rotate(0deg); 
+}
+
+.item-testimonials-bottom {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  flex-basis:24%;
+  justify-content: space-between;
+  order: -1;
+  transform: translate(0rem, 0rem);
+}
+
+.item-testimonials-big-image {
+  display: none;
+}
+
+.big-frame-Testimonials {
+  display: none;
+}
+
+}
+
+@media screen and (max-width:480px) {
+
+  .menu {
+    display: none;
+  }
+
+  .hero-section {
+    height: 764px;
+    background-position: 10% 91%;
+    background-size:764px;
+  } 
+
+  .frame-hero {
+    display: block;
+    max-width: 106%;
+    width:450px;
+    top:19%;
+    left:50%;
+    min-height: 344px;  
+    transform: translate(-50%,-50%);
+  }
+
+  .hero-title {
+    margin:28% auto 0;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 5rem;
+  }
+
+  .hero-text {
+    font-size: 18px; 
+  }
+
+  .item-designer-big {
+    flex-basis: 33%;
+    transform: translateX(0px) translateY(0px);
+  }  
+
+  .img-Designer-box {
+    width: 320px;
+    max-width: 100%;
+    min-height: 439.46px;
+  }
+
+  .designers-title {
+    left: 2%;
+    padding-left: 0%;
+    padding-top: 0%;
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg) translateX(0px) translateY(-50px);
+  }
+
+  .list-box-big{
+    padding-left: 0%;
+  }
+
+  .Testimonials-title {
+    display: block;
+    width: 109px;
+    height: 21px;
+    top: -30%;
+    right: 2%;
+    padding:0;
+    margin:0;
+    transform: translateX(0px) translateY(-50px);
+  }
+  
+  .item-testimonials-article {
+    order:5;
+    align-self: center;
+    margin-top:-30%;
+    padding-bottom: 0px;
+    transform: translateX(0px) translateY(-10px);
+  }
+
+  .item-testimonials-top {
+    display: block;
+    position: absolute;
+    left:0%;
+    margin:10px;
+    bottom: -5%;
+    transform: translate(0rem, 0rem);
+  }
+
+  .item-testimonials-middle {
+    display: block;
+    position: absolute;
+    left:53%;
+    bottom: -3%;
+    transform: translate(0rem, 0rem);
+  }
+
+  .item-testimonials-bottom {
+    display: block;
+    position: inherit;
+    left:-30%;
+    transform: translate(0rem, 4.7rem);
+  }
 }
