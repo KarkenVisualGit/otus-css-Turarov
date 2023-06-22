@@ -1265,36 +1265,6 @@ transform: translateX(0px) translateY(0px);
     display: none;
   }
 
-
-
-  .text_symbol {
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
-  }
-
-  .flex_bottom_menu {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer_href {
-    text-decoration: none;
-    color: #000000;
-  }
-  .footer_href:hover {
-    text-decoration:underline;
-  }
-
-  .bottom_item {
-    display: flex;
-    flex: 1 1 24%;
-    justify-content: center;
-  }
-
   .hero-section {
     height: 764px;
     background-position: 10% 91%;
@@ -1386,5 +1356,33 @@ transform: translateX(0px) translateY(0px);
     position: inherit;
     left:-30%;
     transform: translate(0rem, 4.7rem);
+  }
+
+  .text_symbol {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  }
+
+  .flex_bottom_menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_href {
+    text-decoration: none;
+    color: #000000;
+  }
+  .footer_href:hover {
+    text-decoration:underline;
+  }
+
+  .bottom_item {
+    display: flex;
+    flex: 1 1 24%;
+    justify-content: center;
   }
 }
