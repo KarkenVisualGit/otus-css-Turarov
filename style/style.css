@@ -875,6 +875,18 @@ color: #000000;
   content: "";
 }
 
+.bottom_menu {
+  margin:-75px auto;
+  max-width: 100%;
+}
+
+.flex_bottom_menu {
+  position: relative;
+  display: none;
+  flex-flow: row nowrap;
+}
+
+
 @media screen and (max-width:768px) {
 
   .biography {
@@ -1251,6 +1263,36 @@ transform: translateX(0px) translateY(0px);
 
   .menu {
     display: none;
+  }
+
+
+
+  .text_symbol {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  }
+
+  .flex_bottom_menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_href {
+    text-decoration: none;
+    color: #000000;
+  }
+  .footer_href:hover {
+    text-decoration:underline;
+  }
+
+  .bottom_item {
+    display: flex;
+    flex: 1 1 24%;
+    justify-content: center;
   }
 
   .hero-section {
