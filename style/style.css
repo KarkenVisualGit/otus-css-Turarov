@@ -18,7 +18,7 @@ left:48.5%;
 
 .ul-menu-button {
   display: none;
-  width: 400px; /* Ширина меню */
+  width: 315px; /* Ширина меню */
   list-style-type: none; /* Для списка убираем маркеры */
   margin: 0; /* Нет отступов вокруг */
   padding: 0; /* Убираем поля вокруг текста */
@@ -1185,6 +1185,64 @@ transform: translateX(0px) translateY(0px);
 
 .big-frame-Testimonials {
   display: none;
+}
+
+.wrapper_strongpoints {
+  margin: 140px auto; 
+}
+
+.frame-txt-strongpoints {
+  order: -1;
+  height: 526px;
+  min-width:280px;
+  align-items: flex-start;
+}
+.list-item-strongpoints {
+  font-size: 24px;
+  line-height: 37px; 
+}
+
+.list-strongpoints {
+  transform: translate(-60px, -30px); 
+}
+
+.strongpoints-title {
+  font-size: 64px;
+  line-height: 86px;
+  transform: translate(-35px, 50px);
+}
+
+.strong-txt-title {
+  position:absolute;
+  left: -70%;
+  top: -5%;
+  margin:0;
+  width: 122px;
+  height: 21px;
+  writing-mode: horizontal-tb; 
+  transform: rotate(0deg) translate(-100%, -100px);
+}
+
+.imgstrong-liberadzki{
+  height: 450px;
+  min-width:300px;
+}
+
+.imgstrong-avery {
+  height: 450px;
+  min-width:300px;
+}
+
+.imgstrong_position_left {
+  transform: translate(-170px, 90px); 
+}
+
+.imgstrong_position_next {
+  transform: translate(-170px, 90px);
+}
+
+.imgstrong_position_last {
+  transform: translate(-170px, 90px);
 }
 
 }
