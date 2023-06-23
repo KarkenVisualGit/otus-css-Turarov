@@ -16,6 +16,10 @@ top:44%;
 left:48.5%;
 }
 
+.menuheader {
+  display: block;
+}
+
 .ul-menu-button {
   display: none;
   width: 315px; /* Ширина меню */
@@ -43,7 +47,7 @@ left:48.5%;
  }
 
 .button:hover .ul-menu-button {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -51,7 +55,7 @@ left:48.5%;
   order: -1;
   overflow: visible;
   margin-left: 0;
-  transform: translate(0px, 0%);
+  transform: translate(-50%, 0%);
 }
 
 .brd {
