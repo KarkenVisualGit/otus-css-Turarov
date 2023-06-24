@@ -15,7 +15,16 @@
 <body>
     <main>
         <header class="menu wrapper" >
-            <p><button class="button"><img src="/images/Menu.png" alt="menu_button"></button></p>   
+            <div class="button" data-tooltip="Cсылки на разделы"><img src="/images/Menu.png" alt="menu_button">
+                <div class="menuheader">
+                <ul class="ul-menu-button">  
+                    <li class="li-button"><a href="#Biography">Biography</a></li> 
+                    <li class="li-button"><a href="#designers">Designers</a></li> 
+                    <li class="li-button"><a href="#testimonials">Testimonials</a></li>
+                    <li class="li-button"><a href="#strongpoints" class="brd">Strongpoints</a></li>
+                   </ul> 
+                </div>
+            </div>    
         </header>
 
         <section class="hero-section wrapper_hero">
@@ -31,7 +40,7 @@
                     <div class="image_biography"></div>
                 </div>
             </div>
-            <h2 class="biographytext">Biography</h2>
+            <h2 id="Biography" class="biographytext">Biography</h2>
             <div class="bio-txt-section">
             <h3 class="biography-title">Katya <br>Mills</h3>
             <p class="bio_position bio_title">Art Director</p>
@@ -53,7 +62,7 @@
             <section class="designer-wrap">
                 <h4 class="designers-title">Designers</h4>
                 <div class="designers">
-                    <div class="item-designer-big">
+                    <div id="designers" class="item-designer-big">
                         <div class="img-Designer-big">
                             <div class="img-Designer-box"></div>    
                         </div>
@@ -103,58 +112,28 @@
                                 </ul>
                             </div>
                     </div>
-                    <!-- <div class="item-designer-middle">
-                        <div class="img-Designer-right"></div>
-                            <div class="list-box">
-                                <p class="designer_name_title name_designer_right">Louisse Red</p>
-                                <ul class="list-Designer-right">
-                                    <li><strong>From</strong></li>
-                                    <li>Be more flower</li>
-                                </ul>
-                                <ul class="list-skills-right">
-                                    <li><strong>Skills</strong></li>  
-                                    <li>Design Strategy</li>
-                                    <li>Marketing</li>
-                                </ul>
-                            </div>
-                    </div>
-                    <div class="item-designer-middle">
-                        <div class="img-Designer-right"></div>
-                            <div class="list-box">
-                                <p class="designer_name_title name_designer_right">Louisse Red</p>
-                                <ul class="list-Designer-right">
-                                    <li><strong>From</strong></li>
-                                    <li>Be more flower</li>
-                                </ul>
-                                <ul class="list-skills-right">
-                                    <li><strong>Skills</strong></li>  
-                                    <li>Design Strategy</li>
-                                    <li>Marketing</li>
-                                </ul>
-                            </div>
-                    </div>
-                </div> -->
+                </div>
             </section>
         
             <div class="Testimonials wrapper_testimonials">
-                <h5 class="Testimonials-title">
+                <h5 id="testimonials" class="Testimonials-title">
                 Testimonials   
                 </h5>
             <div class="item-testimonials-top">
                 <p class="subtitle-name sub-position-top">Website<br>
-                    <a class="testimonials-site-link a_testimonials" href="">
+                    <a class="testimonials-site-link a_testimonials" href="#">
                     www.whitepapers.com</a>
                 </p>
             </div>
             <div class="item-testimonials-middle">
                 <p class="subtitle-name sub-position-middle">Creativity<br>
-                    <a class="testimonials-site-link a_testimonials" href="">
+                    <a class="testimonials-site-link a_testimonials" href="#">
                     www.whitepapers.com</a>
                 </p>
             </div>
             <div class="item-testimonials-bottom">
                 <p class="subtitle-name sub-position-bottom">Creativity<br>
-                    <a class="testimonials-site-link a_testimonials" href="">
+                    <a class="testimonials-site-link a_testimonials" href="#">
                     www.whitepapers.com</a>
                 </p>
             </div>
@@ -185,7 +164,7 @@
         </div>
 
     <section class="wrapper_strongpoints">
-        <div class="grid-strongpoints">
+        <div id="strongpoints" class="grid-strongpoints">
             <div class="imgstrong-liberadzki imgstrong_position_left"></div>
             <div class="imgstrong-avery imgstrong_position_next">
                 <h6 class="strong-txt-title">Strong points</h6>

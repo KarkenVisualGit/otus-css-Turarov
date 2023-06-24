@@ -16,6 +16,77 @@ top:44%;
 left:48.5%;
 }
 
+[data-tooltip] {
+  position: absolute; 
+ }
+
+ [data-tooltip]::after {
+  content: attr(data-tooltip); 
+  position: absolute; 
+  width: 300px; 
+  left: 0; top: 0; 
+  background: #73787b; 
+  color: #fff; 
+  padding: 0.5em; 
+  box-shadow: 2px 2px 5px rgba(0, 1, 2, 0.3); 
+  pointer-events: none; 
+  opacity: 0; 
+  transition:0.3s ease-in-out 0.2s;
+ } 
+
+ [data-tooltip]:hover::after {
+  opacity: 1; 
+  top: -3em; 
+  left: -9rem;
+ }
+
+.ul-menu-button {
+  display: none;
+  width: 315px; /* Ширина меню */
+  list-style-type: none; /* Для списка убираем маркеры */
+  margin: 0; /* Нет отступов вокруг */
+  padding: 0; /* Убираем поля вокруг текста */
+ }
+
+ li.li-button ul.ul-menu-button {
+  position: relative;
+  display: none; /* Скрываем подменю */
+  margin-left: 0; /* Сдвигаем подменю вправо */
+  margin-top: 0; /* Сдвигаем подменю вверх */
+  transform: translate(0, 0);
+ }
+
+ .li-button a {
+  display: block; /* Ссылка как блочный элемент */
+  padding: 5px; /* Поля вокруг надписи */
+  text-decoration: none; /* Подчеркивание у ссылок убираем */
+  color: #666; /* Цвет текста */
+  border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+  background-color: #f0f0f0; /* Цвет фона */
+  border-bottom: none; /* Границу снизу не проводим */
+ }
+
+.button:hover .ul-menu-button {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  order: -1;
+  overflow: visible;
+  margin-left: 0;
+  transform: translate(-55%, 0%);
+  background-color: transparent;
+}
+
+.brd {
+  border-bottom: 1px solid #ccc; /* Линия снизу */
+ }
+
+ .li-button::after {
+  content: "";
+ }
+
 body{
   /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
@@ -41,12 +112,6 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background: url(/images/inside-weather.jpg);
-}
-
-@media screen and (max-width:500px){
-  .hero-section {
-    height: 500px; 
-  }  
 }
 
 .frame-hero {
@@ -275,11 +340,12 @@ color: #000000;
     position: absolute;
     max-width: 7%;
     min-height: 24px;
-    left: 46.5%;
-    right: 0%;
-    padding-right: 32%;
-    padding-left: 10%;
-    margin-top: 0.5%;
+    left: 62%;
+    margin-left: 1.5%;
+    padding: 15px;
+    /* padding-right: 32%;
+    padding-left: 10%; */
+    margin-top: 0;
     /* outline: 1px solid red; */
     /* designers block font*/
     font-family: 'Roboto';
@@ -289,7 +355,7 @@ color: #000000;
     line-height: 23px;
     color: #000000;
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translateX(0px) translateY(0px);
+    transform: rotate(180deg) translateX(-40px) translateY(0px);
   }
   
   .designer_name_title {
