@@ -16,6 +16,77 @@ top:44%;
 left:48.5%;
 }
 
+[data-tooltip] {
+  position: absolute; 
+ }
+
+ [data-tooltip]::after {
+  content: attr(data-tooltip); 
+  position: absolute; 
+  width: 300px; 
+  left: 0; top: 0; 
+  background: #73787b; 
+  color: #fff; 
+  padding: 0.5em; 
+  box-shadow: 2px 2px 5px rgba(0, 1, 2, 0.3); 
+  pointer-events: none; 
+  opacity: 0; 
+  transition:0.3s ease-in-out 0.2s;
+ } 
+
+ [data-tooltip]:hover::after {
+  opacity: 1; 
+  top: -3em; 
+  left: -9rem;
+ }
+
+.ul-menu-button {
+  display: none;
+  width: 315px; /* Ширина меню */
+  list-style-type: none; /* Для списка убираем маркеры */
+  margin: 0; /* Нет отступов вокруг */
+  padding: 0; /* Убираем поля вокруг текста */
+ }
+
+ li.li-button ul.ul-menu-button {
+  position: relative;
+  display: none; /* Скрываем подменю */
+  margin-left: 0; /* Сдвигаем подменю вправо */
+  margin-top: 0; /* Сдвигаем подменю вверх */
+  transform: translate(0, 0);
+ }
+
+ .li-button a {
+  display: block; /* Ссылка как блочный элемент */
+  padding: 5px; /* Поля вокруг надписи */
+  text-decoration: none; /* Подчеркивание у ссылок убираем */
+  color: #666; /* Цвет текста */
+  border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+  background-color: #f0f0f0; /* Цвет фона */
+  border-bottom: none; /* Границу снизу не проводим */
+ }
+
+.button:hover .ul-menu-button {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  order: -1;
+  overflow: visible;
+  margin-left: 0;
+  transform: translate(-55%, 0%);
+  background-color: transparent;
+}
+
+.brd {
+  border-bottom: 1px solid #ccc; /* Линия снизу */
+ }
+
+ .li-button::after {
+  content: "";
+ }
+
 body{
   /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
@@ -41,12 +112,6 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background: url(/images/inside-weather.jpg);
-}
-
-@media screen and (max-width:500px){
-  .hero-section {
-    height: 500px; 
-  }  
 }
 
 .frame-hero {
@@ -275,11 +340,12 @@ color: #000000;
     position: absolute;
     max-width: 7%;
     min-height: 24px;
-    left: 46.5%;
-    right: 0%;
-    padding-right: 32%;
-    padding-left: 10%;
-    margin-top: 0.5%;
+    left: 62%;
+    margin-left: 1.5%;
+    padding: 15px;
+    /* padding-right: 32%;
+    padding-left: 10%; */
+    margin-top: 0;
     /* outline: 1px solid red; */
     /* designers block font*/
     font-family: 'Roboto';
@@ -289,7 +355,7 @@ color: #000000;
     line-height: 23px;
     color: #000000;
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translateX(0px) translateY(0px);
+    transform: rotate(180deg) translateX(-40px) translateY(0px);
   }
   
   .designer_name_title {
@@ -544,8 +610,9 @@ color: #000000;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    padding: 0;
-    transform: translateX(140px) translateY(-370px);
+    top: -2%;
+    left: 10%;
+    transform: translateX(0px) translateY(0px);
     color: #000000;
   }
   
@@ -554,7 +621,7 @@ color: #000000;
     max-width: 100%;
     font-weight: 400;
     writing-mode: vertical-rl;
-    transform: translate(0rem, 0rem) rotate(180deg);
+    transform: translate(0rem, 0rem) rotate(0deg);
   }
   
   .item-testimonials-top {
@@ -590,7 +657,7 @@ color: #000000;
   
   .sub-position-middle {
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translate(0.7rem, -7rem); 
+    transform: rotate(180deg) translate(0.7rem, -6rem); 
   }
   
   .item-testimonials-bottom {
@@ -602,7 +669,7 @@ color: #000000;
   
   .sub-position-bottom {
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translate(0.7rem, -0.8rem); 
+    transform: rotate(180deg) translate(0.7rem, 1.3rem); 
   }
   
   .a_testimonials {
@@ -610,6 +677,52 @@ color: #000000;
     color: black;
   }
   
+  .a_testimonials:focus {
+    animation: tracking-in-expand 1.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+
+  .a_testimonials:hover {
+    
+    animation: text-shadow-drop-bl 0.6s both;
+    text-decoration: underline;
+    color: rgb(6, 88, 241);
+  }
+
+  .a_testimonials:active {
+    animation: text-blur-out 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+  @keyframes text-blur-out {
+    0% {
+      filter: blur(0.01);
+    }
+    100% {
+      filter: blur(12px) opacity(0%);
+    }
+  }
+
+  @keyframes text-shadow-drop-bl {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: -6px 6px 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   .item-testimonials-big-image {
     grid-area: 1 / 2 / 9 / 5;
     align-self: start;
@@ -619,17 +732,32 @@ color: #000000;
     display: block;
     max-width: 100%;
     height:auto;
+    padding-top: 50px;
   }
   
   .img-left-Testimonials{
     max-width: 84%;
     min-height: 757px;
-    transform: translate(-0.3rem, 3.3rem);
+    transform: translate(0rem, 0rem);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: contain;
     background-image: url(/images/keghan-crossland.jpg);
   }
+
+  .img-left-Testimonials:hover {
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  @keyframes shadow-drop-center {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
   
   .item-testimonials-article {
     grid-area: 1 / 5 / 5 / 7;
@@ -679,16 +807,34 @@ color: #000000;
     min-width: 100%;
     max-height: 333px;
     min-height: 333px;
-    transform: translateX(-15px) translateY(50px);
+    transform: translateX(-20px) translateY(0px);
+    margin-top: 70px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-image: url(/images/sinitta-leunen.jpg);
   }
 
+  .img-right-Testimonials:hover {
+    animation: swing-out-left-bck 0.45s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+  }
+
+  @keyframes swing-out-left-bck {
+    0% {
+      transform: rotateY(100deg);
+      transform-origin: left;
+      opacity: 0;
+    }
+    100% {
+      transform: rotateY(0);
+      transform-origin: left;
+      opacity: 1;
+    }
+  }  
+
 .wrapper_strongpoints {
   max-width: 1686px;
-  margin: 160px auto;
+  margin: 110px auto;
   /* outline: 1px solid red; */
 }
 
