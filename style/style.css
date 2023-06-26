@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper{
   max-width: 1440px;
   margin:0 auto;
@@ -28,7 +36,7 @@ left:48.5%;
   padding: 0; /* Убираем поля вокруг текста */
  }
 
- li.li-button ul.ul-menu-button {
+ .li-button .ul-menu-button {
   position: relative;
   display: none; /* Скрываем подменю */
   margin-left: 0; /* Сдвигаем подменю вправо */
@@ -103,11 +111,14 @@ background-image: url(/images/inside-weather.jpg);
   background-color: #FFFFFF;
 }
 
+.title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+}
+
 .hero-title { 
-margin:17.5% auto 0;
+margin:17.5% auto 3%;
 /* h1 font*/
-font-family: 'Playfair Display';
-font-style: normal;
 font-weight: 500;
 font-size: 86px;
 line-height: 120%;
@@ -515,7 +526,7 @@ color: #000000;
   transform: translateX(20px) translateY(45px);
   }
   
-  ul.list-Designer-right li {
+  .list-Designer-right li {
     display: inline-block;
     list-style-type: none;  
   }
@@ -529,7 +540,7 @@ color: #000000;
     transform: translateX(20px) translateY(7px);
   }
   
-  ul.list-skills-right li {
+  .list-skills-right li {
     display: inline-block;
     list-style-type: none;  
   }
@@ -1275,9 +1286,9 @@ transform: translateX(0px) translateY(0px);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 764px;
+    min-height: 773px;
     background-color: #d9cacb;
-    background-position: center bottom;
+    background-position: 10% bottom;
     padding-bottom: 0px;
     margin-bottom: 160px;
     background-size:764px;
@@ -1285,8 +1296,8 @@ transform: translateX(0px) translateY(0px);
 
   .frame-hero {
     /* display: block; */
-    max-width: 100%;
-    width:450px;
+    width: 100%;
+    /* width:450px; */
     padding-top: 0px;
     top:22%;
     padding-bottom: 0px;
@@ -1298,6 +1309,7 @@ transform: translateX(0px) translateY(0px);
   .hero-title {
     margin:0;
     padding-top: 130px;
+    padding-bottom: 20px;
     font-weight: 400;
     font-size: 70px;
     line-height: 5rem;
@@ -1400,6 +1412,7 @@ transform: translateX(0px) translateY(0px);
     flex: 1 1 24%;
     justify-content: center;
     padding-top: 10px;
+    padding-bottom: 10px;
     border-top: 1px solid #000000;
   }
 }
