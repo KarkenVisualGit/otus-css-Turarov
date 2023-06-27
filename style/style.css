@@ -207,13 +207,13 @@ color: #000000;
     font-weight: 500;
     font-size: 86px;
     line-height: 115px;
-    transform: translate(0, -60px);
+    transform: translate(0, -75px);
     color: #000000;
   }
 
   .bio_position {
     padding: 0;
-    transform: translate(40px, -35px);
+    transform: translate(40px, -45px);
   }
   
   .list-bio {
@@ -221,7 +221,7 @@ color: #000000;
     max-width:88%;
     margin: 0;
     list-style-type: none;
-    transform: translate(40px, -30px);
+    transform: translate(40px, -45px);
   }
   
   .bio_title {
@@ -265,7 +265,7 @@ color: #000000;
     font-weight: 400;
     font-size: 26px;
     line-height: 31px;
-    transform: translate(20px, 20px);
+    transform: translate(20px, 0px);
     color: #0D0D0D;  
   }
   
@@ -317,26 +317,16 @@ color: #000000;
   }
   
   .designers-title {
-    display: inline-block;
-    position: absolute;
-    max-width: 7%;
-    min-height: 24px;
-    left: 62%;
-    margin-left: 1.5%;
-    padding: 15px;
-    /* padding-right: 32%;
-    padding-left: 10%; */
-    margin-top: 0;
-    /* outline: 1px solid red; */
-    /* designers block font*/
-    font-family: 'Roboto';
-    font-style: normal;
+    position: relative;
+    left: 75%;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
+    margin-bottom: -90px;
+    /* designers block font*/
     color: #000000;
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translateX(0px) translateY(0px);
+    transform: rotate(180deg) translateX(0px) translateY(-5px);
   }
   
   .designer_name_title {
@@ -347,7 +337,7 @@ color: #000000;
   }
   
   .name_designer_left{
-    transform: translateX(-10px) translateY(-5px);  
+    transform: translateX(-10px) translateY(0px);  
   }
 
   .img-Designer-box {
@@ -398,7 +388,7 @@ color: #000000;
     margin: 0; padding: 0;
     max-width: 100%;
     min-height: 57px;
-    transform: translateX(-10px) translateY(-20px);
+    transform: translateX(-10px) translateY(0px);
   }
   
   ul.list-Designer-big li {
@@ -413,7 +403,7 @@ color: #000000;
     max-width: 100%;
     min-height: 100%;
     /* outline: 1px solid red; */
-    transform: translateX(-10px) translateY(-60px);
+    transform: translateX(-10px) translateY(-35px);
   }
   
   ul.list-skills-big li {
@@ -440,7 +430,7 @@ color: #000000;
     background-position: center;
     background-size: cover;
     background-image: url(/images/stil-P1.jpg);
-    transform: translateX(0px) translateY(40px); 
+    transform: translateX(0px) translateY(35px); 
   
   }
 
@@ -457,14 +447,14 @@ color: #000000;
   }
   
   .name_designer_middle{
-    transform: translateX(0px) translateY(40px);  
+    transform: translateX(0px) translateY(60px);  
   }
   
   .list-Designer-middle {
     margin: 0; padding: 0;
     max-width: 80%;
     height: 57px;
-    transform: translateX(0px) translateY(22px);
+    transform: translateX(0px) translateY(60px);
   }
   
   ul.list-Designer-middle li {
@@ -477,7 +467,7 @@ color: #000000;
     margin: 0; padding: 0;
     max-width: 80%;
     /* outline: 1px solid red; */
-    transform: translateX(0px) translateY(-15px);
+    transform: translateX(0px) translateY(20px);
   }
   
   ul.list-skills-middle li {
@@ -502,14 +492,14 @@ color: #000000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transform: translateX(0px) translateY(65px);
+    transform: translateX(0px) translateY(55px);
     background-image: url(/images/stil_mv.jpg);
     
   }
   
   .name_designer_right {
     max-width: 70%;
-    transform: translateX(20px) translateY(60px);  
+    transform: translateX(20px) translateY(75px);  
   }
   
   .list-Designer-right {
@@ -517,7 +507,7 @@ color: #000000;
   max-width: 80%;
   height: 57px;
   /* textLouisse block font*/
-  transform: translateX(20px) translateY(45px);
+  transform: translateX(20px) translateY(75px);
   }
   
   .list-Designer-right li {
@@ -531,7 +521,7 @@ color: #000000;
     max-width: 77%;
     height: 57px;
     /* outline: 1px solid red; */
-    transform: translateX(20px) translateY(7px);
+    transform: translateX(20px) translateY(40px);
   }
   
   .list-skills-right li {
@@ -548,7 +538,7 @@ color: #000000;
   .Testimonials {
     display: grid;
     position: relative;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -560,13 +550,13 @@ color: #000000;
     display:block;
     position: absolute;
     /* Testimonials block font*/
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     padding: 0;
-    transform: translateX(140px) translateY(-370px);
+    top: 6%;
+    left: 9%;
+    /* transform: translateX(140px) translateY(-370px); */
     color: #000000;
   }
   
@@ -587,17 +577,13 @@ color: #000000;
   
   .sub-position-top {
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translate(0.7rem, -9rem); 
+    transform: rotate(180deg) translate(2.5rem, -11rem); 
   }
   
   .subtitle-name {
     display: block;
     /* item-testimonials-link block font*/
     font-weight: 700;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 1rem;
-    line-height: 1.2rem;
     color: #000000;
     padding-left: 0%;
   }
@@ -611,7 +597,7 @@ color: #000000;
   
   .sub-position-middle {
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translate(0.7rem, -7rem); 
+    transform: rotate(180deg) translate(2.5rem, -8rem); 
   }
   
   .item-testimonials-bottom {
@@ -623,7 +609,7 @@ color: #000000;
   
   .sub-position-bottom {
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translate(0.7rem, -0.8rem); 
+    transform: rotate(180deg) translate(2.5rem, -3rem); 
   }
   
   .a_testimonials {
@@ -643,9 +629,9 @@ color: #000000;
   }
   
   .img-left-Testimonials{
-    max-width: 84%;
+    max-width: 88%;
     min-height: 757px;
-    transform: translate(-0.3rem, 3.3rem);
+    transform: translate(-1.5rem, 5rem);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -670,7 +656,7 @@ color: #000000;
     max-height: 100%;
     min-height: 100%;
     padding: 0;
-    transform: translateX(-15px) translateY(60px);
+    transform: translateX(-15px) translateY(80px);
     /* article-testimonials block font*/
     font-family: 'Bitter';
     font-style: normal;
@@ -699,7 +685,7 @@ color: #000000;
     min-width: 100%;
     max-height: 333px;
     min-height: 333px;
-    transform: translateX(-15px) translateY(50px);
+    transform: translateX(-15px) translateY(80px);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1012,8 +998,7 @@ color: #000000;
 
     .designers-title {
     left: 2%;
-    padding-left: 0%;
-    padding-top: 0%;
+    margin-bottom: -25px;
     writing-mode: horizontal-tb;
     transform: rotate(0deg) translateX(0px) translateY(-50px);
   }
@@ -1043,13 +1028,13 @@ color: #000000;
   }
   
   .list-Designer-middle {
-    transform: translateX(-10px) translateY(-15px);
+    transform: translateX(-10px) translateY(0px);
   }
 
   .list-skills-middle
 {
   max-width: 100%;
-  transform: translateX(-10px) translateY(-55px);
+  transform: translateX(-10px) translateY(-35px);
 }
 
 .item-designer-middle{
@@ -1060,14 +1045,14 @@ color: #000000;
 }
 
 .img-Designer-middle-box{
-  transform: translateX(-10px) translateY(-10px); 
+  transform: translateX(-10px) translateY(-20px); 
 }
   
 .img-Designer-right {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 0;
-  transform: translateX(0px) translateY(10px);
+  transform: translateX(0px) translateY(0px);
 }
 
 .item-designer-middle > div {
@@ -1076,17 +1061,17 @@ color: #000000;
 
 .name_designer_right {
   max-width: 70%;
-  transform: translateX(0px) translateY(15px);  
+  transform: translateX(0px) translateY(20px);  
 }
 
 .list-Designer-right {
-transform: translateX(0px) translateY(0px);
+transform: translateX(0px) translateY(20px);
 }
 
 .list-skills-right
 {
   max-width: 100%;
-  transform: translateX(0px) translateY(-40px);
+  transform: translateX(0px) translateY(-15px);
 }
 
 .Testimonials {
