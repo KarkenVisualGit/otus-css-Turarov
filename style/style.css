@@ -1245,13 +1245,16 @@ transform: translateX(0px) translateY(20px);
 }
 
 .list-strongpoints {
-  transform: translate(-60px, -30px); 
+  transform: translate(0px, 50px); 
 }
 
 .strongpoints-title {
+  position:absolute;
+  top: 0;
+  left: 1%;
   font-size: 64px;
   line-height: 86px;
-  transform: translate(-35px, 50px);
+  transform: translate(-35px, 0px);
 }
 
 .strong-txt-title {
@@ -1276,15 +1279,15 @@ transform: translateX(0px) translateY(20px);
 }
 
 .imgstrong_position_left {
-  transform: translate(-170px, 90px); 
+  transform: translate(-150px, 90px); 
 }
 
 .imgstrong_position_next {
-  transform: translate(-170px, 90px);
+  transform: translate(-150px, 90px);
 }
 
 .imgstrong_position_last {
-  transform: translate(-170px, 90px);
+  transform: translate(-150px, 90px);
 }
 
 }
@@ -1300,7 +1303,7 @@ transform: translateX(0px) translateY(20px);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 773px;
+    min-height: 767px;
     background-color: #d9cacb;
     background-position: 10% bottom;
     padding-bottom: 0px;
