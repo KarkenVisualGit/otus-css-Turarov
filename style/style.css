@@ -143,6 +143,7 @@ color: #000000;
 }
 
 .biography {
+  position: relative;
   display: flex;
   flex-flow: row nowrap;
   height: 840px;
@@ -213,6 +214,7 @@ color: #000000;
 
   .bio_position {
     padding: 0;
+    width: 50%;
     transform: translate(40px, -45px);
   }
   
@@ -929,7 +931,7 @@ color: #000000;
 
   .biographytext {
     position: absolute;
-    top: 82%;
+    top: -11%;
     right: 5%;
     font-size: 18px;
     line-height: 21px; 
@@ -1026,6 +1028,7 @@ color: #000000;
   }
 
     .designers-title {
+    position: absolute;
     left: 2%;
     margin-bottom: -25px;
     writing-mode: horizontal-tb;
