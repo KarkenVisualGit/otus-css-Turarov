@@ -1629,5 +1629,6 @@ transform: translateX(0px) translateY(20px);
 
   .article-testimonials {
     font-size: 28px;
+    margin-top: -40%;
   }
 }
