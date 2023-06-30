@@ -1623,4 +1623,11 @@ transform: translateX(0px) translateY(20px);
     flex: 1 0 70%;
   }
 
+  .articlebio {
+    font-size: 28px;
+  }
+
+  .article-testimonials {
+    font-size: 28px;
+  }
 }
