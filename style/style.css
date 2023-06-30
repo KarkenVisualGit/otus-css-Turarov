@@ -1265,6 +1265,10 @@ transform: translateX(0px) translateY(20px);
 .Testimonials__site-title {
   /* position: absolute; */
   order: 6;
+  margin-left: 0rem;
+  padding-right: 0px;
+  height: 96px;
+  width: 412px;
 }
 
 .item-testimonials-top {
@@ -1293,11 +1297,14 @@ transform: translateX(0px) translateY(20px);
 }
 
 .sub-position-top {
+  right: 0%;
+  top: 0%;
   writing-mode:horizontal-tb;
   transform: translate(0rem, 0rem) rotate(0deg); 
 }
 
 .sub-position-middle {
+  margin-left: 0;
   writing-mode:horizontal-tb;
   transform: translate(0rem, 0rem) rotate(0deg);
 }
