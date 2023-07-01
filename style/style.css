@@ -43,12 +43,6 @@ background-size: cover;
 background: url(/images/inside-weather.jpg);
 }
 
-@media screen and (max-width:500px){
-  .hero-section {
-    height: 500px; 
-  }  
-}
-
 .frame-hero {
   position: absolute;
   width: 56%;
@@ -84,7 +78,7 @@ color: #000000;
 
 .wrapper_bio {
   max-width: 1175px;
-  margin:0 auto;
+  margin:0px auto;
   /* outline: 1px solid red; */
 }
 
@@ -92,10 +86,10 @@ color: #000000;
   display: flex;
   flex-flow: row nowrap;
   height: 840px;
-  margin-top:135px;
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
+  margin-top: 130px;
   }
   
   .imagebio {
@@ -225,8 +219,7 @@ color: #000000;
   
   .designer-wrap {
     max-width: 1337px;
-    margin:160px auto;
-    
+    margin:0px auto;
     /* outline: 1px solid red; */
   }
   
@@ -272,14 +265,11 @@ color: #000000;
   
   .designers-title {
     display: inline-block;
-    position: absolute;
+    position: relative;
     max-width: 7%;
     min-height: 24px;
-    left: 46.5%;
-    right: 0%;
-    padding-right: 32%;
-    padding-left: 10%;
-    margin-top: 0.5%;
+    left: 72.5%;
+    margin-top: 5%;
     /* outline: 1px solid red; */
     /* designers block font*/
     font-family: 'Roboto';
@@ -289,7 +279,7 @@ color: #000000;
     line-height: 23px;
     color: #000000;
     writing-mode: vertical-rl;
-    transform: rotate(180deg) translateX(0px) translateY(0px);
+    transform: rotate(180deg) translateX(0px) translateY(-105px);
   }
   
   .designer_name_title {
@@ -532,7 +522,7 @@ color: #000000;
     justify-content: center;
     padding: 20px;
     gap:10px;
-    margin-top: 0px;  
+    margin-top: 120px;  
   }
   
   .Testimonials-title {
