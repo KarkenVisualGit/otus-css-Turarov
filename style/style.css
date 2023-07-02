@@ -1,7 +1,6 @@
 .wrapper{
   max-width: 1440px;
   margin:0 auto;
-  /* outline: 1px solid red; */
 }
 
 .menu {
@@ -28,7 +27,6 @@ body{
   display:block;
   max-width: 1065px;
   margin:0 auto;
-  /* outline: 1px solid red; */
 }
 
 
@@ -54,14 +52,16 @@ background: url(/images/inside-weather.jpg);
   background-color: #FFFFFF;
 }
 
+.title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5.375rem;
+  line-height: 7.188rem;
+}
+
 .hero-title { 
 margin:17.5% auto -2%;
-/* h1 font*/
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 500;
-font-size: 5.375rem;
-line-height: 7.188rem;
 text-align: center;
 color: #000000;
 }
@@ -77,7 +77,6 @@ color: #000000;
 .wrapper_bio {
   max-width: 1175px;
   margin:0px auto;
-  /* outline: 1px solid red; */
 }
 
 .biography {
@@ -133,14 +132,6 @@ color: #000000;
   flex-flow: column nowrap;
   }
 
-  .title {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 5.375rem;
-  line-height: 7.188rem;
-  }
-
   .biography-title {
   display: flex;
   flex-basis: 44%;
@@ -149,8 +140,6 @@ color: #000000;
   flex: 1 1 auto;
   padding: 35% 10% 0;
   margin: 10px 0 0 0;
-  /* margin-top:54%; */
-  /* h2 block font*/
   color: #000000;
   }
 
@@ -167,14 +156,10 @@ color: #000000;
   .list-bio {
     flex: 1 1 0;
     margin:0 0 0 10px;
-    /* max-width:88%; */
-    /* padding:-3% 2% 2%; */
     list-style-type: none;
   }
   
   .bio_title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -187,10 +172,6 @@ color: #000000;
   
   .list-item-bio::after {
     content: " /"
-  }
-  
-  .list-item-bio:first-child::after {
-    content: ""
   }
   
   .list-item-bio:last-child::after {
@@ -214,8 +195,6 @@ color: #000000;
     padding: 0 0 35% 0%;
     margin: 60px 0 0 30px;
     /* article bio block font*/
-    font-family: 'Bitter';
-    font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 31px;
@@ -226,7 +205,6 @@ color: #000000;
   .designer-wrap {
     max-width: 1337px;
     margin:0px auto;
-    /* outline: 1px solid red; */
   }
   
   .designers {
@@ -236,29 +214,17 @@ color: #000000;
     flex-direction: row;
     flex-wrap:nowrap;
     align-items: center;
-    /* outline: 1px solid red; */
-    overflow: auto;
-    /* transform: translateX(0px); */
+    overflow: auto
   }
   
   .item-designer-big { 
-    flex-basis: 48%;
-    flex: 1 1 auto;
-    /* flex-shrink: 1; */
-    /* flex: 1 1 48%; */
-    /* margin: 15px;  */
-    /* flex-flow: column nowrap;  */
+    flex: 1 1 48%;
   }
 
   
   .item-designer-middle { 
-    flex-basis: 24%;
-    flex: 1 1 auto;
+    flex: 1 1 24%;
     justify-content: flex-end;
-    /* flex-shrink: 0; */
-    /* flex: 1 0 24%;   */
-    /* margin-left: 15px; */
-    /* flex-flow: column nowrap;  */
   }
 
   .item-designer-big > div {
@@ -276,10 +242,7 @@ color: #000000;
     min-height: 24px;
     left: 72.5%;
     margin-top: 5%;
-    /* outline: 1px solid red; */
     /* designers block font*/
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -313,7 +276,6 @@ color: #000000;
   background-size:cover;
   background-image: url(/images/spurwing-agency.jpg);
   transform: translateX(0px) translateY(-5px);
-  
   }
 
   
@@ -330,14 +292,14 @@ color: #000000;
     justify-content: center;
   }
   
-  .list-box-big{
+  .list-box-big {
     display: block;
     max-width: 100%;
     /* min-height: auto; */
     padding-left: 50%;
   }
   
-  .list-box{
+  .list-box {
     display: block;
     max-width: 100%;
     min-height: auto;
@@ -350,7 +312,7 @@ color: #000000;
     transform: translateX(-10px) translateY(-20px);
   }
   
-  ul.list-Designer-big li {
+  .list-Designer-big li {
     display: inline-block;
     list-style-type: none;  
   }
@@ -365,7 +327,7 @@ color: #000000;
     transform: translateX(-10px) translateY(-60px);
   }
   
-  ul.list-skills-big li {
+  .list-skills-big li {
     display: inline-block;
     list-style-type: none; 
   }
@@ -379,7 +341,6 @@ color: #000000;
   }
   
   .img-Designer-middle-box {
-   
     width: 319px;
     max-width:100%;
     min-height: 439.46px;
@@ -416,7 +377,7 @@ color: #000000;
     transform: translateX(0px) translateY(22px);
   }
   
-  ul.list-Designer-middle li {
+  .list-Designer-middle li {
     display: inline-block;
     list-style-type: none; 
   }
@@ -429,7 +390,7 @@ color: #000000;
     transform: translateX(0px) translateY(-15px);
   }
   
-  ul.list-skills-middle li {
+  .list-skills-middle li {
     display: inline-block;
     list-style-type: none; 
   }
@@ -443,11 +404,8 @@ color: #000000;
         -ms-flex-pack: center;
     justify-content: center;
     width: 320px;
-    /* max-height: 100%; */
     max-width: 100%;
     min-height: 439.46px;
-    /* margin-left: 0px;
-    margin-top: 0%;  */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -469,7 +427,7 @@ color: #000000;
   transform: translateX(20px) translateY(45px);
   }
   
-  ul.list-Designer-right li {
+  .list-Designer-right li {
     display: inline-block;
     list-style-type: none;  
   }
@@ -483,41 +441,14 @@ color: #000000;
     transform: translateX(20px) translateY(7px);
   }
   
-  ul.list-skills-right li {
+  .list-skills-right li {
     display: inline-block;
     list-style-type: none;  
   }
 
-  /* @media screen and (max-width:768px) {
-    .item-designer-big {
-      flex-basis: 33%;
-      transform: translateX(0px) translateY(0px);
-    }  
-
-    .img-Designer-box {
-      width: 320px;
-      max-width: 100%;
-      min-height: 439.46px;
-    }
-
-    .designers-title {
-      left: 2%;
-      padding-left: 0%;
-      padding-top: 0%;
-      writing-mode: horizontal-tb;
-      transform: rotate(0deg) translateX(0px) translateY(-50px);
-    }
-
-    .list-box-big{
-      padding-left: 0%;
-    }
-
-  } */
-
   .wrapper_testimonials {
     max-width: 1440px;
     margin:0px auto;
-    /* outline: 1px solid red; */
   }
 
   .Testimonials {
@@ -535,8 +466,6 @@ color: #000000;
     display:block;
     position: absolute;
     /* Testimonials block font*/
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -569,8 +498,6 @@ color: #000000;
     display: block;
     /* item-testimonials-link block font*/
     font-weight: 700;
-    font-family: 'Roboto';
-    font-style: normal;
     font-size: 1rem;
     line-height: 1.2rem;
     color: #000000;
@@ -639,6 +566,11 @@ color: #000000;
     height: auto;
     object-fit: contain;
   }
+
+  .title-quotes {
+    font-family: 'Bitter';
+    font-style: normal;
+  }
   
   .article-testimonials{
     max-width: 100%;
@@ -648,8 +580,6 @@ color: #000000;
     padding: 0;
     transform: translateX(-15px) translateY(60px);
     /* article-testimonials block font*/
-    font-family: 'Bitter';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
@@ -835,8 +765,6 @@ color: #000000;
   display: block;
   list-style-type: none;
   position: relative;
-  font-family: 'Bitter';
-  font-style: normal;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
