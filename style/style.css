@@ -13,10 +13,10 @@
 .button {
 position: absolute;
 top:44%;
-left:48.5%;
+left:48%;
 }
 
-[data-tooltip] {
+/* [data-tooltip] {
   position: absolute; 
  }
 
@@ -42,28 +42,28 @@ left:48.5%;
 
 .ul-menu-button {
   display: none;
-  width: 315px; /* Ширина меню */
-  list-style-type: none; /* Для списка убираем маркеры */
-  margin: 0; /* Нет отступов вокруг */
-  padding: 0; /* Убираем поля вокруг текста */
+  width: 315px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
  }
 
- li.li-button ul.ul-menu-button {
+ .li-button .ul-menu-button {
   position: relative;
-  display: none; /* Скрываем подменю */
-  margin-left: 0; /* Сдвигаем подменю вправо */
-  margin-top: 0; /* Сдвигаем подменю вверх */
+  display: none;
+  margin-left: 0;
+  margin-top: 0;
   transform: translate(0, 0);
  }
 
  .li-button a {
-  display: block; /* Ссылка как блочный элемент */
-  padding: 5px; /* Поля вокруг надписи */
-  text-decoration: none; /* Подчеркивание у ссылок убираем */
-  color: #666; /* Цвет текста */
-  border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
-  background-color: #f0f0f0; /* Цвет фона */
-  border-bottom: none; /* Границу снизу не проводим */
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #666;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0; 
+  border-bottom: none; 
  }
 
 .button:hover .ul-menu-button {
@@ -80,12 +80,12 @@ left:48.5%;
 }
 
 .brd {
-  border-bottom: 1px solid #ccc; /* Линия снизу */
+  border-bottom: 1px solid #ccc;
  }
 
  .li-button::after {
   content: "";
- }
+ } */
 
 body{
   /* base font, font size, base line height*/
