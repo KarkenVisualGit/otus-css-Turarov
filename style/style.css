@@ -682,13 +682,12 @@ color: #000000;
     background-image: url(/images/sinitta-leunen.jpg);
   }
 
-.wrapper_strongpoints {
+.strongpoints-wrap {
   max-width: 1686px;
   margin: 160px auto;
-  /* outline: 1px solid red; */
 }
 
-.grid-strongpoints {
+.strongpoints-wrap__grid {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -700,15 +699,14 @@ color: #000000;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   overflow: auto;
-  /* outline: 1px solid red; */
 }
 
-.grid-strongpoints > div{
+.strongpoints-wrap__grid > div{
   margin: 30px; 
 }
   
   @supports (display: grid) {
-    .grid-strongpoints {
+    .strongpoints-wrap__grid {
       position: relative;
       display: -ms-grid;
       display: grid;
@@ -718,23 +716,25 @@ color: #000000;
       grid-auto-flow: column;
     }
     
-    .grid-strongpoints > div {
+    .strongpoints-wrap__grid > div {
       margin: 30px;
     }
   }
 
-.strong-txt-title {
+.strongpoints-wrap__img-card__title {
   display: inline-block;
   width: 23px;
   height: 122px;
-  margin: 0% 70% 100% 0%;
   /*h3 strong-txt-title font*/
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  
+}
+
+.strongpoints-wrap__img-card__title_position {
+  margin: 0% 70% 100% 0%;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
@@ -743,11 +743,11 @@ color: #000000;
           transform: rotate(180deg) translate(50px, 160px); 
 }
 
-.strongpoints-title {
+.strongpoints-wrap__frame-txt__title {
   /* position: absolute; */
   max-width: 377px;
   min-height: 115px;
-  margin: 0% 0%;
+  margin: 0;
   -webkit-transform: translate(0px, -15px);
   -ms-transform: translate(0px, -15px);
           transform: translate(0px, -15px);
@@ -761,7 +761,7 @@ color: #000000;
   /* outline: 1px solid red; */
 }
 
-.imgstrong-liberadzki {
+.strongpoints-wrap__img-card {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -776,47 +776,36 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/dawid-liberadzki.jpg);
   /* outline: 1px solid red; */
 }
 
-.imgstrong_position_left {
+.img-background-left {
+  background-image: url(/images/dawid-liberadzki.jpg);
+}
+
+.strongpoints-wrap__img-card_position-left {
   -webkit-transform: translate(70px, 120px);
       -ms-transform: translate(70px, 120px);
           transform: translate(70px, 120px);
 }
 
-.imgstrong-avery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 525px;
-  min-width: 350px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.img-background-next {
   background-image: url(/images/avery-klein.jpg);
 }
 
-.imgstrong_position_next {
+.strongpoints-wrap__img-card_position-next {
   -webkit-transform: translate(60px, 120px);
       -ms-transform: translate(60px, 120px);
           transform: translate(60px, 120px);
  }
 
-.imgstrong_position_last {
+.strongpoints-wrap__img-card_position-last {
   -webkit-transform: translate(0px, 120px);
       -ms-transform: translate(0px, 120px);
           transform: translate(0px, 120px);
  }
 
-.frame-txt-strongpoints {
+.strongpoints-wrap__frame-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -833,19 +822,16 @@ color: #000000;
   height: 665px;
   min-width:395px;
   gap: 30px;
-  -webkit-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
 }
 
-.list-strongpoints {
+.strongpoints-wrap__frame-txt__list {
   display: block;
   -webkit-transform: translate(-30px, -30px);
   -ms-transform: translate(-30px, -30px);
       transform: translate(-30px, -30px);
 }
 
-.list-item-strongpoints {
+.strongpoints-wrap__frame-txt__list-item {
   display: block;
   list-style-type: none;
   position: relative;
@@ -857,6 +843,6 @@ color: #000000;
   color: #000000;
 }
 
-.list-item-strongpoints::after {
+.strongpoints-wrap__frame-txt__list-item::after {
   content: "";
 }
