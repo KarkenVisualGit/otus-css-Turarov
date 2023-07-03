@@ -125,7 +125,7 @@ background: url(/images/inside-weather.jpg);
 }
 
 .hero-title { 
-margin:17.5% auto 0;
+/* margin:17.5% auto 0; */
 /* h1 font*/
 font-family: 'Playfair Display';
 font-style: normal;
