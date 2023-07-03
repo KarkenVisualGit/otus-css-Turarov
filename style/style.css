@@ -651,7 +651,7 @@ color: #000000;
     }
   }
 
-.strongpoints-wrap__img-card__title {
+.strongpoints-wrap__img-card-title {
   display: inline-block;
   width: 23px;
   height: 122px;
@@ -663,7 +663,7 @@ color: #000000;
   
 }
 
-.strongpoints-wrap__img-card__title_position {
+.strongpoints-wrap__img-card-title_top-rotated {
   margin: 0% 70% 100% 0%;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
