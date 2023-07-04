@@ -48,7 +48,7 @@ left:48.5%;
   padding: 0; /* Убираем поля вокруг текста */
  }
 
- li.li-button ul.ul-menu-button {
+ .li-button .ul-menu-button {
   position: relative;
   display: none; /* Скрываем подменю */
   margin-left: 0; /* Сдвигаем подменю вправо */
