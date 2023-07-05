@@ -90,7 +90,7 @@ body{
   font-family:'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
-  background-color:#FFFFFF;
+  /* background-color:#FFFFFF; */
 }
 
 .dropdown:hover .dropdown-menu {
@@ -121,23 +121,12 @@ body{
 } */
 
 .hero-title {
-/* h1 font*/
 font-family: 'Playfair Display';
 font-style: normal;
-font-weight: 500;
 font-size: 86px;
 line-height: 120%;
-color: #000000;
 }
 
-.hero-text{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  color: #000000;
-}
 
 .wrapper_bio {
   max-width: 1175px;
