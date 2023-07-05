@@ -130,19 +130,11 @@ line-height: 120%;
 
 .wrapper_bio {
   max-width: 1175px;
-  margin:0 auto;
-  /* outline: 1px solid red; */
 }
 
 .biography {
-  display: flex;
-  flex-flow: row nowrap;
   height: 840px;
-  margin-top:135px;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  }
+}
   
   .imagebio {
     align-self: flex-start;
@@ -156,13 +148,7 @@ line-height: 120%;
   }
   
   .image_biography {
-  max-width: 100%;
-  min-width: 100%;
-  min-height: 840px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background: url(/images/jared-weiss.jpg);
+  height: 840px;
   }
   
   .biographytext {
