@@ -39,10 +39,6 @@ left:48.5%;
   left: -9rem;
  } */
 
- .dropdown:hover .dropdown-menu {
-  display: block;
-}
-
 /* .ul-menu-button {
   display: none;
   width: 315px;
@@ -89,7 +85,7 @@ left:48.5%;
  .li-button::after {
   content: "";
  } */
-
+ 
 body{
   font-family:'Roboto', sans-serif;
   font-size: 1rem;
@@ -97,47 +93,44 @@ body{
   background-color:#FFFFFF;
 }
 
-.wrapper_hero {
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .wrapper_hero {
   display:block;
   max-width: 1065px;
   margin:0 auto;
-}
+} */
 
 
 .hero-section {
-height: 630px;
-max-width: 1065px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background: url(/images/inside-weather.jpg);
+  height: 630px;
+  max-width: 1065px;
 }
 
-.frame-hero {
+/* .frame-hero {
   position: absolute;
-  width: 56%;
+  min-width: 56%;
   top:50%;
   left:50%;
   height: 360px;
   transform: translate(-50%,-50%);
   text-align:center;
   background-color: #FFFFFF;
-}
+} */
 
-.hero-title { 
-margin:17.5% auto 0;
+.hero-title {
 /* h1 font*/
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 500;
 font-size: 86px;
 line-height: 120%;
-text-align: center;
 color: #000000;
 }
 
 .hero-text{
-  text-align: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;

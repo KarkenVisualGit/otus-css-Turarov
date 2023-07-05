@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <title>Document</title>
 </head>
@@ -60,11 +59,16 @@
           </div>
         </header>
 
-        <section class="relative hero-section max-w-screen-xl mx-auto my-0">
-            <div class="absolute h-2/4 w-1/2 -translate-y-2/4 translate-x-2/4 text-center top-2/4 left bg-white">
-                <h1 class="hero-title">Mod Studio</h1>
-                <p class="hero-text">Modern Web Studio</p>
-            </div>
+        <section class="relative hero-section bg-cover bg-no-repeat bg-center mx-auto my-0 max-h-full" 
+                        style="background-image: url(/images/inside-weather.jpg)">
+                <div class="absolute flex flex-row justify-center items-center -translate-y-2/4 -translate-x-2/4 
+                            top-2/4 inset-x-1/2 bg-white text-center mx-auto min-w-min"
+                style="width:56%; height: 360px;">
+                        <div class="flex flex-row flex-wrap justify-center items-center">
+                            <h1 class="hero-title">Mod Studio</h1>
+                            <p class="hero-text">Modern Web Studio</p>
+                        </div>
+                </div>
         </section>
 
         <section class="biography wrapper_bio">
