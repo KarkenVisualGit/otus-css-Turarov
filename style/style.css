@@ -136,37 +136,37 @@ line-height: 120%;
   height: 840px;
 }
   
-  .imagebio {
+  /* .imagebio {
     align-self: flex-start;
     flex: 1 0 42%;
-  }
+  } */
   
-  .bio_img_block{
+  /* .bio_img_block{
     display: block;
     max-width: 100%;
     height:auto;
   }
-  
+   */
   .image_biography {
   height: 840px;
   }
   
   .biographytext {
-  display: flex;
-  flex-basis: 8%;
-  height: 23px;
-  align-self: flex-start;
-  margin-top:3%;
+  /* display: flex;
+  flex-basis: 8%; */
+  /* height: 23px; */
+  /* align-self: flex-start; */
+  /* margin-top:3%; */
   /* biography block font*/
-  font-family: 'Roboto';
+  /* font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 700; */
+  /* font-size: 20px;
   line-height: 23px;
   
-  color: #000000;
+  color: #000000; */
   
-  transform: rotate(-90deg);
+  /* transform: rotate(-90deg); */
   }
   
   .bio-txt-section {
