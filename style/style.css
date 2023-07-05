@@ -1,7 +1,6 @@
-.wrapper{
+/* .wrapper{
   max-width: 1440px;
   margin:0 auto;
-  /* outline: 1px solid red; */
 }
 
 .menu {
@@ -38,36 +37,36 @@ left:48.5%;
   opacity: 1; 
   top: -3em; 
   left: -9rem;
- }
+ } */
 
  .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-.ul-menu-button {
+/* .ul-menu-button {
   display: none;
-  width: 315px; /* Ширина меню */
-  list-style-type: none; /* Для списка убираем маркеры */
-  margin: 0; /* Нет отступов вокруг */
-  padding: 0; /* Убираем поля вокруг текста */
+  width: 315px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
  }
 
  .li-button .ul-menu-button {
   position: relative;
-  display: none; /* Скрываем подменю */
-  margin-left: 0; /* Сдвигаем подменю вправо */
-  margin-top: 0; /* Сдвигаем подменю вверх */
+  display: none;
+  margin-left: 0;
+  margin-top: 0; 
   transform: translate(0, 0);
  }
 
  .li-button a {
-  display: block; /* Ссылка как блочный элемент */
-  padding: 5px; /* Поля вокруг надписи */
-  text-decoration: none; /* Подчеркивание у ссылок убираем */
-  color: #666; /* Цвет текста */
-  border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
-  background-color: #f0f0f0; /* Цвет фона */
-  border-bottom: none; /* Границу снизу не проводим */
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #666;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0; 
+  border-bottom: none; 
  }
 
 .button:hover .ul-menu-button {
@@ -84,15 +83,14 @@ left:48.5%;
 }
 
 .brd {
-  border-bottom: 1px solid #ccc; /* Линия снизу */
+  border-bottom: 1px solid #ccc;
  }
 
  .li-button::after {
   content: "";
- }
+ } */
 
 body{
-  /* base font, font size, base line height*/
   font-family:'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
@@ -103,15 +101,12 @@ body{
   display:block;
   max-width: 1065px;
   margin:0 auto;
-  /* outline: 1px solid red; */
 }
 
 
-.hero-section{
-display:block;
-overflow: clip;
-position: relative;
+.hero-section {
 height: 630px;
+max-width: 1065px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
