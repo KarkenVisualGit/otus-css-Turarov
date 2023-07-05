@@ -40,6 +40,10 @@ left:48.5%;
   left: -9rem;
  }
 
+ .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 .ul-menu-button {
   display: none;
   width: 315px; /* Ширина меню */
