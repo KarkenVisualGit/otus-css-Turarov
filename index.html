@@ -71,26 +71,71 @@
                 </div>
         </section>
 
-        <section class="flex flex-row flex-nowrap mx-auto my-0 mt-32 justify-center items-center
+        <section class="flex flex-row flex-wrap mx-auto my-0 mt-32 justify-center items-center
                          biography wrapper_bio">
-            <div class="self-start grow shrink-0 basis-5/12">
+            <div class="self-start grow shrink-0 basis-full xl:basis-5/12">
                 <div class="block max-w-full h-auto">
                     <div class="max-w-full bg-cover bg-no-repeat bg-center min-w-full image_biography" 
                     style="background-image: url(/images/jared-weiss.jpg)"></div>
                 </div>
             </div>
-            <h2 id="Biography" class="basis-1/12 self-start mt-8 mr-8
-                                font-sans font-bold text-xl leading-6 text-black -rotate-90">Biography</h2>
-            <div class="bio-txt-section">
-            <h3 class="biography-title">Katya <br>Mills</h3>
-            <p class="bio_position bio_title">Art Director</p>
-            <ul class="list-bio bio_title">
-                <li class="list-item-bio">Scenography</li> 
-                <li class="list-item-bio">Styling</li>
-                <li class="list-item-bio">Creative Photography</li>
-                <li class="list-item-bio">Design</li>
-            </ul>
-            <blockquote class="articlebio">
+            <h2 id="Biography" class="flex basis-full xl:basis-1/12 justify-center xl:self-start mt-8 
+                                font-sans font-bold text-xl leading-6 text-black rotate-0 xl:-rotate-90">Biography</h2>
+            <div class="flex grow shrink basis-7/12 xl:basis-2/5 flex-col flex-wrap">
+            <h3 class="biography-title flex basis-6/12 self-start grow shrink basis-auto font-medium text-black
+            translate-x-14 mb-4">Katya <br>Mills</h3>
+            <div class="flex flex-wrap self-start grow-0 shrink-0 basis-auto w-28
+            font-sans font-medium text-lg leading-5 text-black translate-x-14 translate-y-0">Art Director</div>
+            <div class="flex self-start grow-0 shrink-0 basis-auto lg:w-11/12 lg:pl-2
+                        font-sans font-medium text-lg leading-5 text-black
+                        translate-x-10 -translate-y-2">
+                <nav
+        class="relative flex flex-wrap items-center justify-between py-3 lg:flex-wrap lg:justify-start"
+        data-te-navbar-ref>
+  <div class="flex grow-0 shrink-0 basis-auto items-center justify-between px-3">
+                    <nav class="w-full rounded-md" aria-label="breadcrumb">
+                    <ol class="list-reset flex">
+                        <li class="">
+                        <a
+                            href="#"
+                            class="font-sans font-medium text-lg leading-5 text-black">Scenography</a>
+                        </li>
+                        <li>
+                            <span class="mx-1 font-sans font-medium text-lg leading-5 text-black"
+                              >/</span>
+                          </li>
+                        <li>
+                        <a
+                            href="#"
+                            class="font-sans font-medium text-lg leading-5 text-black">&nbsp;Styling</a>
+                        </li>
+                        <li>
+                            <span class="mx-1 font-sans font-medium text-lg leading-5 text-black"
+                              >/</span>
+                          </li>
+                        <li>
+                        <li>
+                        <a
+                            href="#"
+                            class="font-sans font-medium text-lg leading-5 text-black">&nbsp;Creative Photography</a>
+                        </li>
+                        <li>
+                            <span class="mx-1 font-sans font-medium text-lg leading-5 text-black"
+                              >/</span>
+                          </li>
+                        <li>
+                        <li>
+                        <a
+                            href="#"
+                            class="font-sans font-medium text-lg leading-5 text-black">&nbsp;Design</a>
+                        </li>
+                    </ol>
+                    </nav>
+                </div>
+                </nav>
+            </div>
+            <blockquote class="articlebio flex basis-full xl:basis-10/12 font-normal leading-8 text-black mt-8 ml-16 -translate-x-10
+            xl:before:content-['—'] before:flex before:h-1 before:font-bold before:w-2 before:text-black before:basis-2 before:translate-x-6 before:pr-8">
                 <br>“The more I deal with the work 
                 <br>as something that is my own, 
                 <br>as something that is personal, 
@@ -99,7 +144,7 @@
             </div>
             </section>   
 
-            <section class="designer-wrap">
+            <!-- <section class="designer-wrap">
                 <h4 class="designers-title">Designers</h4>
                 <div class="designers">
                     <div id="designers" class="item-designer-big">
@@ -228,7 +273,7 @@
                 </div>
             <div class="imgstrong-avery imgstrong_position_last"> </div>
         </div>
-    </section>
+    </section> -->
     </main>
 </body>
 </html>
