@@ -1,2 +1,4 @@
-
-.ssh/ 
+.DS_Store
+*.log*
+.ssh/
+node_modules

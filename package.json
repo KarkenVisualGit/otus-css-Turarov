@@ -1,0 +1,24 @@
+{
+  "name": "otus-css-turarov",
+  "version": "1.0.0",
+  "description": "Mod studio pet project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarkenVisualGit/otus-css-Turarov.git"
+  },
+  "author": "Karken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarkenVisualGit/otus-css-Turarov/issues"
+  },
+  "homepage": "https://github.com/KarkenVisualGit/otus-css-Turarov#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "lodash": "^4.17.21",
+    "prettier": "^3.0.0"
+  }
+}
