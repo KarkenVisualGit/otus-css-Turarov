@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, './dist'),
-        filename: '[name].[hash:8].js',
+        filename: '[name].[contenthash:8].js',
         clean: true,
     },
     plugins: [
@@ -33,14 +33,14 @@ module.exports = {
                 test: /\.(jpeg|jpg|png|gif)$/,
                 type: 'asset/resource',
                 generator:  {
-                    filename: 'images/[name]-[hash][ext]',
+                    filename: 'images/[name]-[contenthash][ext]',
                 }
             },
             {
                 test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
                 type: 'asset/resource',
                 generator:  {
-                    filename: 'fonts/[name]-[hash][ext]',
+                    filename: 'fonts/[name]-[contenthash][ext]',
                 }
             }
         ]

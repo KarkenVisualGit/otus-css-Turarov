@@ -1,0 +1,9 @@
+[production]
+> 1%
+not dead
+
+[modern]
+last 2 versions
+
+[ssr]
+last 2 node versions
