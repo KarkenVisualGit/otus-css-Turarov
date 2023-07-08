@@ -1,6 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MniCss = require("mini-css-extract-plugin");
+const MiniCss = require("mini-css-extract-plugin");
 
 module.exports = {
     mode: 'production',
