@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/KarkenVisualGit/otus-css-Turarov#readme",
   "devDependencies": {
-    "@squoosh/lib": "^0.5.3",
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
     "html-loader": "^4.2.0",
@@ -31,6 +30,7 @@
     "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.7.6",
     "prettier": "^3.0.0",
+    "sharp": "^0.32.1",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
