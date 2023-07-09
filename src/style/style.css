@@ -74,10 +74,11 @@ left:48.5%;
  }
 
 body{
-  font-family:'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  background-color:#FFFFFF;
+    font-display: swap;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    background-color:#FFFFFF;
 }
 
 @font-face {
@@ -114,7 +115,7 @@ min-height: 630px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url(../images/inside-weather.jpg);
+background-image: url(../images/inside-weather.webp);
 }
 
 .frame-hero {
@@ -129,8 +130,9 @@ background-image: url(../images/inside-weather.jpg);
 }
 
 .title {
-  font-family: 'Playfair Display';
-  font-style: normal;
+    font-display: swap;
+    font-family: 'Playfair Display';
+    font-style: normal;
 }
 
 @font-face {
@@ -159,6 +161,7 @@ color: #000000;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  font-display: swap;
 }
 
 .wrapper_bio {
@@ -194,7 +197,7 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url(../images/jared-weiss.jpg);
+  background-image: url(../images/jared-weiss.webp);
   }
   
   .biographytext {
@@ -206,7 +209,7 @@ color: #000000;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  
+  font-display: swap;
   color: #000000;
   
   transform: rotate(-90deg);
@@ -253,6 +256,7 @@ color: #000000;
     font-size: 18px;
     line-height: 21px;
     color: #0D0D0D;
+    font-display: swap;
   }
   
   .list-item-bio {
@@ -290,7 +294,8 @@ color: #000000;
     font-size: 26px;
     line-height: 31px;
     transform: translate(20px, 0px);
-    color: #0D0D0D;  
+    color: #0D0D0D; 
+    font-display: swap; 
   }
   
   @font-face {
@@ -343,6 +348,7 @@ color: #000000;
   .designers-title {
     position: relative;
     left: 75%;
+    font-display: swap;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -356,6 +362,7 @@ color: #000000;
   .designer_name_title {
     display: inline-block;
     font-weight: 700;
+    font-display: swap;
     text-transform: uppercase;
   }
   
@@ -374,7 +381,7 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-image: url(../images/spurwing-agency.jpg);
+  background-image: url(../images/spurwing-agency.webp);
   transform: translateX(0px) translateY(-5px);
   
   }
@@ -447,7 +454,7 @@ color: #000000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/stil-P1.jpg);
+    background-image: url(../images/stil-P1.webp);
     transform: translateX(0px) translateY(35px); 
   
   }
@@ -508,7 +515,7 @@ color: #000000;
     background-size: cover;
     transform: translateX(0px) translateY(55px);
     background-color: #d9cacb;
-    background-image: url(../images/stil_mv.jpg);
+    background-image: url(../images/stil_mv.webp);
     
   }
   
@@ -563,8 +570,7 @@ color: #000000;
     display:block;
     position: absolute;
     /* Testimonials block font*/
-    font-family: 'Roboto';
-    font-style: normal;
+    font-display: swap;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -592,6 +598,7 @@ color: #000000;
     display:block;
     max-width: 100%;
     font-weight: 400;
+    font-display: swap;
     writing-mode: vertical-rl;
     transform: translate(0rem, 0rem) rotate(0deg);
   }
@@ -616,8 +623,7 @@ color: #000000;
     display: block;
     /* item-testimonials-link block font*/
     font-weight: 700;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-display: swap;
     font-size: 1rem;
     line-height: 1.2rem;
     color: #000000;
@@ -667,7 +673,7 @@ color: #000000;
     
     animation: text-shadow-drop-bl 0.6s both;
     text-decoration: underline;
-    color: rgb(6, 88, 241);
+    color: #0c30e6;
   }
 
   .a_testimonials:active {
@@ -724,7 +730,7 @@ color: #000000;
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
-    background-image: url(../images/keghan-crossland.jpg);
+    background-image: url(../images/keghan-crossland.webp);
   }
 
   .img-left-Testimonials:hover {
@@ -764,6 +770,7 @@ color: #000000;
     /* article-testimonials block font*/
     font-family: 'Bitter';
     font-style: normal;
+    font-display: swap;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
@@ -795,7 +802,7 @@ color: #000000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-image: url(../images/sinitta-leunen.jpg);
+    background-image: url(../images/sinitta-leunen.webp);
   }
 
   .img-right-Testimonials:hover {
@@ -861,8 +868,7 @@ color: #000000;
   height: 122px;
   margin: 0% 70% 100% 0%;
   /*h3 strong-txt-title font*/
-  font-family: 'Roboto';
-  font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -884,6 +890,7 @@ color: #000000;
           transform: translate(0px, -30px);
   font-family: 'Playfair Display';
   font-style: normal;
+  font-display: swap;
   font-weight: 500;
   font-size: 86px;
   line-height: 115px;
@@ -906,7 +913,7 @@ color: #000000;
   background-position: center;
   background-size: cover;
   background-color: #d9cacb;
-  background-image: url(../images/dawid-liberadzki.jpg);
+  background-image: url(../images/dawid-liberadzki.webp);
 }
 
 .imgstrong_position_left {
@@ -931,7 +938,7 @@ color: #000000;
   background-position: center;
   background-size: cover;
   background-color: #d9cacb;
-  background-image: url(../images/avery-klein.jpg);
+  background-image: url(../images/avery-klein.webp);
 }
 
 .imgstrong_position_next {
@@ -981,6 +988,7 @@ color: #000000;
   position: relative;
   font-family: 'Bitter';
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
