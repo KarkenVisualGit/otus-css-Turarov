@@ -130,7 +130,7 @@ background-image: url(../images/inside-weather.webp);
 }
 
 .title {
-    font-display: swap;
+    -display:font swap;
     font-family: 'Playfair Display';
     font-style: normal;
 }
