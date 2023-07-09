@@ -17,17 +17,17 @@
   text-align:center;
 }
 
-.button {
+.menu__button {
 position: absolute;
 top:44%;
 left:48.5%;
 }
 
-.menuheader {
+.menu__header {
   display: block;
 }
 
-.ul-menu-button {
+.list-menu {
   display: none;
   width: 315px;
   list-style-type: none; 
@@ -35,7 +35,7 @@ left:48.5%;
   padding: 0; 
  }
 
- .li-button .ul-menu-button {
+ .list-menu__item .list-menu {
   position: relative;
   display: none; 
   margin-left: 0; 
@@ -43,7 +43,7 @@ left:48.5%;
   transform: translate(0, 0);
  }
 
- .li-button a {
+ .list-menu__item a {
   display: block;
   padding: 5px;
   text-decoration: none;
@@ -53,7 +53,7 @@ left:48.5%;
   border-bottom: none;
  }
 
-.button:hover .ul-menu-button {
+.menu__button:hover .list-menu {
   position: absolute;
   display: flex;
   align-items: flex-start;
@@ -69,7 +69,7 @@ left:48.5%;
   border-bottom: 1px solid #ccc;
  }
 
- .li-button::after {
+ .list-menu__item::after {
   content: "";
  }
 
