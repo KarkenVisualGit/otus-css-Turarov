@@ -59,13 +59,13 @@ module.exports = {
               options: {
                 encodeOptions: {
                   jpeg: {
-                    quality: 100,
+                    quality: 75,
                   },
                   webp: {
-                    lossless: true,
+                    quality: 85,
                   },
                   avif: {
-                    lossless: true,
+                    quality: 85,
                   },
                   png: {},
                   gif: {},
