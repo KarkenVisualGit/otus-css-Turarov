@@ -115,9 +115,9 @@ min-height: 630px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url(../images/inside-weather.webp);
+background-image: url(../images/inside-weather.jpg);
 background-image: image-set(
-        url("../images/inside-weather.jpg"),
+        url("../images/inside-weather.webp"),
     );
 }
 
@@ -200,9 +200,9 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url(../images/jared-weiss.webp);
+  background-image: url(../images/jared-weiss.jpg);
   background-image: image-set(
-        url("../images/jared-weiss.jpg"),
+        url("../images/jared-weiss.webp"),
     );
   }
   
@@ -387,9 +387,9 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-image: url(../images/spurwing-agency.webp);
+  background-image: url(../images/spurwing-agency.jpg);
   background-image: image-set(
-        url("../images/spurwing-agency.jpg"),
+        url("../images/spurwing-agency.webp"),
     );
   transform: translateX(0px) translateY(-5px);
   
@@ -463,9 +463,9 @@ color: #000000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/stil-P1.webp);
+    background-image: url(../images/stil-P1.jpg);
     background-image: image-set(
-        url("../images/stil-P1.jpg"),
+        url("../images/stil-P1.webp"),
     );
     transform: translateX(0px) translateY(35px); 
   
@@ -527,9 +527,9 @@ color: #000000;
     background-size: cover;
     transform: translateX(0px) translateY(55px);
     background-color: #d9cacb;
-    background-image: url(../images/stil_mv.webp);
+    background-image: url(../images/stil_mv.jpg);
     background-image: image-set(
-        url("../images/stil_mv.jpg"),
+        url("../images/stil_mv.webp"),
     );
     
   }
@@ -745,9 +745,9 @@ color: #000000;
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
-    background-image: url(../images/keghan-crossland.webp);
+    background-image: url(../images/keghan-crossland.jpg);
     background-image: image-set(
-        url("../images/keghan-crossland.jpg"),
+        url("../images/keghan-crossland.webp"),
     );
   }
 
@@ -820,9 +820,9 @@ color: #000000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-image: url(../images/sinitta-leunen.webp);
+    background-image: url(../images/sinitta-leunen.jpg);
     background-image: image-set(
-        url("../images/sinitta-leunen.jpg"),
+        url("../images/sinitta-leunen.webp"),
     );
   }
 
@@ -934,9 +934,9 @@ color: #000000;
   background-position: center;
   background-size: cover;
   background-color: #d9cacb;
-  background-image: url(../images/dawid-liberadzki.webp);
+  background-image: url(../images/dawid-liberadzki.jpg);
   background-image: image-set(
-        url("../images/dawid-liberadzki.jpg"),
+        url("../images/dawid-liberadzki.webp"),
     );
 }
 
@@ -962,9 +962,9 @@ color: #000000;
   background-position: center;
   background-size: cover;
   background-color: #d9cacb;
-  background-image: url(../images/avery-klein.webp);
+  background-image: url(../images/avery-klein.jpg);
   background-image: image-set(
-        url("../images/avery-klein.jpg"),
+        url("../images/avery-klein.webp"),
     );
 }
 

@@ -28,8 +28,21 @@ module.exports = {
         rules: [
             {
                 test: /\.(c|sc|sa|)ss$/i,
-                use: [MiniCss.loader, "css-loader"],
-            },
+                use: [MiniCss.loader, "css-loader",
+                {
+                    loader: "postcss-loader",
+                        options: {
+                            postcssOptions: {
+                                plugins: [
+                                    "autoprefixer",
+                                    "postcss-preset-env",
+                                    "at-rule-packer",
+                                    ],
+                                },
+                            },
+                        },
+                    ],
+                },
             {
                 test: /\.html$/,
                 use: 'html-loader'
