@@ -116,6 +116,9 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-image: url(../images/inside-weather.webp);
+background-image: image-set(
+        url("../images/inside-weather.jpg"),
+    );
 }
 
 .frame-hero {
@@ -130,7 +133,7 @@ background-image: url(../images/inside-weather.webp);
 }
 
 .title {
-    -display:font swap;
+    font-display: swap;
     font-family: 'Playfair Display';
     font-style: normal;
 }
@@ -198,6 +201,9 @@ color: #000000;
   background-position: center;
   background-size: contain;
   background-image: url(../images/jared-weiss.webp);
+  background-image: image-set(
+        url("../images/jared-weiss.jpg"),
+    );
   }
   
   .biographytext {
@@ -382,6 +388,9 @@ color: #000000;
   background-position: center;
   background-size:cover;
   background-image: url(../images/spurwing-agency.webp);
+  background-image: image-set(
+        url("../images/spurwing-agency.jpg"),
+    );
   transform: translateX(0px) translateY(-5px);
   
   }
@@ -455,6 +464,9 @@ color: #000000;
     background-position: center;
     background-size: cover;
     background-image: url(../images/stil-P1.webp);
+    background-image: image-set(
+        url("../images/stil-P1.jpg"),
+    );
     transform: translateX(0px) translateY(35px); 
   
   }
@@ -516,6 +528,9 @@ color: #000000;
     transform: translateX(0px) translateY(55px);
     background-color: #d9cacb;
     background-image: url(../images/stil_mv.webp);
+    background-image: image-set(
+        url("../images/stil_mv.jpg"),
+    );
     
   }
   
@@ -731,6 +746,9 @@ color: #000000;
     background-position: left;
     background-size: contain;
     background-image: url(../images/keghan-crossland.webp);
+    background-image: image-set(
+        url("../images/keghan-crossland.jpg"),
+    );
   }
 
   .img-left-Testimonials:hover {
@@ -803,6 +821,9 @@ color: #000000;
     background-position: center;
     background-size: contain;
     background-image: url(../images/sinitta-leunen.webp);
+    background-image: image-set(
+        url("../images/sinitta-leunen.jpg"),
+    );
   }
 
   .img-right-Testimonials:hover {
@@ -914,6 +935,9 @@ color: #000000;
   background-size: cover;
   background-color: #d9cacb;
   background-image: url(../images/dawid-liberadzki.webp);
+  background-image: image-set(
+        url("../images/dawid-liberadzki.jpg"),
+    );
 }
 
 .imgstrong_position_left {
@@ -939,6 +963,9 @@ color: #000000;
   background-size: cover;
   background-color: #d9cacb;
   background-image: url(../images/avery-klein.webp);
+  background-image: image-set(
+        url("../images/avery-klein.jpg"),
+    );
 }
 
 .imgstrong_position_next {

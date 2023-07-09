@@ -22,7 +22,38 @@ module.exports = {
         }),
         new MiniCss({
             filename:"style.css",
-        })
+        }),
+        new ImageMinimizerPlugin({
+            test: /\.(png|jpe?g)$/i,
+            minimizer: {
+              filename: '[path][name][ext].webp',
+              implementation: ImageMinimizerPlugin.squooshMinify,
+              options: {
+                encodeOptions: {
+                  webp: {
+                    lossless: 1,
+                  },
+                },
+              },
+            },
+          }),
+          new ImageMinimizerPlugin({
+            test: /\.(png|jpe?g)$/i,
+            minimizer: {
+              implementation: ImageMinimizerPlugin.squooshMinify,
+              options: {
+                encodeOptions: {
+                  mozjpeg: {
+                    quality: 85,
+                  },
+                  oxipng: {
+                    level: 3,
+                    interlace: false,
+                  }
+                },
+              },
+            },
+          }),
     ],
     module: {
         rules: [
@@ -53,24 +84,6 @@ module.exports = {
     optimization: {
         minimizer: [
           new CssMinimizerPlugin(),
-          new ImageMinimizerPlugin({
-            minimizer: {
-              implementation: ImageMinimizerPlugin.squooshMinify,
-              options: {
-                encodeOptions: {
-                  mozjpeg: {
-                    quality: 100,
-                  },
-                  webp: {
-                    lossless: 1,
-                  },
-                  avif: {
-                    cqLevel: 0,
-                  },
-                },
-              },
-            },
-          }),
         ],
       },
       
