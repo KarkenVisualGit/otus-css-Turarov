@@ -1392,7 +1392,7 @@ transform: translateX(0px) translateY(20px);
   transform: translate(0px, -20px); 
 }
 
-.grid-strongpoints__title {
+.title-position {
   top: 0;
   left: 1%;
   font-size: 64px;
@@ -1402,7 +1402,6 @@ transform: translateX(0px) translateY(20px);
 
 .strong-txt-title {
   position:absolute;
-  
   width: 122px;
   height: 21px;
   
@@ -1566,11 +1565,11 @@ transform: translateX(0px) translateY(20px);
     margin-top: -30%;
   }
 
-  .bottom_menu {
+  .bottom-menu {
     margin: 30px auto;
   }
 
-  .text_symbol {
+  .text-symbol {
   font-family: 'Bitter';
   font-style: normal;
   font-weight: 400;
@@ -1578,7 +1577,7 @@ transform: translateX(0px) translateY(20px);
   line-height: 48px;
   }
 
-  .flex_bottom_menu {
+  .flex-bottom-menu {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -1592,7 +1591,7 @@ transform: translateX(0px) translateY(20px);
     text-decoration:underline;
   }
 
-  .bottom_item {
+  .bottom-menu__item {
     display: flex;
     flex: 1 1 24%;
     justify-content: center;
