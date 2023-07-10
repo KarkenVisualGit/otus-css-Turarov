@@ -206,20 +206,23 @@ color: #000000;
     );
   }
   
-  .biographytext {
-  display: flex;
-  flex-basis: 4%;
-  height: 43px;
-  align-self: flex-start;
-  margin-top:2%;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  font-display: swap;
-  color: #000000;
+  .biography-subtitle {
+    display: flex;
+    flex-basis: 4%;
+    height: 43px;
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    font-display: swap;
+    color: #000000;
+    }
   
+  .subtitle-margin {
+  margin-top:2%;
   transform: rotate(-90deg);
   }
+  
   
   .bio-txt-section {
     display: flex;
@@ -234,7 +237,7 @@ color: #000000;
     margin: 0% 0% 0% 8%;
   }
   
-  .biography-title {
+  .biography__title {
     margin-top: 30px;
     font-weight: 500;
     font-size: 86px;
@@ -243,13 +246,13 @@ color: #000000;
     color: #000000;
   }
 
-  .bio_position {
+  .job-position {
     padding: 0;
     width: 50%;
     transform: translate(40px, -45px);
   }
   
-  .list-bio {
+  .list-skills {
     flex: 1 1 0;
     max-width:88%;
     margin: 0;
@@ -257,7 +260,7 @@ color: #000000;
     transform: translate(40px, -45px);
   }
   
-  .bio_title {
+  .job-title {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -265,15 +268,15 @@ color: #000000;
     font-display: swap;
   }
   
-  .list-item-bio {
+  .list-skills-item {
     display: inline-block;
   }
   
-  .list-item-bio::after {
+  .list-skills-item::after {
     content: " /"
   }
   
-  .list-item-bio:last-child::after {
+  .list-skills-item:last-child::after {
     content: ""
   }
   
@@ -331,7 +334,7 @@ color: #000000;
     padding-bottom: 50px;
   }
   
-  .item-designer-big { 
+  .designers__big-item { 
     flex-basis: 48%;
     flex: 1 1 auto;
   }
@@ -343,7 +346,7 @@ color: #000000;
     justify-content: flex-end;
   }
 
-  .item-designer-big > div {
+  .designers__big-item > div {
     margin: 15px;
   }
 
@@ -372,7 +375,7 @@ color: #000000;
     text-transform: uppercase;
   }
   
-  .name_designer_left{
+  .name-designer-big{
     transform: translateX(-10px) translateY(0px);  
   }
 
@@ -1053,22 +1056,26 @@ color: #000000;
     transform: translate(0px, 30px); 
   }
 
-  .biographytext {
+  .biography-subtitle {
     position: absolute;
-    top: -11%;
-    right: 5%;
     font-size: 18px;
     line-height: 21px; 
-    transform: rotate(0deg); 
     order: 1;  
-    transform: translate(0px, 0px);
   }
+
+.subtitle-margin {
+    top: -11%;
+    right: 5%;
+    transform: rotate(0deg);
+    transform: translate(0, 0);
+}
+
 
   .bio-txt-section {
     flex-flow: row wrap;
   }
 
-  .biography-title {
+  .biography__title {
     margin: 0;
     padding: 0;
     order: -1;
@@ -1087,11 +1094,11 @@ color: #000000;
     margin: 0;
   }
 
-  .biography-title::before {
+  .biography__title::before {
     content: "-";
   }
 
-  .biography-title br {
+  .biography__title br {
     display: none;
   }
 
@@ -1114,13 +1121,13 @@ color: #000000;
     display: none;
   }
 
-  .bio_position {
+  .job-position{
     order: -1;
     padding: 0;
     transform: translate(15px, -100px);
   }
 
-  .list-bio {
+  .list-skills {
     position: absolute;
     padding-bottom : 0px;
     margin-bottom: 0px;
@@ -1128,16 +1135,16 @@ color: #000000;
     order: -1;
   }
 
-  .list-item-bio {
+  .list-skills-item {
     display:block;
     list-style-type: none;
   }
 
-  .list-item-bio::after {
+  .list-skills-item::after {
     content: ""
   }
 
-  .list-item-bio::before {
+  .list-skills-item::before {
     display: flex;
     content: "";
     width: 2%;
@@ -1163,7 +1170,7 @@ color: #000000;
     transform: translateX(0px) translateY(0px);  
   }
 
-  .item-designer-big{
+  .designers__big-item{
     flex-basis: 33%;
     transform: translateX(0px) translateY(0px);
   }
