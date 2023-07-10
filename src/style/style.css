@@ -1268,6 +1268,8 @@ transform: translateX(0px) translateY(20px);
 }
 
 .article-testimonials {
+  font-size: 30px;
+  line-height: 36px;
   margin-top: -30%;
   transform: translateX(0px) translateY(0px); 
 }
