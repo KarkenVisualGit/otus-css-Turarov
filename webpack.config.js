@@ -24,20 +24,20 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ['style-loader', "css-loader"],
-            },
+                },
             {
                 test: /\.html$/,
                 use: 'html-loader'
             },
             {
-                test: /\.(jpeg|jpg|png|gif)$/,
+                test: /\.(jpe?g|png|gif|svg|webp)$/,
                 type: 'asset/resource',
                 generator:  {
                     filename: 'images/[name]-[contenthash][ext]',
                 }
             },
             {
-                test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+                test: /\.(woff(2)?|eot|ttf|otf)$/,
                 type: 'asset/resource',
                 generator:  {
                     filename: 'fonts/[name]-[contenthash][ext]',
@@ -50,5 +50,5 @@ module.exports = {
         open: true,
         port: 3000,
         hot: true,
-    }
+    },
 }
