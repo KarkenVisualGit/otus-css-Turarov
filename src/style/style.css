@@ -149,6 +149,17 @@ background-image: image-set(
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay-Regular.eot');
+	src: local('Playfair Display Medium'), local('PlayfairDisplay-Medium'),
+		url('../fonts/PlayfairDisplay-Regular.eot') format('embedded-opentype'),
+		url('../fonts/playfair-display-medium.woff') format('woff'),
+		url('../fonts/playfair-display-medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .hero-title { 
 margin:17.5% auto 3%;
 font-weight: 500;
