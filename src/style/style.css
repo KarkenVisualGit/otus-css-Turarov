@@ -350,7 +350,7 @@ color: #000000;
     margin: 15px;
   }
 
-  .item-designer-middle > div {
+  .designers__middle-item > div {
     margin-left: 15px;
   }
   
@@ -449,11 +449,11 @@ color: #000000;
     list-style-type: none; 
   }
     
-  .list-skills-big li::after {
+  li::after {
       content: "/"
   }
   
-  .list-skills-big li:last-child::after {
+  li:last-child::after {
       content: ""
   }
   
@@ -1052,13 +1052,13 @@ color: #000000;
   }
 
   .biography-subtitle {
-    position: absolute;
     font-size: 18px;
     line-height: 21px; 
     order: 1;  
   }
 
 .subtitle-margin {
+    position: absolute;
     top: -11%;
     right: 5%;
     transform: rotate(0deg);
@@ -1196,7 +1196,7 @@ color: #000000;
   transform: translateX(-10px) translateY(-35px);
 }
 
-.item-designer-middle{
+.designers__middle-item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
