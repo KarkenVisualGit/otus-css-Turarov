@@ -121,7 +121,7 @@ background-image: image-set(
     );
 }
 
-.frame-hero {
+.hero-section__frame {
   position: absolute;
   width: 56%;
   top:50%;
@@ -182,12 +182,12 @@ color: #000000;
   align-items: center;
   }
   
-  .imagebio {
+  .biography__imagebio {
     align-self: flex-start;
     flex: 1 0 42%;
   }
   
-  .bio_img_block{
+  .biography___img_block{
     display: block;
     max-width: 100%;
     height:auto;
@@ -1452,7 +1452,7 @@ transform: translateX(0px) translateY(20px);
     background-size:764px;
   } 
 
-  .frame-hero {
+  .hero-section__frame {
     width: 100%;
     padding-top: 0px;
     top:22%;
