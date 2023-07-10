@@ -845,7 +845,7 @@ color: #000000;
     }
   }  
 
-.wrapper_strongpoints {
+.wrapper-strongpoints {
   max-width: 1686px;
   margin: 100px auto;
 }
@@ -889,13 +889,17 @@ color: #000000;
   display: inline-block;
   width: 23px;
   height: 122px;
-  margin: 0% 70% 100% 0%;
   /*h3 strong-txt-title font*/
   font-display: swap;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  
+}
+
+.strong-txt-title_rotated {
+  margin: 0% 70% 100% 0%;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
@@ -904,13 +908,9 @@ color: #000000;
           transform: rotate(180deg) translate(60px, 165px); 
 }
 
-.strongpoints-title {
+.grid-strongpoints__title {
   max-width: 377px;
   min-height: 115px;
-  margin: 0% 0%;
-  -webkit-transform: translate(0px, -30px);
-  -ms-transform: translate(0px, -30px);
-          transform: translate(0px, -30px);
   font-family: 'Playfair Display';
   font-style: normal;
   font-display: swap;
@@ -920,7 +920,14 @@ color: #000000;
   color: #000000;
 }
 
-.imgstrong-liberadzki {
+.title-position {
+  margin: 0% 0%;
+  -webkit-transform: translate(0px, -30px);
+  -ms-transform: translate(0px, -30px);
+          transform: translate(0px, -30px);
+}
+
+.grid-strongpoints__imgcard {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -935,6 +942,9 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.img-background-left {
   background-color: #d9cacb;
   background-image: url(../images/dawid-liberadzki.jpg);
   background-image: image-set(
@@ -942,27 +952,13 @@ color: #000000;
     );
 }
 
-.imgstrong_position_left {
+.imgstrong-position-left {
   -webkit-transform: translate(70px, 120px);
       -ms-transform: translate(70px, 120px);
           transform: translate(70px, 120px);
 }
 
-.imgstrong-avery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 525px;
-  min-width: 350px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.img-background-next {
   background-color: #d9cacb;
   background-image: url(../images/avery-klein.jpg);
   background-image: image-set(
@@ -970,19 +966,19 @@ color: #000000;
     );
 }
 
-.imgstrong_position_next {
+.imgstrong-position-next {
   -webkit-transform: translate(60px, 120px);
       -ms-transform: translate(60px, 120px);
           transform: translate(60px, 120px);
  }
 
-.imgstrong_position_last {
+.imgstrong-position-last {
   -webkit-transform: translate(0px, 120px);
       -ms-transform: translate(0px, 120px);
           transform: translate(0px, 120px);
  }
 
-.frame-txt-strongpoints {
+.grid-strongpoints__frame-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1373,7 +1369,7 @@ transform: translateX(0px) translateY(20px);
   display: none;
 }
 
-.wrapper_strongpoints {
+.wrapper-strongpoints {
   margin: 0px auto; 
 }
 
@@ -1381,7 +1377,7 @@ transform: translateX(0px) translateY(20px);
   margin-top: 0px;
 }
 
-.frame-txt-strongpoints {
+.grid-strongpoints__frame-txt {
   order: -1;
   height: 526px;
   min-width:280px;
@@ -1396,7 +1392,7 @@ transform: translateX(0px) translateY(20px);
   transform: translate(0px, -20px); 
 }
 
-.strongpoints-title {
+.grid-strongpoints__title {
   top: 0;
   left: 1%;
   font-size: 64px;
@@ -1406,34 +1402,33 @@ transform: translateX(0px) translateY(20px);
 
 .strong-txt-title {
   position:absolute;
+  
+  width: 122px;
+  height: 21px;
+  
+}
+.strong-txt-title_rotated {
   left: -70%;
   top: -5%;
   margin:0;
-  width: 122px;
-  height: 21px;
   writing-mode: horizontal-tb; 
   transform: rotate(0deg) translate(-100%, -100px);
 }
 
-.imgstrong-liberadzki{
+.grid-strongpoints__imgcard{
   height: 450px;
   min-width:300px;
 }
 
-.imgstrong-avery {
-  height: 450px;
-  min-width:300px;
-}
-
-.imgstrong_position_left {
+.imgstrong-position-left {
   transform: translate(-150px, 90px); 
 }
 
-.imgstrong_position_next {
+.imgstrong-position-next {
   transform: translate(-150px, 90px);
 }
 
-.imgstrong_position_last {
+.imgstrong-position-last {
   transform: translate(-150px, 90px);
 }
 
@@ -1561,7 +1556,7 @@ transform: translateX(0px) translateY(20px);
     transform: translate(0rem, 0rem);
   }
 
-  .wrapper_strongpoints {
+  .wrapper-strongpoints {
     margin: 0px auto;
   }
 
