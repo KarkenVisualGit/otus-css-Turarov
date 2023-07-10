@@ -340,7 +340,7 @@ color: #000000;
   }
 
   
-  .item-designer-middle { 
+  .designers__middle-item { 
     flex-basis: 24%;
     flex: 1 1 auto;
     justify-content: flex-end;
@@ -368,7 +368,7 @@ color: #000000;
     transform: rotate(180deg) translateX(0px) translateY(-5px);
   }
   
-  .designer_name_title {
+  .designer__name {
     display: inline-block;
     font-weight: 700;
     font-display: swap;
@@ -397,7 +397,6 @@ color: #000000;
   transform: translateX(0px) translateY(-5px);
   
   }
-
   
   .img-Designer-big {
     display: -webkit-box;
@@ -412,7 +411,7 @@ color: #000000;
     justify-content: center;
   }
   
-  .list-box-big{
+  .designers__list-box-big{
     display: block;
     max-width: 100%;
     padding-left: 50%;
@@ -424,14 +423,14 @@ color: #000000;
     min-height: auto;
   }
   
-  .list-Designer-big {
+  .list-about-big {
     margin: 0; padding: 0;
     max-width: 100%;
     min-height: 57px;
     transform: translateX(-10px) translateY(0px);
   }
   
-  .list-Designer-big li {
+  .list-about-big li {
     display: inline-block;
     list-style-type: none;  
   }
@@ -450,11 +449,11 @@ color: #000000;
     list-style-type: none; 
   }
     
-  li::after {
+  .list-skills-big li::after {
       content: "/"
   }
   
-  li:last-child::after {
+  .list-skills-big li:last-child::after {
       content: ""
   }
   
@@ -486,7 +485,7 @@ color: #000000;
     
   }
   
-  .name_designer_middle{
+  .name-designer-middle{
     transform: translateX(0px) translateY(60px);  
   }
   
@@ -537,7 +536,7 @@ color: #000000;
     
   }
   
-  .name_designer_right {
+  .name-designer-right {
     max-width: 70%;
     transform: translateX(20px) translateY(75px);  
   }
@@ -1183,11 +1182,11 @@ color: #000000;
     background-size: auto auto;
   }
 
-  .list-box-big{
+  .designers__list-box-big{
     padding-left: 0%;
   }
 
-  .name_designer_middle{
+  .name-designer-middle{
     transform: translateX(-10px) translateY(0px);  
   }
   
@@ -1219,11 +1218,11 @@ color: #000000;
   transform: translateX(0px) translateY(0px);
 }
 
-.item-designer-middle > div {
+.designers__middle-item > div {
   margin-left: 20px;
 }
 
-.name_designer_right {
+.name-designer-right {
   max-width: 70%;
   transform: translateX(0px) translateY(20px);  
 }
