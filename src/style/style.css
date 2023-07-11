@@ -1490,6 +1490,10 @@ transform: translateX(0px) translateY(20px);
     font-size: 18px; 
   }
 
+.bio-title-block {
+	padding-left: 0;
+}
+
   .articlebio {
     position: relative;
     flex-basis: 90%;
